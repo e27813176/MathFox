@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    background: rgba(40%,30%,30%,1);
+    position: absolute;
+    top:100px;
+    left:1200px;
+    border-radius: 5px;
+}

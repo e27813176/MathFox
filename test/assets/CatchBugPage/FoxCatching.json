@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "FoxCatching_00000.png",
+	"frame": {"x":1,"y":1,"w":355,"h":326},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":792,"y":348,"w":355,"h":326},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00001.png",
+	"frame": {"x":1075,"y":1,"w":362,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":818,"y":357,"w":362,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00002.png",
+	"frame": {"x":380,"y":655,"w":357,"h":307},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":853,"y":369,"w":357,"h":307},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00003.png",
+	"frame": {"x":1,"y":656,"w":377,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":825,"y":363,"w":377,"h":312},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00004.png",
+	"frame": {"x":739,"y":654,"w":383,"h":315},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":804,"y":358,"w":383,"h":315},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00005.png",
+	"frame": {"x":1066,"y":328,"w":361,"h":320},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":806,"y":353,"w":361,"h":320},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00006.png",
+	"frame": {"x":722,"y":328,"w":342,"h":324},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":809,"y":349,"w":342,"h":324},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00007.png",
+	"frame": {"x":720,"y":1,"w":353,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":798,"y":349,"w":353,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00008.png",
+	"frame": {"x":1,"y":329,"w":360,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":791,"y":349,"w":360,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00009.png",
+	"frame": {"x":358,"y":1,"w":360,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":791,"y":349,"w":360,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxCatching_00010.png",
+	"frame": {"x":363,"y":328,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxCatching.png",
+	"format": "RGBA8888",
+	"size": {"w":1438,"h":970},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4772d4c1c84a073b3b2cf40773dd581f:a1a5cd1bc9b2b2a5a0f9a2ab860ff77c:eec7a22444129c1fd73e919cd98bfad5$"
+}
+}

@@ -1,0 +1,612 @@
+{"frames": [
+
+{
+	"filename": "FoxStanding_00000.png",
+	"frame": {"x":1134,"y":194,"w":189,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":457,"w":189,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00001.png",
+	"frame": {"x":752,"y":389,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00002.png",
+	"frame": {"x":942,"y":389,"w":187,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":187,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00003.png",
+	"frame": {"x":1131,"y":390,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00004.png",
+	"frame": {"x":1319,"y":391,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00005.png",
+	"frame": {"x":1507,"y":391,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00006.png",
+	"frame": {"x":1695,"y":391,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00007.png",
+	"frame": {"x":1,"y":584,"w":187,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":187,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00008.png",
+	"frame": {"x":190,"y":584,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00009.png",
+	"frame": {"x":380,"y":584,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":456,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00010.png",
+	"frame": {"x":1134,"y":194,"w":189,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":457,"w":189,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00011.png",
+	"frame": {"x":1134,"y":194,"w":189,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":519,"y":457,"w":189,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStandingHover.jpg",
+	"frame": {"x":1,"y":1,"w":65,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":143},
+	"sourceSize": {"w":65,"h":143}
+},
+{
+	"filename": "FoxTurnLeftStanding_00000.png",
+	"frame": {"x":1325,"y":195,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00001.png",
+	"frame": {"x":1506,"y":785,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":456,"w":187,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00002.png",
+	"frame": {"x":1695,"y":785,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":456,"w":187,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00003.png",
+	"frame": {"x":1,"y":978,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":456,"w":187,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00004.png",
+	"frame": {"x":190,"y":978,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":456,"w":187,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00005.png",
+	"frame": {"x":379,"y":979,"w":186,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":474,"y":456,"w":186,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00006.png",
+	"frame": {"x":567,"y":980,"w":185,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":475,"y":456,"w":185,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00007.png",
+	"frame": {"x":748,"y":586,"w":187,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":457,"w":187,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00008.png",
+	"frame": {"x":937,"y":586,"w":191,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":469,"y":457,"w":191,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00009.png",
+	"frame": {"x":1317,"y":588,"w":190,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":470,"y":457,"w":190,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00010.png",
+	"frame": {"x":1509,"y":588,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":472,"y":457,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftStanding_00011.png",
+	"frame": {"x":1325,"y":195,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00012.png",
+	"frame": {"x":1514,"y":195,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00013.png",
+	"frame": {"x":1133,"y":982,"w":189,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":482,"y":456,"w":189,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00014.png",
+	"frame": {"x":186,"y":1176,"w":191,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":491,"y":455,"w":191,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00015.png",
+	"frame": {"x":1335,"y":1182,"w":191,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":502,"y":454,"w":191,"h":199},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00016.png",
+	"frame": {"x":384,"y":781,"w":182,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":521,"y":457,"w":182,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00017.png",
+	"frame": {"x":570,"y":584,"w":176,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":539,"y":456,"w":176,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00018.png",
+	"frame": {"x":946,"y":783,"w":179,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":547,"y":456,"w":179,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00019.png",
+	"frame": {"x":566,"y":1178,"w":187,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":550,"y":455,"w":187,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00020.png",
+	"frame": {"x":755,"y":1179,"w":192,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":556,"y":455,"w":192,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00021.png",
+	"frame": {"x":949,"y":1181,"w":190,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":569,"y":455,"w":190,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00022.png",
+	"frame": {"x":1324,"y":983,"w":187,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":583,"y":455,"w":187,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00023.png",
+	"frame": {"x":379,"y":1177,"w":185,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":596,"y":454,"w":185,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00024.png",
+	"frame": {"x":1528,"y":1182,"w":189,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":454,"w":189,"h":199},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00025.png",
+	"frame": {"x":1719,"y":1182,"w":191,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":613,"y":454,"w":191,"h":199},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00026.png",
+	"frame": {"x":1141,"y":1182,"w":192,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":624,"y":455,"w":192,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00027.png",
+	"frame": {"x":1699,"y":588,"w":192,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":635,"y":457,"w":192,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00028.png",
+	"frame": {"x":1,"y":781,"w":190,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":648,"y":457,"w":190,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00029.png",
+	"frame": {"x":193,"y":781,"w":189,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":660,"y":457,"w":189,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnLeftWalking_00030.png",
+	"frame": {"x":1703,"y":195,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":673,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00000.png",
+	"frame": {"x":68,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00001.png",
+	"frame": {"x":258,"y":1,"w":189,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":189,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00002.png",
+	"frame": {"x":449,"y":1,"w":187,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":187,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00003.png",
+	"frame": {"x":1392,"y":1,"w":186,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":186,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00004.png",
+	"frame": {"x":1580,"y":1,"w":185,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":185,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00005.png",
+	"frame": {"x":1767,"y":1,"w":187,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":187,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00006.png",
+	"frame": {"x":1,"y":194,"w":187,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":187,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00007.png",
+	"frame": {"x":190,"y":194,"w":188,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00008.png",
+	"frame": {"x":380,"y":194,"w":188,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00009.png",
+	"frame": {"x":570,"y":194,"w":188,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":192},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00010.png",
+	"frame": {"x":638,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightStanding_00011.png",
+	"frame": {"x":68,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00012.png",
+	"frame": {"x":828,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00013.png",
+	"frame": {"x":1,"y":388,"w":188,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":515,"y":461,"w":188,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00014.png",
+	"frame": {"x":1130,"y":587,"w":185,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":505,"y":460,"w":185,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00015.png",
+	"frame": {"x":191,"y":388,"w":185,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":494,"y":459,"w":185,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00016.png",
+	"frame": {"x":1513,"y":983,"w":183,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":484,"y":458,"w":183,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00017.png",
+	"frame": {"x":1698,"y":983,"w":182,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":458,"w":182,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00018.png",
+	"frame": {"x":1,"y":1176,"w":183,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":463,"y":457,"w":183,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00019.png",
+	"frame": {"x":760,"y":194,"w":182,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":453,"y":462,"w":182,"h":193},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00020.png",
+	"frame": {"x":1018,"y":1,"w":182,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":442,"y":462,"w":182,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00021.png",
+	"frame": {"x":378,"y":388,"w":183,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":430,"y":461,"w":183,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00022.png",
+	"frame": {"x":568,"y":783,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":416,"y":460,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00023.png",
+	"frame": {"x":563,"y":388,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":404,"y":460,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00024.png",
+	"frame": {"x":754,"y":980,"w":188,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":393,"y":459,"w":188,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00025.png",
+	"frame": {"x":756,"y":783,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":382,"y":458,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00026.png",
+	"frame": {"x":944,"y":981,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":371,"y":459,"w":187,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00027.png",
+	"frame": {"x":1127,"y":784,"w":187,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":360,"y":459,"w":187,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00028.png",
+	"frame": {"x":1316,"y":785,"w":188,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":349,"y":460,"w":188,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00029.png",
+	"frame": {"x":944,"y":194,"w":188,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":338,"y":461,"w":188,"h":193},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxTurnRightWalking_00030.png",
+	"frame": {"x":1202,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":327,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxStanding.png",
+	"format": "RGBA8888",
+	"size": {"w":1955,"h":1382},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:552da08df753d8e0fdbe2978d82b65f4:cca6adcba8eb087058939799f95b57e0:eb0be42321fc8778432bb2a4e5ebb348$"
+}
+}

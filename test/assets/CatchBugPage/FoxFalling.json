@@ -1,0 +1,148 @@
+{"frames": [
+
+{
+	"filename": "FoxFalling_00041.png",
+	"frame": {"x":759,"y":960,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00042.png",
+	"frame": {"x":371,"y":320,"w":362,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":818,"y":357,"w":362,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00043.png",
+	"frame": {"x":735,"y":320,"w":352,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":828,"y":357,"w":352,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00044.png",
+	"frame": {"x":1,"y":1,"w":366,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":815,"y":358,"w":366,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00045.png",
+	"frame": {"x":369,"y":1,"w":376,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":805,"y":358,"w":376,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00046.png",
+	"frame": {"x":747,"y":1,"w":366,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":815,"y":358,"w":366,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00047.png",
+	"frame": {"x":1089,"y":320,"w":352,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":828,"y":357,"w":352,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00048.png",
+	"frame": {"x":368,"y":640,"w":373,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":806,"y":357,"w":373,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00049.png",
+	"frame": {"x":1,"y":639,"w":365,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":815,"y":357,"w":365,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00050.png",
+	"frame": {"x":1115,"y":1,"w":372,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":810,"y":358,"w":372,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00051.png",
+	"frame": {"x":743,"y":640,"w":376,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":806,"y":357,"w":376,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00052.png",
+	"frame": {"x":1121,"y":640,"w":366,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":816,"y":357,"w":366,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00053.png",
+	"frame": {"x":1443,"y":320,"w":353,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":830,"y":357,"w":353,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00054.png",
+	"frame": {"x":1,"y":320,"w":368,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":815,"y":358,"w":368,"h":317},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00055.png",
+	"frame": {"x":1,"y":960,"w":378,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":803,"y":357,"w":378,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00056.png",
+	"frame": {"x":381,"y":960,"w":376,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":805,"y":357,"w":376,"h":318},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxFalling_00057.png",
+	"frame": {"x":1118,"y":960,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxFalling.png",
+	"format": "RGBA8888",
+	"size": {"w":1797,"h":1286},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:05195776741de6607423a4f2b5284fb8:84e0823abe47d8e375413c5a48b40ccb:e6b2ae0679e850546f1384ede9d6afb3$"
+}
+}
