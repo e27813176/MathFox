@@ -40,7 +40,7 @@ export default class extends Phaser.State {
     } else {
       this.fox.standing();
     }
-    if (this.fox.Standing.x <= -400 || this.fox.TurnRightWalking.x <= -400 || this.fox.TurnLeftWalking.x <= -400) {
+    if (this.fox.Standing.x === -400 || this.fox.TurnRightWalking.x === -400 || this.fox.TurnLeftWalking.x === -400) {
       this.exit('HomePage', false, 'Village');
     }
   }

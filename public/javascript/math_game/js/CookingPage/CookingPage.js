@@ -13,11 +13,15 @@ import { SendGA } from '../Game/SendGAEvent';
 
 export default class extends Phaser.State {
   init() {
+    SendGA('CookingPage', { 'stage': 'init' });
     this.cookingStatus = false;
     this.answerCount = 0;
     this.correctCount = 0;
     this.mode = 2;
     this.level = 9;
+  }
+  shutdown(){
+    SendGA('CookingPage', { 'stage': 'end' });    
   }
   create() {
     this.createAudio();

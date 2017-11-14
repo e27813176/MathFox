@@ -15,6 +15,7 @@ import { SendGA } from '../Game/SendGAEvent';
 
 export default class extends Phaser.State {
   init() {
+    SendGA('LoggingPage', { 'stage': 'init' });
     this.Range = [1, 5];
     this.CorrectAnswer = 0;
     this.level = 3;
@@ -22,6 +23,9 @@ export default class extends Phaser.State {
     this.correctCount = 0;
     this.AXpram = Ax;
     this.TreeBloodPoint = Array.from({ length: 3 }, (v, i) => (i + 1) * (-362 / 4) + 10);
+  }
+  shutdown() {
+    SendGA('LoggingPage', { 'stage': 'end' });
   }
   create() {
     StageState.LoggingPageCount++;
@@ -86,7 +90,7 @@ export default class extends Phaser.State {
     this.audio.LoggingBG.volume = 0.6;
     this.Panel.setAnswerPanelEnable(true);
     this.TreeBar.ShowUp();
-    this.Panel.setAlpha(this, 1);
+    this.Panel.setAlpha(1);
     this.AxBar.ShowUp(this);
     if (this.AxBar.SharpenBar[0].x <= -243) {
       this.Fox.SetStatus(1);
@@ -114,7 +118,7 @@ export default class extends Phaser.State {
     this.TreeBar.Clean();
   }
   async FinishLogging() {
-    SendGA('LoggingPage', { 'stage': 'end', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+    SendGA('LoggingPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
     this.LoggingStatus = false;
     this.audio.LoggingSuccess.play();
     audioMute(this, this.audio.LoggingBG);

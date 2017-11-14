@@ -9,16 +9,6 @@ export default class extends Phaser.State {
     this.CorrectAnswer = 0;
     this.mode = 2;
   }
-  preload() {
-    let path = path_prefix + 'assets/Tutorial/';
-    let audioPath = path_prefix + 'assets/audio/';
-    this.load.image('TutorialBG', path + 'TutorialBG.jpg')
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
-      .audio('RightFX', audioPath + 'rightFX.mp3')
-      .audio('WrongFX', audioPath + 'wrongFX.mp3')
-      .audio('StartFX', audioPath + 'startFX.mp3')
-      .audio('ClickFX', audioPath + 'clickFX.mp3')
-  }
   create() {
     this.createAudio();
     this.add.sprite(0, 0, 'TutorialBG');

@@ -52,21 +52,7 @@ const initGameProcess = List => {
   });
   StageState.LevelFinish = List.length;
 }
-console.log(path_prefix);
-// === test ===
-const globalUser = {
-  email: 'funfang',
-  nickName: 'funfun'
-}
-// === set user ===
 User.email = globalUser.email;
 User.nickName = globalUser.nickName;
-// === get list ===
-function getPassedStageIDList() {
-  const PageList = ['AxPage', 'LoggingPage', 'CatchBugPage', 'FishingPage', 'CookingPage'];
-  let list = PageList.filter((page, i) => i < 5);
-  return list
-}
 const StageList = getPassedStageIDList();
-
 window.game = new Game(StageList);

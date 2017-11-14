@@ -15,6 +15,7 @@ import { SendGA } from '../Game/SendGAEvent';
 
 export default class extends Phaser.State {
   init() {
+    SendGA('CatchBugPage', { 'stage': 'init' });
     StageState.CatchBugPageCount++;
     this.level = 5;
     this.CorrectAnswer = 0;
@@ -114,7 +115,7 @@ export default class extends Phaser.State {
     if (this.tutorialMode === true) {
       this.Tutorial.answerCorrect();
     } else {
-      SendGA('CatchBudPage', { 'stage': 'end', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+      SendGA('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
       let Bug = bugRandom();
       this.Board.ShowUpBugBox(Bug);
       this.Board.ShowUp();
@@ -165,6 +166,7 @@ export default class extends Phaser.State {
     if (this.Fox.fox.catching.animate.frame === 4) this.FlyingBug.flyingBug.alpha = 0;
   }
   shutdown() {
+    SendGA('CatchBugPage', { 'stage': 'end' });
     this.Audio.CatchBugPageBG.stop();
   }
 }

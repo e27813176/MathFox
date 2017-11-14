@@ -16,6 +16,7 @@ import { createQuestionNum } from '../Game/createQuestion';
 
 export default class extends Phaser.State {
   init() {
+    SendGA('FishingPage', { 'stage': 'init' });
     this.FishList = ['OrangeFish', 'FireFish', 'ElectricFish', 'WifiFish', 'IceFish', 'MedicineFish', 'GlowBlueFish'];
     this.mode = 2;
     this.level = 7;
@@ -24,6 +25,9 @@ export default class extends Phaser.State {
     this.correctCount = 0;
     this.playing_status = false;
     this.combo = 0;
+  }
+  shutdown() {
+    SendGA('FishingPage', { 'stage': 'end' });    
   }
   create() {
     StageState.FishingPageCount++;
@@ -76,11 +80,11 @@ export default class extends Phaser.State {
     this.add.tween(this.mark.scale).to({ x: 1, y: 1 }, 200, Phaser.Easing.Elastic.Out, true)
     this.Audio.alertFX.play();
     await delay(1500);
-    this.mark.scale.setTo(0, 0);
     this.start();
   }
   start() {
     SendGA('FishingPage', { 'stage': 'start' });
+    this.mark.scale.setTo(0, 0);    
     this.answerCount = 0;
     this.correctCount = 0;
     this.combo = 0;

@@ -14,6 +14,7 @@ const AxBarCenterX = (AxBarLength + 100) / 2;
 
 export default class extends Phaser.State {
   init() {
+    SendGA('AxPage', { 'stage': 'init' });
     this.Sharpening = false;
     this.Range = [1, 5];
     this.level = 1;
@@ -172,7 +173,7 @@ export default class extends Phaser.State {
     this.Panel.setPanel(this, 0);
     this.AxBar.AxBar.LightLevel2.alpha = 1;
     this.Board.showUp();
-    SendGA('AxPage', { 'stage': 'end', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+    SendGA('AxPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
   }
   async closing() {
     this.Panel.setPanel(this, 0);
@@ -188,6 +189,9 @@ export default class extends Phaser.State {
       this.sendData = false;
       this.state.start('SendData', true, true, ['AxPage']);
     } else this.state.start('GameBoot', true, true, 'LevelMap');
+  }
+  shutdown() {
+    SendGA('AxPage', { 'stage': 'end' });
   }
   async energyTranfer() {
     this.Energyball.alpha = 1;
