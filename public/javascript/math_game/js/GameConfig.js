@@ -1,6 +1,9 @@
+const gameWidth = 1200;
+
 export const config = {
-  width: 1600,
-  height: 800,
-  centerX: 1600 / 2,
-  centerY: 800 / 2
+  width: gameWidth,
+  height: gameWidth / 2,
+  centerX: gameWidth / 2,
+  centerY: gameWidth / 4,
+  version: `version${gameWidth}p`
 }

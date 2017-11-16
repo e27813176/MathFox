@@ -21,8 +21,8 @@ export default class extends Phaser.State {
     this.LoadingBarFrame.alpha = 1;
     this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
-    let path = path_prefix + 'assets/';
-    let audioPath = path + 'audio/';
+    let path = path_prefix + config.version + '/assets/';
+    let audioPath = path + '/audio/';
     let imagePath = path + this.page + '/';
 
     if (this.page === 'HomePage') {
@@ -41,12 +41,11 @@ export default class extends Phaser.State {
     this.load
       .image('HomePageBG', imagePath + 'HomePageBG.jpg')
       .image('FrontBG', imagePath + 'FrontBG.png')
-      .image('sunlight001', imagePath + 'sunlight001.png')
       .image('JunyiIconBtn', imagePath + 'JunyiIconBtn.png')
       .image('BackPackIcon', imagePath + 'BackPackIcon.png')
       .image('UserPanel', imagePath + 'UserPanel.png')
       .atlas('ArrowSheet', imagePath + 'ArrowSheet.png', imagePath + 'ArrowSheet.json')
-      .atlas('FoxAnimate', imagePath + 'FoxAnimate.png', imagePath + 'FoxAnimate.json')
+      .atlas('Fox', imagePath + 'Fox.png', imagePath + 'Fox.json')
       .audio('menu', audioPath + 'game_menu_BG.mp3')
       .audio('StartBtnDown', audioPath + 'StartBtnDown.mp3')
       .audio('BtnOver', audioPath + 'BtnOver.mp3')

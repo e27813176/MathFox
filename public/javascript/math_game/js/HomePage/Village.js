@@ -4,43 +4,51 @@ import ArrowKey from './HomeObject/ArrowKey';
 import TaskBoard from './HomeObject/taskBoard';
 import ArrowSheet from './HomeObject/arrow';
 import FoxVendor from './HomeObject/vendor';
+import { config } from '../GameConfig';
 
 export default class extends Phaser.State {
   init(page) {
     this.page = page;
   }
   create() {
-    this.world.setBounds(0, 0, 3200, 800);
+    this.world.setBounds(0, 0, config.width * 2, config.height);
     this.VillageBG = this.add.sprite(0, 0, 'VillageBG');
 
     let foxPosX, foxPosY;
     if (this.page === 'HomePage') {
-      foxPosX = -100;
+      foxPosX = -500;
       foxPosY = 70;
     }
     this.ArrowSheet = new ArrowSheet(this, 735, -40);
     this.FoxVendor = new FoxVendor(this);
-    this.fox = new Fox(this.game, foxPosX, foxPosY);
+    this.Fox = new Fox(this.game, foxPosX, foxPosY);
 
-    this.camera.follow(this.fox.Standing);
+    this.camera.follow(this.Fox.image);
     this.camera.deadzone = new Phaser.Rectangle(0, 100, 0, 750);
-
+    this.controller();
     this.taskBoard = new TaskBoard(this.game);
     this.taskBoard.hover.events.onInputUp.add(this.openTask, this);
-    this.arrowkey = new ArrowKey(this.game);
     // demo.userPanel.create();
     // demo.backPack.create();
     this.opening();
   }
+  controller() {
+    this.Arrowkey = new ArrowKey(this.game, this.Fox);
+    this.LeftKey = this.input.keyboard.addKey(Phaser.Keyboard.LEFT);
+    this.RightKey = this.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
+    this.LeftKey.onDown.add(this.Arrowkey.pressLeft, this.Arrowkey);
+    this.RightKey.onDown.add(this.Arrowkey.pressRight, this.Arrowkey);
+    this.LeftKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
+    this.RightKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
+    this.input.enabled = true;
+  }
   update() {
-    if ((this.input.keyboard.isDown(Phaser.Keyboard.LEFT) || this.arrowkey.status === 'left')) {
-      this.fox.walkingLeft();
-    } else if ((this.input.keyboard.isDown(Phaser.Keyboard.RIGHT) || this.arrowkey.status === 'right') && this.fox.Standing.x < 2460) {
-      this.fox.walkingRight();
-    } else {
-      this.fox.standing();
+    if (this.Arrowkey.status === 'left') {
+      this.Fox.image.x -= this.Fox.speed;
+    } else if (this.Arrowkey.status === 'right' && this.Fox.image.x < 2460) {
+      this.Fox.image.x += this.Fox.speed;
     }
-    if (this.fox.Standing.x === -400 || this.fox.TurnRightWalking.x === -400 || this.fox.TurnLeftWalking.x === -400) {
+    if (this.Fox.image.x === -600) {
       this.exit('HomePage', false, 'Village');
     }
   }

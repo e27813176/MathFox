@@ -1,0 +1,220 @@
+{"frames": [
+
+{
+	"filename": "QuestionPanelRightFx_00000.png",
+	"frame": {"x":1,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00001.png",
+	"frame": {"x":1,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00002.png",
+	"frame": {"x":1,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00003.png",
+	"frame": {"x":1,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00004.png",
+	"frame": {"x":332,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00005.png",
+	"frame": {"x":332,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00006.png",
+	"frame": {"x":332,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00007.png",
+	"frame": {"x":332,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00008.png",
+	"frame": {"x":663,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00009.png",
+	"frame": {"x":663,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00010.png",
+	"frame": {"x":663,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00011.png",
+	"frame": {"x":663,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelRightFx_00012.png",
+	"frame": {"x":1,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00000.png",
+	"frame": {"x":994,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00001.png",
+	"frame": {"x":1325,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00002.png",
+	"frame": {"x":1656,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00003.png",
+	"frame": {"x":994,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00004.png",
+	"frame": {"x":994,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00005.png",
+	"frame": {"x":994,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00006.png",
+	"frame": {"x":1325,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00007.png",
+	"frame": {"x":1656,"y":229,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00008.png",
+	"frame": {"x":1325,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00009.png",
+	"frame": {"x":1656,"y":457,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00010.png",
+	"frame": {"x":1325,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00011.png",
+	"frame": {"x":1656,"y":685,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanelWrongFx_00012.png",
+	"frame": {"x":994,"y":1,"w":329,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1097,"y":160,"w":329,"h":226},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "QuestionPanelFx.png",
+	"format": "RGBA8888",
+	"size": {"w":1986,"h":912},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:03de227464cdd6d247a5eb4e9b7a0154:f5b12d4d85d1741182e1d2087635a427:afa1fd54417590425bebf258ba905fb0$"
+}
+}

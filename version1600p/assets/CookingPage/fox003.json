@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "foxStartCooking_00060.png",
+	"frame": {"x":1,"y":1,"w":536,"h":435},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":312,"w":536,"h":435},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00061.png",
+	"frame": {"x":1,"y":438,"w":529,"h":428},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":267,"y":319,"w":529,"h":428},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00062.png",
+	"frame": {"x":1,"y":868,"w":536,"h":398},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":283,"y":349,"w":536,"h":398},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00063.png",
+	"frame": {"x":539,"y":610,"w":556,"h":388},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":272,"y":359,"w":556,"h":388},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00064.png",
+	"frame": {"x":1193,"y":325,"w":589,"h":359},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":260,"y":388,"w":589,"h":359},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00065.png",
+	"frame": {"x":1207,"y":1,"w":598,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":277,"y":425,"w":598,"h":322},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00066.png",
+	"frame": {"x":1,"y":1268,"w":627,"h":304},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":267,"y":443,"w":627,"h":304},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00067.png",
+	"frame": {"x":539,"y":305,"w":652,"h":303},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":259,"y":444,"w":652,"h":303},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxStartCooking_00068.png",
+	"frame": {"x":539,"y":1,"w":666,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":445,"w":666,"h":302},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00069.png",
+	"frame": {"x":1097,"y":686,"w":292,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":449,"w":292,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00070.png",
+	"frame": {"x":924,"y":1000,"w":288,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":256,"y":449,"w":288,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00071.png",
+	"frame": {"x":1218,"y":1284,"w":284,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":260,"y":449,"w":284,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00072.png",
+	"frame": {"x":1502,"y":985,"w":279,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":265,"y":449,"w":279,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00073.png",
+	"frame": {"x":1214,"y":985,"w":286,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":258,"y":449,"w":286,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00074.png",
+	"frame": {"x":1391,"y":686,"w":292,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":449,"w":292,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00075.png",
+	"frame": {"x":630,"y":1000,"w":292,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":449,"w":292,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00076.png",
+	"frame": {"x":630,"y":1299,"w":292,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":449,"w":292,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "foxWaiting_00077.png",
+	"frame": {"x":924,"y":1299,"w":292,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":252,"y":449,"w":292,"h":297},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fox003.png",
+	"format": "RGBA8888",
+	"size": {"w":1806,"h":1597},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e569b15dcea08de478b4fa3c717e3bd2:4fcaf74ad91792a602e0bec02ecde6ed:7dc236031d3de7da66a201cf1afab13e$"
+}
+}

@@ -3,61 +3,72 @@ import 'p2';
 import Phaser from 'phaser';
 import Fox from './HomeObject/fox';
 import ArrowKey from './HomeObject/ArrowKey';
+import BackPack from '../User/BackPack';
+import { config } from '../GameConfig';
+import { tweenAlpha, setBtnEnable } from '../Game/utils';
 
 export default class extends Phaser.State {
   init(page) {
+    let width = config.width;
     this.fromPage = page;
+    this.foxPos = foxPosition(this.fromPage, width);
+    this.JunyiIconPos = JunyiIconPosition(width);
+    this.exitPointX = exitPosition(width);
   }
   create() {
+    this.createImage();
+    this.createAudio();
+    this.world.setBounds(0, 0, config.width * 2, config.height);
+    if (this.fromPage === 'loading') {
+      this.Audio.menu.loopFull(1);
+    }
+    this.controller();
+    this.createBtn();
+    setBtnEnable(this.JunyiIconBtn, true);
+    this.camera.follow(this.Fox.image);
+    this.camera.deadzone = new Phaser.Rectangle(0, 100, 0, 0);
+    this.opening();
+  }
+  createImage() {
     this.add.sprite(0, 0, 'HomePageBG');
-    this.world.setBounds(0, 0, 3200, 800);
+    this.Fox = new Fox(this, this.foxPos[0], this.foxPos[1]);
+    this.BackPack = new BackPack(this);
+  }
+  createBtn() {
+    this.JunyiIconBtn = this.add.sprite(this.JunyiIconPos[0], this.JunyiIconPos[1], 'JunyiIconBtn');
+    this.JunyiIconBtn.alpha = 1;
+    this.JunyiIconBtn.events.onInputDown.add(JunyiIconBtnDown, this);
+    this.JunyiIconBtn.fixedToCamera = true;
+  }
+  controller() {
+    this.arrowkey = new ArrowKey(this, this.Fox);
+    this.LeftKey = this.input.keyboard.addKey(Phaser.Keyboard.LEFT);
+    this.RightKey = this.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
+    this.LeftKey.onDown.add(this.arrowkey.pressLeft, this.arrowkey);
+    this.RightKey.onDown.add(this.arrowkey.pressRight, this.arrowkey);
+    this.LeftKey.onUp.add(this.arrowkey.stop, this.arrowkey);
+    this.RightKey.onUp.add(this.arrowkey.stop, this.arrowkey);
+    this.input.enabled = true;
+  }
+  createAudio() {
     this.Audio = {
       menu: this.add.audio('menu'),
       btnOver: this.add.audio('BtnOver')
     }
-    if (this.fromPage === 'loading') {
-      this.Audio.menu.loopFull(1);
-    }
-    let foxPosX = 1200;
-    let foxPosY = 0;
-
-    if (this.fromPage === 'Village') {
-      foxPosX = 2200;
-      foxPosY = 0;
-    }
-    this.fox = new Fox(this.game, foxPosX, foxPosY);
-
-    this.JunyiIconBtn = this.add.sprite(1300, 700, 'JunyiIconBtn');
-    this.JunyiIconBtn.alpha = 1;
-    this.JunyiIconBtn.events.onInputDown.add(JunyiIconBtnDown, this);
-    setBtnEnable(this.JunyiIconBtn, true)
-    this.JunyiIconBtn.fixedToCamera = true;
-
-    this.camera.follow(this.fox.Standing);
-    this.camera.deadzone = new Phaser.Rectangle(200, 100, 0, 750);
-
-    this.sunlight001 = this.add.sprite(0, 0, 'sunlight001');
-    this.add.tween(this.sunlight001).to({ alpha: 0.4 }, 1500, 'Linear', true, 0, false, true).loop(true);
-    this.arrowkey = new ArrowKey(this.game);
-    // demo.userPanel.create();
-    // demo.backPack.create();
-    this.opening();
   }
   opening() {
     this.BG = this.add.graphics();
     this.BG.beginFill(0x000000);
-    this.BG.drawRect(0, 0, 3200, 800);
-    tweenAlpha(this, this.BG, 0, 1000)
+    this.BG.drawRect(0, 0, config.width * 2, config.height);
+    tweenAlpha(this, this.BG, 0, 1000);
   }
   update() {
-    if (this.arrowkey.status === 'left' && this.fox.Standing.x > 305) {
-      this.fox.walkingLeft();
+    if (this.arrowkey.status === 'left' && this.Fox.image.x > 305) {
+      this.Fox.image.x -= this.Fox.speed;
     } else if (this.arrowkey.status === 'right') {
-      this.fox.walkingRight();
-    } else {
-      this.fox.standing();
+      this.Fox.image.x += this.Fox.speed;
     }
-    if (this.fox.Standing.x === 2425 || this.fox.TurnRightWalking.x === 2425 || this.fox.TurnLeftWalking.x === 2425) {
+    if (this.Fox.image.x === this.exitPointX) {
       this.exit();
     }
   }
@@ -71,5 +82,42 @@ export default class extends Phaser.State {
 }
 
 const JunyiIconBtnDown = () => window.open('https://www.junyiacademy.org/');
-const setBtnEnable = (btn, enable) => { btn.inputEnabled = enable };
-const tweenAlpha = (game, x, a, duration = 300, delay = 0) => game.add.tween(x).to({ alpha: a }, duration, 'Linear', true, delay);
+
+const foxPosition = (page, width) => {
+  let foxPosX;
+  let foxPosY;
+  if (width === 1600) {
+    if (page === 'Village') {
+      foxPosX = 2200;
+      foxPosY = 10;
+    } else {
+      foxPosX = 900;
+      foxPosY = 10;
+    }
+  } else if (width === 1200) {
+    if (page === 'Village') {
+      foxPosX = 1700;
+      foxPosY = 8;
+    } else {
+      foxPosX = 600;
+      foxPosY = 8;
+    }
+  }
+  return [foxPosX, foxPosY]
+}
+
+const JunyiIconPosition = width => {
+  if (width === 1600) {
+    return [1300, 700];
+  } else if (width === 1200) {
+    return [950, 530];
+  }
+}
+
+const exitPosition = width => {
+  if (width === 1600) {
+    return 2265;
+  } else if (width === 1200) {
+    return 1720;
+  }
+}

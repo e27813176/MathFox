@@ -1,0 +1,300 @@
+{"frames": [
+
+{
+	"filename": "AmazingSeal.png",
+	"frame": {"x":401,"y":557,"w":204,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":803,"y":315,"w":204,"h":158},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "BtnArea.png",
+	"frame": {"x":675,"y":531,"w":90,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":46},
+	"sourceSize": {"w":90,"h":46}
+},
+{
+	"filename": "ContinueBtnHover.png",
+	"frame": {"x":675,"y":431,"w":92,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":807,"y":478,"w":92,"h":48},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "ElectricFishBox.png",
+	"frame": {"x":486,"y":227,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "ExitBtnHover.png",
+	"frame": {"x":675,"y":481,"w":92,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":904,"y":478,"w":92,"h":48},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FireFishBox.png",
+	"frame": {"x":1,"y":323,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00000.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00001.png",
+	"frame": {"x":401,"y":397,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":40,"h":40},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00002.png",
+	"frame": {"x":686,"y":345,"w":84,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":84,"h":84},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00003.png",
+	"frame": {"x":179,"y":653,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":128,"h":128},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00004.png",
+	"frame": {"x":769,"y":622,"w":172,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":172,"h":150},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00005.png",
+	"frame": {"x":808,"y":1,"w":185,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":185,"h":150},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00006.png",
+	"frame": {"x":808,"y":153,"w":185,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":185,"h":150},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00007.png",
+	"frame": {"x":804,"y":305,"w":185,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":611,"y":325,"w":185,"h":150},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00008.png",
+	"frame": {"x":607,"y":579,"w":160,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":636,"y":325,"w":160,"h":150},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00009.png",
+	"frame": {"x":686,"y":227,"w":116,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":680,"y":359,"w":116,"h":116},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00010.png",
+	"frame": {"x":401,"y":323,"w":72,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":724,"y":403,"w":72,"h":72},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00011.png",
+	"frame": {"x":772,"y":345,"w":28,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":768,"y":447,"w":28,"h":28},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00012.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00013.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00014.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00015.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00016.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00017.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00018.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00019.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FishBoxHighlight_00020.png",
+	"frame": {"x":772,"y":375,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "GetFishBoard.png",
+	"frame": {"x":1,"y":1,"w":483,"h":320},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":558,"y":239,"w":483,"h":320},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "GetFishBoardBtn.png",
+	"frame": {"x":309,"y":717,"w":189,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":807,"y":478,"w":189,"h":48},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "GetFishBoardSeal.png",
+	"frame": {"x":1,"y":653,"w":176,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":817,"y":331,"w":176,"h":126},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "GlowBlueFishBox.png",
+	"frame": {"x":486,"y":1,"w":320,"h":224},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":541,"y":257,"w":320,"h":224},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "IceFishBox.png",
+	"frame": {"x":201,"y":323,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "MedicineFishBox.png",
+	"frame": {"x":475,"y":392,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "OrangeFishBox.png",
+	"frame": {"x":769,"y":457,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "StoneFishBox.png",
+	"frame": {"x":1,"y":488,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "WifiFishBox.png",
+	"frame": {"x":201,"y":488,"w":198,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":318,"w":198,"h":163},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "GetFishBoard.png",
+	"format": "RGBA8888",
+	"size": {"w":994,"h":782},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:178e42f87e128debfdaeedf725b7bfe0:2539a1867534016e231dc30b92efd5fc:05dbef5515f6bb22dff8d70dae5864df$"
+}
+}

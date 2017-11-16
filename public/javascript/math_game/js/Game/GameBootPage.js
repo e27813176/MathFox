@@ -1,14 +1,14 @@
 import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
-
+import { config } from '../GameConfig';
 export default class extends Phaser.State {
   init(page) {
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     this.page = page;
   }
   preload() {
-    let path = path_prefix + 'assets/loadingpage/';
+    let path = path_prefix + config.version + '/assets/loadingpage/';
     this.load.image('FoxLogo', path + 'LOGO.jpg');
     this.load.image('LoadingBar', path + 'LoadingBar.jpg');
     this.load.image('LoadingBarFrame', path + 'LoadingBarFrame.png');

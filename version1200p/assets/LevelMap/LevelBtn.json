@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "CatchBugPageBtn.png",
+	"frame": {"x":115,"y":336,"w":53,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":650,"y":146,"w":53,"h":77},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "CookingPageBtn.png",
+	"frame": {"x":122,"y":141,"w":99,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":879,"y":412,"w":99,"h":81},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "FishingPageBtn.png",
+	"frame": {"x":1,"y":1,"w":205,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":816,"y":181,"w":205,"h":138},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "LoggingPageBtn.png",
+	"frame": {"x":1,"y":300,"w":112,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":354,"y":89,"w":112,"h":131},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NewIcon.png",
+	"frame": {"x":115,"y":302,"w":112,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":76,"w":112,"h":32},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NextIcon0.png",
+	"frame": {"x":1,"y":141,"w":119,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":185,"y":254,"w":119,"h":37},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NextIcon1.png",
+	"frame": {"x":1,"y":180,"w":118,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":374,"y":161,"w":118,"h":38},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NextIcon2.png",
+	"frame": {"x":1,"y":220,"w":118,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":618,"y":173,"w":118,"h":38},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NextIcon3.png",
+	"frame": {"x":1,"y":141,"w":119,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":821,"y":248,"w":119,"h":37},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "NextIcon4.png",
+	"frame": {"x":1,"y":260,"w":118,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":869,"y":449,"w":118,"h":38},
+	"sourceSize": {"w":1200,"h":600}
+},
+{
+	"filename": "TutorialBtn.png",
+	"frame": {"x":121,"y":224,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "LevelBtn.png",
+	"format": "RGBA8888",
+	"size": {"w":228,"h":432},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e30a3675467fd0b7d5ec80b7d2c3f76:4c470fe4f446d66b9d06e0b63edc585b:9dc6e89eed91681a297962f399c8b1c8$"
+}
+}
