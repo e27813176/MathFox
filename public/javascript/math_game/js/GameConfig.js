@@ -1,4 +1,4 @@
-const gameWidth = 1200;
+const gameWidth = 1600;
 
 export const config = {
   width: gameWidth,

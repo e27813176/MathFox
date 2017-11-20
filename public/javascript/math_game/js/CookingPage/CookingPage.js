@@ -20,8 +20,8 @@ export default class extends Phaser.State {
     this.mode = 2;
     this.level = 9;
   }
-  shutdown(){
-    SendGA('CookingPage', { 'stage': 'end' });    
+  shutdown() {
+    SendGA('CookingPage', { 'stage': 'end' });
   }
   create() {
     this.createAudio();
@@ -38,7 +38,8 @@ export default class extends Phaser.State {
         .drawRect(100, 450, 120, 60)
     }
     tweenShining(this, this.exitBoard.text);
-
+    this.exitBoard.text.tween.resume();
+    this.exitBoard.text.alpha = 1;
     this.exitBoard.btnArea.events.onInputDown.add(this.exit, this);
     this.exitBoard.btnArea.inputEnabled = true;
     this.exitBoard.btnArea.alpha = 0;

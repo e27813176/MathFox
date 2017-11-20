@@ -56,19 +56,18 @@ export default class extends Phaser.State {
       .image('VillageBG', imagePath + 'BG.jpg');
   }
   loadLevelMap() {
-    let path = path_prefix + 'assets/LevelMap/';
+    let path = path_prefix + config.version + '/' + 'assets/LevelMap/';
+    let medalPath = path_prefix + config.version + '/' + 'assets/Medal/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let tutorialPath = path_prefix + config.version + '/' + 'assets/Tutorial/';
     this.load
       .image('LevelMapBG', path + 'LevelMapBG.jpg')
       .atlas('LevelBtn', path + 'LevelBtn.png', path + 'LevelBtn.json')
-      .atlas('GetNewMedal', path + 'GetNewMedal.png', path + 'GetNewMedal.json');
-    path = path_prefix + 'assets/Medal/';
-    this.load
-      .image('MedalBG', path + 'MedalBG.jpg')
-      .atlas('Medal', path + 'Medal.png', path + 'Medal.json')
-    path = path_prefix + 'assets/Tutorial/';
-    let audioPath = path_prefix + 'assets/audio/';
-    this.load.image('TutorialBG', path + 'TutorialBG.jpg')
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
+      .atlas('GetNewMedal', path + 'GetNewMedal.png', path + 'GetNewMedal.json')
+      .image('MedalBG', medalPath + 'MedalBG.jpg')
+      .atlas('Medal', medalPath + 'Medal.png', medalPath + 'Medal.json')
+      .image('TutorialBG', tutorialPath + 'TutorialBG.jpg')
+      .atlas('Panel', tutorialPath + 'Panel.png', tutorialPath + 'Panel.json')
       .audio('RightFX', audioPath + 'rightFX.mp3')
       .audio('WrongFX', audioPath + 'wrongFX.mp3')
       .audio('StartFX', audioPath + 'startFX.mp3')
@@ -77,22 +76,22 @@ export default class extends Phaser.State {
       .audio('GetMedal', audioPath + 'GetMedal.mp3');
   }
   loadAxPage() {
-    let path = path_prefix + 'assets/AxPage/';
-    let audioPath = path_prefix + 'assets/audio/';
+    let imagePath = path_prefix + config.version + '/' + 'assets/AxPage/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
     this.load
-      .image('AxPageBG', path + 'AxPage.jpg')
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
-      .atlas('QuestionPanelWrongFx', path + 'QuestionPanelWrongFx.png', path + 'QuestionPanelWrongFx.json')
-      .atlas('QuestionPanelRightFx', path + 'QuestionPanelRightFx.png', path + 'QuestionPanelRightFx.json')
-      .atlas('Btn', path + 'Btn.png', path + 'Btn.json')
-      .atlas('FoxWithAx001', path + 'FoxWithAx001.png', path + 'FoxWithAx001.json')
-      .atlas('FoxSitting002', path + 'FoxSitting002.png', path + 'FoxSitting002.json')
-      .atlas('FoxWithAx', path + 'FoxWithAx.png', path + 'FoxWithAx.json')
-      .atlas('FoxWithAx003', path + 'FoxWithAx003.png', path + 'FoxWithAx003.json')
-      .atlas('AxBar', path + 'AxBar.png', path + 'AxBar.json')
-      .atlas('Fire', path + 'Fire.png', path + 'Fire.json')
-      .atlas('Board', path + 'Board.png', path + 'Board.json')
-      .atlas('ArrowSheet', path + 'ArrowSheet.png', path + 'ArrowSheet.json')
+      .image('AxPageBG', imagePath + 'AxPage.jpg')
+      .atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json')
+      .atlas('QuestionPanelWrongFx', imagePath + 'QuestionPanelWrongFx.png', imagePath + 'QuestionPanelWrongFx.json')
+      .atlas('QuestionPanelRightFx', imagePath + 'QuestionPanelRightFx.png', imagePath + 'QuestionPanelRightFx.json')
+      .atlas('Btn', imagePath + 'Btn.png', imagePath + 'Btn.json')
+      .atlas('FoxWithAx001', imagePath + 'FoxWithAx001.png', imagePath + 'FoxWithAx001.json')
+      .atlas('FoxSitting002', imagePath + 'FoxSitting002.png', imagePath + 'FoxSitting002.json')
+      .atlas('FoxWithAx', imagePath + 'FoxWithAx.png', imagePath + 'FoxWithAx.json')
+      .atlas('FoxWithAx003', imagePath + 'FoxWithAx003.png', imagePath + 'FoxWithAx003.json')
+      .atlas('AxBar', imagePath + 'AxBar.png', imagePath + 'AxBar.json')
+      .atlas('Fire', imagePath + 'Fire.png', imagePath + 'Fire.json')
+      .atlas('Board', imagePath + 'Board.png', imagePath + 'Board.json')
+      .atlas('ArrowSheet', imagePath + 'ArrowSheet.png', imagePath + 'ArrowSheet.json')
       .audio('rightFX', audioPath + 'rightFX.mp3')
       .audio('AxFX', audioPath + 'AxFX.mp3')
       .audio('AddEnergyFX', audioPath + 'add_energyFX.mp3')
@@ -101,42 +100,40 @@ export default class extends Phaser.State {
       .audio('wrongFX', audioPath + 'wrongFX.mp3')
   }
   loadLoggingPage() {
-    let path = path_prefix + 'assets/LoggingPage/';
+    let imagePath = path_prefix + config.version + '/' + 'assets/LoggingPage/';
+    let axBarPath = path_prefix + config.version + '/' + 'assets/AxPage/';
+    let arrowSheetpath = path_prefix + config.version + '/' + 'assets/HomePage/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
     this.load
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
-      .atlas('QuestionPanelFx', path + 'QuestionPanelFx.png', path + 'QuestionPanelFx.json')
-      .image('LoggingPage', path + 'LoggingPage.jpg')
-      .image('LoggingPageFront', path + 'LoggingPageFront.png')
-      .image('FoxLoggingBtn', path + 'FoxLoggingBtn.jpg')
-      .atlas('FoxLogging', path + 'FoxLogging.png', path + 'FoxLogging.json')
-      .atlas('FoxLogging001', path + 'FoxLogging001.png', path + 'FoxLogging001.json')
-      .atlas('FoxLogging002', path + 'FoxLogging002.png', path + 'FoxLogging002.json')
-      .atlas('FoxLogging003', path + 'FoxLogging003.png', path + 'FoxLogging003.json')
-      .atlas('FoxBounce001', path + 'FoxBounce001.png', path + 'FoxBounce001.json')
-      .atlas('FoxBounce002', path + 'FoxBounce002.png', path + 'FoxBounce002.json')
-      .atlas('FoxStanding', path + 'FoxStanding.png', path + 'FoxStanding.json')
-      .atlas('TreeBloodBar', path + 'TreeBloodBar.png', path + 'TreeBloodBar.json')
-      .image('LoggingPageExitBtnArea', path + 'LoggingPageExitBtnArea.jpg')
-      .atlas('ScoreBoard', path + 'ScoreBoard.png', path + 'ScoreBoard.json');
-    path = path_prefix + 'assets/AxPage/';
-    this.load
-      .atlas('AxBar', path + 'AxBar.png', path + 'AxBar.json')
-      .atlas('Btn', path + 'Btn.png', path + 'Btn.json')
-    path = path_prefix + 'assets/HomePage/';
-    this.load.atlas('ArrowSheet', path + 'ArrowSheet.png', path + 'ArrowSheet.json');
-    path = path_prefix + 'assets/audio/';
-    this.load
-      .audio('rightFX', path + 'rightFX.mp3')
-      .audio('Logging', path + 'Logging.mp3')
-      .audio('LoggingBounce', path + 'LoggingBounce.mp3')
-      .audio('LoggingPagePlay', path + 'LoggingPageBG003.mp3')
-      .audio('LoggingBG', path + 'LoggingBG.mp3')
-      .audio('wrongFX', path + 'wrongFX.mp3')
-      .audio('LoggingSuccess', path + 'LoggingSuccess.mp3');
+      .image('LoggingPageExitBtnArea', imagePath + 'LoggingPageExitBtnArea.jpg')
+      .image('LoggingPage', imagePath + 'LoggingPage.jpg')
+      .image('LoggingPageFront', imagePath + 'LoggingPageFront.png')
+      .image('FoxLoggingBtn', imagePath + 'FoxLoggingBtn.jpg')
+      .atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json')
+      .atlas('QuestionPanelFx', imagePath + 'QuestionPanelFx.png', imagePath + 'QuestionPanelFx.json')
+      .atlas('FoxLogging', imagePath + 'FoxLogging.png', imagePath + 'FoxLogging.json')
+      .atlas('FoxLogging001', imagePath + 'FoxLogging001.png', imagePath + 'FoxLogging001.json')
+      .atlas('FoxLogging002', imagePath + 'FoxLogging002.png', imagePath + 'FoxLogging002.json')
+      .atlas('FoxLogging003', imagePath + 'FoxLogging003.png', imagePath + 'FoxLogging003.json')
+      .atlas('FoxBounce001', imagePath + 'FoxBounce001.png', imagePath + 'FoxBounce001.json')
+      .atlas('FoxBounce002', imagePath + 'FoxBounce002.png', imagePath + 'FoxBounce002.json')
+      .atlas('FoxStanding', imagePath + 'FoxStanding.png', imagePath + 'FoxStanding.json')
+      .atlas('TreeBloodBar', imagePath + 'TreeBloodBar.png', imagePath + 'TreeBloodBar.json')
+      .atlas('ScoreBoard', imagePath + 'ScoreBoard.png', imagePath + 'ScoreBoard.json')
+      .atlas('AxBar', axBarPath + 'AxBar.png', axBarPath + 'AxBar.json')
+      .atlas('Btn', axBarPath + 'Btn.png', axBarPath + 'Btn.json')
+      .atlas('ArrowSheet', arrowSheetpath + 'ArrowSheet.png', arrowSheetpath + 'ArrowSheet.json')
+      .audio('rightFX', audioPath + 'rightFX.mp3')
+      .audio('Logging', audioPath + 'Logging.mp3')
+      .audio('LoggingBounce', audioPath + 'LoggingBounce.mp3')
+      .audio('LoggingPagePlay', audioPath + 'LoggingPageBG003.mp3')
+      .audio('LoggingBG', audioPath + 'LoggingBG.mp3')
+      .audio('wrongFX', audioPath + 'wrongFX.mp3')
+      .audio('LoggingSuccess', audioPath + 'LoggingSuccess.mp3');
   }
   loadCatchBugPage() {
-    let path = path_prefix + 'assets/CatchBugPage/';
-    let audioPath = path_prefix + 'assets/audio/';
+    let path = path_prefix + config.version + '/' + 'assets/CatchBugPage/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
     this.load
       .image('BG', path + 'CatchBugPageBG.jpg')
       .atlas('FlyingBug', path + 'FlyingBug.png', path + 'FlyingBug.json')
@@ -158,8 +155,8 @@ export default class extends Phaser.State {
       .audio('AddEnergyFX', audioPath + 'add_energyFX.mp3')
   }
   loadFishingPage() {
-    let path = path_prefix + 'assets/fishingpage/';
-    let audioPath = path_prefix + 'assets/audio/';
+    let path = path_prefix + config.version + '/' + 'assets/fishingpage/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
     this.load
       .atlas('get_stone_fish_atlas', path + 'get_stone_fish_atlas.png', path + 'get_stone_fish_atlas.json')
       .atlas('get_light_blue_fish_atlas', path + 'get_light_blue_fish_atlas.png', path + 'get_light_blue_fish_atlas.json')
@@ -190,8 +187,8 @@ export default class extends Phaser.State {
       .audio('add_energyFX', audioPath + 'add_energyFX.mp3');
   }
   loadCookingPage() {
-    let path = path_prefix + 'assets/CookingPage/';
-    let audioPath = path_prefix + 'assets/audio/';
+    let path = path_prefix + config.version + '/' + 'assets/CookingPage/';
+    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
     this.load
       .image('BG', path + 'cookingpage.jpg')
       .atlas('panel', path + 'panel.png', path + 'panel.json')

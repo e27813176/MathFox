@@ -9,28 +9,28 @@ import { config } from '../GameConfig';
 export default class extends Phaser.State {
   init(page) {
     this.page = page;
+    let param = imageParam[`ver${config.width}`];
+    let Pos = param.fox.filter(line => line.page === this.page);
+    this.foxPos = Pos[0].Pos;
   }
   create() {
+    this.createImage();
+    this.createBtn();
+    this.controller();
     this.world.setBounds(0, 0, config.width * 2, config.height);
-    this.VillageBG = this.add.sprite(0, 0, 'VillageBG');
-
-    let foxPosX, foxPosY;
-    if (this.page === 'HomePage') {
-      foxPosX = -500;
-      foxPosY = 70;
-    }
-    this.ArrowSheet = new ArrowSheet(this, 735, -40);
-    this.FoxVendor = new FoxVendor(this);
-    this.Fox = new Fox(this.game, foxPosX, foxPosY);
-
     this.camera.follow(this.Fox.image);
     this.camera.deadzone = new Phaser.Rectangle(0, 100, 0, 750);
-    this.controller();
+    this.opening();
+  }
+  createBtn() {
     this.taskBoard = new TaskBoard(this.game);
     this.taskBoard.hover.events.onInputUp.add(this.openTask, this);
-    // demo.userPanel.create();
-    // demo.backPack.create();
-    this.opening();
+  }
+  createImage() {
+    this.VillageBG = this.add.sprite(0, 0, 'VillageBG');
+    this.ArrowSheet = new ArrowSheet(this, 735, -40);
+    this.FoxVendor = new FoxVendor(this);
+    this.Fox = new Fox(this.game, this.foxPos[0], this.foxPos[1]);
   }
   controller() {
     this.Arrowkey = new ArrowKey(this.game, this.Fox);
@@ -61,7 +61,7 @@ export default class extends Phaser.State {
   opening() {
     this.BG = this.add.graphics();
     this.BG.beginFill(0x000000);
-    this.BG.drawRect(0, 0, 3200, 800);
+    this.BG.drawRect(0, 0, config.width * 2, config.height);
     this.add.tween(this.BG).to({ alpha: 0 }, 1000, 'Linear', true, 0);
   }
   closing(page, clean, pram) {
@@ -70,3 +70,21 @@ export default class extends Phaser.State {
       .onComplete.add(() => this.state.start(page, true, clean, pram));
   }
 }
+
+const imageParam = {
+  ver1600: {
+    fox: [
+      { 'Pos': [-500, 70], 'page': 'HomePage' },
+      { 'Pos': [1000, 70], 'page': 'LevelMap' }
+    ],
+    ArrowSheet: {
+
+    }
+  },
+  ver1200: {
+    fox: [
+      { 'Pos': [-500, 55], 'page': 'HomePage' },
+      { 'Pos': [1000, 55], 'page': 'LevelMap' }
+    ],
+  }
+};

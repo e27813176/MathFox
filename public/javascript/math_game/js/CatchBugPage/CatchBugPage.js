@@ -60,6 +60,8 @@ export default class extends Phaser.State {
         .drawRect(100, 625, 100, 50)
     }
     tweenShining(this, this.exitBtn.TextGlow);
+    this.exitBtn.TextGlow.tween.resume();
+    this.exitBtn.TextGlow.alpha = 1;
     this.exitBtn.HoverArea.events.onInputDown.add(this.exitPage, this);
     this.exitBtn.HoverArea.inputEnabled = true;
     this.exitBtn.HoverArea.input.useHandCursor = true;
@@ -115,7 +117,6 @@ export default class extends Phaser.State {
     if (this.tutorialMode === true) {
       this.Tutorial.answerCorrect();
     } else {
-      SendGA('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
       let Bug = bugRandom();
       this.Board.ShowUpBugBox(Bug);
       this.Board.ShowUp();
@@ -123,9 +124,6 @@ export default class extends Phaser.State {
     }
   }
   continueGame(Btn) {
-    SendGA('CatchBugPage', { 'stage': 'start' });
-    this.answerCount = 0;
-    this.correctCount = 0;
     let index;
     if (Btn.variable === 'GoldenBug') index = 0;
     else if (Btn.variable === 'IceBug') index = 1;
@@ -153,6 +151,7 @@ export default class extends Phaser.State {
     this.Panel.updateNum(equation, range[0]);
   }
   async exitPage() {
+    SendGA('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
     audioMute(this, this.Audio.CatchBugPageBG);
     this.FlyingBug.Stop();
     this.BlackBG.BG.scale.setTo(1);

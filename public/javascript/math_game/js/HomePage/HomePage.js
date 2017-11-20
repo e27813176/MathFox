@@ -32,6 +32,7 @@ export default class extends Phaser.State {
   createImage() {
     this.add.sprite(0, 0, 'HomePageBG');
     this.Fox = new Fox(this, this.foxPos[0], this.foxPos[1]);
+    this.Fox.Standing.play();
     this.BackPack = new BackPack(this);
   }
   createBtn() {
@@ -41,13 +42,13 @@ export default class extends Phaser.State {
     this.JunyiIconBtn.fixedToCamera = true;
   }
   controller() {
-    this.arrowkey = new ArrowKey(this, this.Fox);
+    this.Arrowkey = new ArrowKey(this, this.Fox);
     this.LeftKey = this.input.keyboard.addKey(Phaser.Keyboard.LEFT);
     this.RightKey = this.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
-    this.LeftKey.onDown.add(this.arrowkey.pressLeft, this.arrowkey);
-    this.RightKey.onDown.add(this.arrowkey.pressRight, this.arrowkey);
-    this.LeftKey.onUp.add(this.arrowkey.stop, this.arrowkey);
-    this.RightKey.onUp.add(this.arrowkey.stop, this.arrowkey);
+    this.LeftKey.onDown.add(this.Arrowkey.pressLeft, this.Arrowkey);
+    this.RightKey.onDown.add(this.Arrowkey.pressRight, this.Arrowkey);
+    this.LeftKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
+    this.RightKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
     this.input.enabled = true;
   }
   createAudio() {
@@ -63,9 +64,9 @@ export default class extends Phaser.State {
     tweenAlpha(this, this.BG, 0, 1000);
   }
   update() {
-    if (this.arrowkey.status === 'left' && this.Fox.image.x > 305) {
+    if (this.Arrowkey.status === 'left' && this.Fox.image.x > 305) {
       this.Fox.image.x -= this.Fox.speed;
-    } else if (this.arrowkey.status === 'right') {
+    } else if (this.Arrowkey.status === 'right') {
       this.Fox.image.x += this.Fox.speed;
     }
     if (this.Fox.image.x === this.exitPointX) {
@@ -82,6 +83,13 @@ export default class extends Phaser.State {
 }
 
 const JunyiIconBtnDown = () => window.open('https://www.junyiacademy.org/');
+
+const FoxPosition = [
+  { 'Pos': [2200, 10], 'Page': 'Village', 'Version': 1600 },
+  { 'Pos': [900, 10], 'Page': 'Loading', 'Version': 1600 },
+  { 'Pos': [1700, 8], 'Page': 'Village', 'Version': 1200 },
+  { 'Pos': [600, 8], 'Page': 'Loading', 'Version': 1200 }
+];
 
 const foxPosition = (page, width) => {
   let foxPosX;
