@@ -8,7 +8,7 @@ import { setBtnEnable } from '../Game/utils'
 
 export default class extends Phaser.State {
   init() {
-    this.PageList = ['Village', 'Tutorial', 'AxPage', 'LoggingPage', 'CatchBugPage', 'FishingPage', 'CookingPage'];
+    this.PageList = ['HomePage', 'Tutorial', 'AxPage', 'LoggingPage', 'CatchBugPage', 'FishingPage', 'CookingPage'];
     this.LevelComplete = StageState.LevelFinish;
     this.IconShowUp = StageState.LevelIconShowUp;
     this.CheckNewMedal = StageState.CheckNewMedal;

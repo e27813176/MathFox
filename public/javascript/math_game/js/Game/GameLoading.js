@@ -22,6 +22,7 @@ export default class extends Phaser.State {
     this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
     let path = path_prefix + config.version + '/assets/';
+
     let audioPath = path + '/audio/';
     let imagePath = path + this.page + '/';
 
