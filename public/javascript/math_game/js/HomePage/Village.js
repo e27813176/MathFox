@@ -76,15 +76,12 @@ const imageParam = {
     fox: [
       { 'Pos': [-500, 70], 'page': 'HomePage' },
       { 'Pos': [1000, 70], 'page': 'LevelMap' }
-    ],
-    ArrowSheet: {
-
-    }
+    ]
   },
   ver1200: {
     fox: [
       { 'Pos': [-500, 55], 'page': 'HomePage' },
       { 'Pos': [1000, 55], 'page': 'LevelMap' }
-    ],
+    ]
   }
 };

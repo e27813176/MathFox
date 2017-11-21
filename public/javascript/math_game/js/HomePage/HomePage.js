@@ -33,7 +33,7 @@ export default class extends Phaser.State {
     this.add.sprite(0, 0, 'HomePageBG');
     this.Fox = new Fox(this, this.foxPos[0], this.foxPos[1]);
     this.Fox.Standing.play();
-    this.BackPack = new BackPack(this);
+    // this.BackPack = new BackPack(this);
   }
   createBtn() {
     this.JunyiIconBtn = this.add.sprite(this.JunyiIconPos[0], this.JunyiIconPos[1], 'JunyiIconBtn');
