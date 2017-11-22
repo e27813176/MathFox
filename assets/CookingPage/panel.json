@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "answerPanel.png",
+	"frame": {"x":188,"y":186,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+{
+	"filename": "exitText.png",
+	"frame": {"x":257,"y":220,"w":138,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":441,"w":138,"h":77},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "failBoard.png",
+	"frame": {"x":1,"y":186,"w":185,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":707,"y":326,"w":185,"h":127},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "questionPanel.png",
+	"frame": {"x":1,"y":1,"w":276,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":662,"y":80,"w":276,"h":183},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "successBoard.png",
+	"frame": {"x":279,"y":1,"w":185,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":707,"y":281,"w":185,"h":217},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "panel.png",
+	"format": "RGBA8888",
+	"size": {"w":465,"h":314},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f15f74a8921631d758011963bd99b5e2:b88564ba00a9138fa3c6f20b20ef6543:9b0fba02c9e23dc0952272093e9c0527$"
+}
+}

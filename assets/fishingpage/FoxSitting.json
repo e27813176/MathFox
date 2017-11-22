@@ -1,0 +1,148 @@
+{"frames": [
+
+{
+	"filename": "FoxSitting_00011.png",
+	"frame": {"x":691,"y":1,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00012.png",
+	"frame": {"x":346,"y":687,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00013.png",
+	"frame": {"x":691,"y":344,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00014.png",
+	"frame": {"x":690,"y":687,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00015.png",
+	"frame": {"x":1,"y":345,"w":343,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":322,"w":343,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00016.png",
+	"frame": {"x":346,"y":1,"w":343,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":322,"w":343,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00017.png",
+	"frame": {"x":1378,"y":687,"w":343,"h":338},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":325,"w":343,"h":338},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00018.png",
+	"frame": {"x":1378,"y":1027,"w":343,"h":337},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":326,"w":343,"h":337},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00019.png",
+	"frame": {"x":346,"y":1030,"w":343,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":327,"w":343,"h":336},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00020.png",
+	"frame": {"x":1,"y":1,"w":343,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":321,"w":343,"h":342},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00021.png",
+	"frame": {"x":1,"y":688,"w":343,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":322,"w":343,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00022.png",
+	"frame": {"x":346,"y":344,"w":343,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":322,"w":343,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00023.png",
+	"frame": {"x":1035,"y":1,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00024.png",
+	"frame": {"x":1379,"y":1,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00025.png",
+	"frame": {"x":1035,"y":344,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00026.png",
+	"frame": {"x":1379,"y":344,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSitting_00027.png",
+	"frame": {"x":1034,"y":687,"w":342,"h":341},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":322,"w":342,"h":341},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxSitting.png",
+	"format": "RGBA8888",
+	"size": {"w":1722,"h":1367},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:23ff645d123731394fe575b5a276d403:d9a1666b55ec857d07a83aa5d313792d:829762eabe9c20d1ba1ffe4de4ca219b$"
+}
+}

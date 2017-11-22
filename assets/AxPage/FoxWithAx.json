@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "FoxWithAx002_00000.png",
+	"frame": {"x":303,"y":1,"w":299,"h":367},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":22,"w":299,"h":367},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00001.png",
+	"frame": {"x":1,"y":1,"w":300,"h":365},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":24,"w":300,"h":365},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00002.png",
+	"frame": {"x":1,"y":735,"w":300,"h":362},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":27,"w":300,"h":362},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00003.png",
+	"frame": {"x":1,"y":1099,"w":300,"h":360},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":29,"w":300,"h":360},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00004.png",
+	"frame": {"x":303,"y":1103,"w":299,"h":358},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":31,"w":299,"h":358},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00005.png",
+	"frame": {"x":303,"y":1463,"w":299,"h":356},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":33,"w":299,"h":356},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00006.png",
+	"frame": {"x":1,"y":1461,"w":300,"h":357},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":32,"w":300,"h":357},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00007.png",
+	"frame": {"x":303,"y":738,"w":299,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":26,"w":299,"h":363},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00008.png",
+	"frame": {"x":1,"y":368,"w":300,"h":365},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":24,"w":300,"h":365},
+	"sourceSize": {"w":400,"h":400}
+},
+{
+	"filename": "FoxWithAx002_00009.png",
+	"frame": {"x":303,"y":370,"w":299,"h":366},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":23,"w":299,"h":366},
+	"sourceSize": {"w":400,"h":400}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxWithAx.png",
+	"format": "RGBA8888",
+	"size": {"w":603,"h":1820},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e2bf41ae89558f4656f47cb0a46e55fc:6e7145a6eba02e0404520ec924af689d:70b2edb61590e254e2c372d02f8d0692$"
+}
+}

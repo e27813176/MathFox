@@ -84,12 +84,16 @@ export default class extends Phaser.State {
 
 const JunyiIconBtnDown = () => window.open('https://www.junyiacademy.org/');
 
-const FoxPosition = [
-  { 'Pos': [2200, 10], 'Page': 'Village', 'Version': 1600 },
-  { 'Pos': [900, 10], 'Page': 'Loading', 'Version': 1600 },
-  { 'Pos': [1700, 8], 'Page': 'Village', 'Version': 1200 },
-  { 'Pos': [600, 8], 'Page': 'Loading', 'Version': 1200 }
-];
+const FoxPosition = {
+  '1600': {
+    'Village': { 'Pos': [2200, 10] },
+    'Loading': { 'Pos': [900, 10] },
+  },
+  '1200': {
+    'Village': { 'Pos': [1700, 10] },
+    'Loading': { 'Pos': [600, 10] },
+  },
+};
 
 const foxPosition = (page, width) => {
   let foxPosX;

@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "fishbox_stone_fish.png",
+	"frame": {"x":1,"y":1649,"w":183,"h":148},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":148},
+	"sourceSize": {"w":183,"h":148}
+},
+{
+	"filename": "fox_get_stone_fish_00001.png",
+	"frame": {"x":658,"y":1,"w":776,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":294,"w":776,"h":328},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00002.png",
+	"frame": {"x":658,"y":331,"w":729,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":299,"w":729,"h":336},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00003.png",
+	"frame": {"x":1,"y":1,"w":655,"h":524},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":90,"y":82,"w":655,"h":524},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00004.png",
+	"frame": {"x":1057,"y":669,"w":423,"h":580},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":100,"y":0,"w":423,"h":580},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00005.png",
+	"frame": {"x":1473,"y":1251,"w":345,"h":541},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":88,"w":345,"h":541},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00006.png",
+	"frame": {"x":1436,"y":1,"w":389,"h":561},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":78,"w":389,"h":561},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00007.png",
+	"frame": {"x":1037,"y":1251,"w":434,"h":550},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":98,"w":434,"h":550},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00008.png",
+	"frame": {"x":561,"y":1230,"w":474,"h":565},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":79,"w":474,"h":565},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00009.png",
+	"frame": {"x":561,"y":669,"w":494,"h":559},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":81,"w":494,"h":559},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00010.png",
+	"frame": {"x":1,"y":527,"w":558,"h":559},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":81,"w":558,"h":559},
+	"sourceSize": {"w":780,"h":651}
+},
+{
+	"filename": "fox_get_stone_fish_00011.png",
+	"frame": {"x":1,"y":1088,"w":558,"h":559},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":81,"w":558,"h":559},
+	"sourceSize": {"w":780,"h":651}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "get_stone_fish_atlas.png",
+	"format": "RGBA5555",
+	"size": {"w":1826,"h":1802},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:426ef7a2c2f88eba65d2ee0094e39642:acc345b2be100e204a12550319d72faf:78832c3c59644fef77a092382d0c2bc6$"
+}
+}

@@ -1,0 +1,148 @@
+{"frames": [
+
+{
+	"filename": "FoxSittingRod_00011.png",
+	"frame": {"x":1471,"y":809,"w":487,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":480,"y":388,"w":487,"h":265},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00012.png",
+	"frame": {"x":1,"y":541,"w":488,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":387,"w":488,"h":266},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00013.png",
+	"frame": {"x":491,"y":541,"w":488,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":387,"w":488,"h":266},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00014.png",
+	"frame": {"x":983,"y":271,"w":489,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":386,"w":489,"h":267},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00015.png",
+	"frame": {"x":1477,"y":1,"w":489,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":385,"w":489,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00016.png",
+	"frame": {"x":1,"y":1,"w":490,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":477,"y":385,"w":490,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00017.png",
+	"frame": {"x":1,"y":271,"w":489,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":477,"y":385,"w":489,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00018.png",
+	"frame": {"x":493,"y":1,"w":490,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":477,"y":385,"w":490,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00019.png",
+	"frame": {"x":985,"y":1,"w":490,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":477,"y":385,"w":490,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00020.png",
+	"frame": {"x":492,"y":271,"w":489,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":385,"w":489,"h":268},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00021.png",
+	"frame": {"x":1474,"y":271,"w":489,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":386,"w":489,"h":267},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00022.png",
+	"frame": {"x":983,"y":540,"w":489,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":478,"y":386,"w":489,"h":267},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00023.png",
+	"frame": {"x":1474,"y":540,"w":488,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":386,"w":488,"h":267},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00024.png",
+	"frame": {"x":1,"y":809,"w":488,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":387,"w":488,"h":266},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00025.png",
+	"frame": {"x":491,"y":809,"w":488,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":387,"w":488,"h":266},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00026.png",
+	"frame": {"x":981,"y":809,"w":488,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":479,"y":387,"w":488,"h":266},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxSittingRod_00027.png",
+	"frame": {"x":1471,"y":809,"w":487,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":480,"y":388,"w":487,"h":265},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxSittingRod.png",
+	"format": "RGBA8888",
+	"size": {"w":1967,"h":1076},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:440c397cdad47fb92b53da744cadfa3b:af724f40edf1f6493f44ff54064c20f3:5779e6c180d64496f6f5835a4a161f0d$"
+}
+}

@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "AnswerPanel.png",
+	"frame": {"x":321,"y":321,"w":85,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":92},
+	"sourceSize": {"w":85,"h":92}
+},
+{
+	"filename": "AnswerPanelLight.png",
+	"frame": {"x":408,"y":321,"w":85,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":92},
+	"sourceSize": {"w":85,"h":92}
+},
+{
+	"filename": "BackPanel.png",
+	"frame": {"x":329,"y":1,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":158},
+	"sourceSize": {"w":158,"h":158}
+},
+{
+	"filename": "ContinuePanel.png",
+	"frame": {"x":329,"y":161,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":158},
+	"sourceSize": {"w":158,"h":158}
+},
+{
+	"filename": "HomePanel.png",
+	"frame": {"x":1,"y":231,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":158},
+	"sourceSize": {"w":158,"h":158}
+},
+{
+	"filename": "QuestionPanel.png",
+	"frame": {"x":1,"y":1,"w":326,"h":228},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":505,"y":224,"w":326,"h":228},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "StartPanel.png",
+	"frame": {"x":161,"y":231,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":158},
+	"sourceSize": {"w":158,"h":158}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Panel.png",
+	"format": "RGBA8888",
+	"size": {"w":494,"h":414},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a094c970da44dd1fd2882ee2234a9276:c95b1efcb6388876e41c4236ee48fcd1:484f28e93f06386cc2110410f9ccc8a0$"
+}
+}

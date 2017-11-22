@@ -21,9 +21,9 @@ export default class extends Phaser.State {
     this.LoadingBarFrame.alpha = 1;
     this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
-    let path = path_prefix + config.version + '/assets/';
+    let path = path_prefix + 'assets/';
 
-    let audioPath = path + '/audio/';
+    let audioPath = path + 'audio/';
     let imagePath = path + this.page + '/';
 
     if (this.page === 'HomePage') {
@@ -57,10 +57,10 @@ export default class extends Phaser.State {
       .image('VillageBG', imagePath + 'BG.jpg');
   }
   loadLevelMap() {
-    let path = path_prefix + config.version + '/' + 'assets/LevelMap/';
-    let medalPath = path_prefix + config.version + '/' + 'assets/Medal/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
-    let tutorialPath = path_prefix + config.version + '/' + 'assets/Tutorial/';
+    let path = path_prefix + 'assets/LevelMap/';
+    let medalPath = path_prefix + 'assets/Medal/';
+    let audioPath = path_prefix + 'assets/audio/';
+    let tutorialPath = path_prefix + 'assets/Tutorial/';
     this.load
       .image('LevelMapBG', path + 'LevelMapBG.jpg')
       .atlas('LevelBtn', path + 'LevelBtn.png', path + 'LevelBtn.json')
@@ -77,8 +77,8 @@ export default class extends Phaser.State {
       .audio('GetMedal', audioPath + 'GetMedal.mp3');
   }
   loadAxPage() {
-    let imagePath = path_prefix + config.version + '/' + 'assets/AxPage/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let imagePath = path_prefix + 'assets/AxPage/';
+    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('AxPageBG', imagePath + 'AxPage.jpg')
       .atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json')
@@ -101,10 +101,10 @@ export default class extends Phaser.State {
       .audio('wrongFX', audioPath + 'wrongFX.mp3')
   }
   loadLoggingPage() {
-    let imagePath = path_prefix + config.version + '/' + 'assets/LoggingPage/';
-    let axBarPath = path_prefix + config.version + '/' + 'assets/AxPage/';
-    let arrowSheetpath = path_prefix + config.version + '/' + 'assets/HomePage/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let imagePath = path_prefix + 'assets/LoggingPage/';
+    let axBarPath = path_prefix + 'assets/AxPage/';
+    let arrowSheetpath = path_prefix + 'assets/HomePage/';
+    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('LoggingPageExitBtnArea', imagePath + 'LoggingPageExitBtnArea.jpg')
       .image('LoggingPage', imagePath + 'LoggingPage.jpg')
@@ -133,8 +133,8 @@ export default class extends Phaser.State {
       .audio('LoggingSuccess', audioPath + 'LoggingSuccess.mp3');
   }
   loadCatchBugPage() {
-    let path = path_prefix + config.version + '/' + 'assets/CatchBugPage/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let path = path_prefix + 'assets/CatchBugPage/';
+    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', path + 'CatchBugPageBG.jpg')
       .atlas('FlyingBug', path + 'FlyingBug.png', path + 'FlyingBug.json')
@@ -156,8 +156,8 @@ export default class extends Phaser.State {
       .audio('AddEnergyFX', audioPath + 'add_energyFX.mp3')
   }
   loadFishingPage() {
-    let path = path_prefix + config.version + '/' + 'assets/fishingpage/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let path = path_prefix + 'assets/fishingpage/';
+    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .atlas('get_stone_fish_atlas', path + 'get_stone_fish_atlas.png', path + 'get_stone_fish_atlas.json')
       .atlas('get_light_blue_fish_atlas', path + 'get_light_blue_fish_atlas.png', path + 'get_light_blue_fish_atlas.json')
@@ -188,8 +188,8 @@ export default class extends Phaser.State {
       .audio('add_energyFX', audioPath + 'add_energyFX.mp3');
   }
   loadCookingPage() {
-    let path = path_prefix + config.version + '/' + 'assets/CookingPage/';
-    let audioPath = path_prefix + config.version + '/' + 'assets/audio/';
+    let path = path_prefix + 'assets/CookingPage/';
+    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', path + 'cookingpage.jpg')
       .atlas('panel', path + 'panel.png', path + 'panel.json')

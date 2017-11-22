@@ -1,0 +1,188 @@
+{"frames": [
+
+{
+	"filename": "FoxStanding_00000.png",
+	"frame": {"x":191,"y":1,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00001.png",
+	"frame": {"x":190,"y":197,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00002.png",
+	"frame": {"x":378,"y":197,"w":185,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":185,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00003.png",
+	"frame": {"x":565,"y":197,"w":184,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":184,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00004.png",
+	"frame": {"x":1,"y":390,"w":184,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":184,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00005.png",
+	"frame": {"x":187,"y":394,"w":184,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":184,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00006.png",
+	"frame": {"x":373,"y":394,"w":184,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":184,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00007.png",
+	"frame": {"x":559,"y":394,"w":185,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":185,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00008.png",
+	"frame": {"x":187,"y":591,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00009.png",
+	"frame": {"x":375,"y":591,"w":186,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":753,"y":456,"w":186,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00000.png",
+	"frame": {"x":1,"y":1,"w":188,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":755,"y":462,"w":188,"h":191},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00001.png",
+	"frame": {"x":380,"y":1,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":755,"y":461,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00002.png",
+	"frame": {"x":1,"y":587,"w":184,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":756,"y":460,"w":184,"h":195},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00003.png",
+	"frame": {"x":569,"y":1,"w":184,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":756,"y":459,"w":184,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00004.png",
+	"frame": {"x":563,"y":593,"w":182,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":757,"y":458,"w":182,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingLeft_00005.png",
+	"frame": {"x":1,"y":784,"w":182,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":757,"y":458,"w":182,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00000.png",
+	"frame": {"x":1,"y":194,"w":187,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":691,"y":457,"w":187,"h":194},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00001.png",
+	"frame": {"x":185,"y":788,"w":189,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":689,"y":456,"w":189,"h":197},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00002.png",
+	"frame": {"x":376,"y":792,"w":190,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":687,"y":455,"w":190,"h":198},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00003.png",
+	"frame": {"x":568,"y":792,"w":190,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":687,"y":454,"w":190,"h":199},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00004.png",
+	"frame": {"x":746,"y":395,"w":182,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":695,"y":457,"w":182,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxWalkingRight_00005.png",
+	"frame": {"x":751,"y":197,"w":176,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":701,"y":456,"w":176,"h":196},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Fox.png",
+	"format": "RGBA8888",
+	"size": {"w":929,"h":992},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c8ac8e503d9f6e6dd43e7fa69cc0f864:9f2d404f34565315e5471c0dc433ae8b:26c3e4b48452875ca21be84b97d3c77b$"
+}
+}
