@@ -11395,7 +11395,7 @@ var _class = function (_Phaser$State) {
   }, {
     key: 'preload',
     value: function preload() {
-      var path = path_prefix + _GameConfig.config.version + '/assets/loadingpage/';
+      var path = path_prefix + 'assets/loadingpage/';
       this.load.image('FoxLogo', path + 'LOGO.jpg');
       this.load.image('LoadingBar', path + 'LoadingBar.jpg');
       this.load.image('LoadingBarFrame', path + 'LoadingBarFrame.png');
@@ -11479,9 +11479,9 @@ var _class = function (_Phaser$State) {
       this.LoadingBarFrame.alpha = 1;
       this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
-      var path = path_prefix + _GameConfig.config.version + '/assets/';
+      var path = path_prefix + 'assets/';
 
-      var audioPath = path + '/audio/';
+      var audioPath = path + 'audio/';
       var imagePath = path + this.page + '/';
 
       if (this.page === 'HomePage') {
@@ -11503,47 +11503,47 @@ var _class = function (_Phaser$State) {
   }, {
     key: 'loadLevelMap',
     value: function loadLevelMap() {
-      var path = path_prefix + _GameConfig.config.version + '/' + 'assets/LevelMap/';
-      var medalPath = path_prefix + _GameConfig.config.version + '/' + 'assets/Medal/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
-      var tutorialPath = path_prefix + _GameConfig.config.version + '/' + 'assets/Tutorial/';
+      var path = path_prefix + 'assets/LevelMap/';
+      var medalPath = path_prefix + 'assets/Medal/';
+      var audioPath = path_prefix + 'assets/audio/';
+      var tutorialPath = path_prefix + 'assets/Tutorial/';
       this.load.image('LevelMapBG', path + 'LevelMapBG.jpg').atlas('LevelBtn', path + 'LevelBtn.png', path + 'LevelBtn.json').atlas('GetNewMedal', path + 'GetNewMedal.png', path + 'GetNewMedal.json').image('MedalBG', medalPath + 'MedalBG.jpg').atlas('Medal', medalPath + 'Medal.png', medalPath + 'Medal.json').image('TutorialBG', tutorialPath + 'TutorialBG.jpg').atlas('Panel', tutorialPath + 'Panel.png', tutorialPath + 'Panel.json').audio('RightFX', audioPath + 'rightFX.mp3').audio('WrongFX', audioPath + 'wrongFX.mp3').audio('StartFX', audioPath + 'startFX.mp3').audio('ClickFX', audioPath + 'clickFX.mp3').audio('BtnOver', audioPath + 'BtnOver.mp3').audio('GetMedal', audioPath + 'GetMedal.mp3');
     }
   }, {
     key: 'loadAxPage',
     value: function loadAxPage() {
-      var imagePath = path_prefix + _GameConfig.config.version + '/' + 'assets/AxPage/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
+      var imagePath = path_prefix + 'assets/AxPage/';
+      var audioPath = path_prefix + 'assets/audio/';
       this.load.image('AxPageBG', imagePath + 'AxPage.jpg').atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json').atlas('QuestionPanelWrongFx', imagePath + 'QuestionPanelWrongFx.png', imagePath + 'QuestionPanelWrongFx.json').atlas('QuestionPanelRightFx', imagePath + 'QuestionPanelRightFx.png', imagePath + 'QuestionPanelRightFx.json').atlas('Btn', imagePath + 'Btn.png', imagePath + 'Btn.json').atlas('FoxWithAx001', imagePath + 'FoxWithAx001.png', imagePath + 'FoxWithAx001.json').atlas('FoxSitting002', imagePath + 'FoxSitting002.png', imagePath + 'FoxSitting002.json').atlas('FoxWithAx', imagePath + 'FoxWithAx.png', imagePath + 'FoxWithAx.json').atlas('FoxWithAx003', imagePath + 'FoxWithAx003.png', imagePath + 'FoxWithAx003.json').atlas('AxBar', imagePath + 'AxBar.png', imagePath + 'AxBar.json').atlas('Fire', imagePath + 'Fire.png', imagePath + 'Fire.json').atlas('Board', imagePath + 'Board.png', imagePath + 'Board.json').atlas('ArrowSheet', imagePath + 'ArrowSheet.png', imagePath + 'ArrowSheet.json').audio('rightFX', audioPath + 'rightFX.mp3').audio('AxFX', audioPath + 'AxFX.mp3').audio('AddEnergyFX', audioPath + 'add_energyFX.mp3').audio('AxPagePlay', audioPath + 'AxPageBG002.mp3').audio('AxPageSuccess', audioPath + 'AxPageSuccess.mp3').audio('wrongFX', audioPath + 'wrongFX.mp3');
     }
   }, {
     key: 'loadLoggingPage',
     value: function loadLoggingPage() {
-      var imagePath = path_prefix + _GameConfig.config.version + '/' + 'assets/LoggingPage/';
-      var axBarPath = path_prefix + _GameConfig.config.version + '/' + 'assets/AxPage/';
-      var arrowSheetpath = path_prefix + _GameConfig.config.version + '/' + 'assets/HomePage/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
+      var imagePath = path_prefix + 'assets/LoggingPage/';
+      var axBarPath = path_prefix + 'assets/AxPage/';
+      var arrowSheetpath = path_prefix + 'assets/HomePage/';
+      var audioPath = path_prefix + 'assets/audio/';
       this.load.image('LoggingPageExitBtnArea', imagePath + 'LoggingPageExitBtnArea.jpg').image('LoggingPage', imagePath + 'LoggingPage.jpg').image('LoggingPageFront', imagePath + 'LoggingPageFront.png').image('FoxLoggingBtn', imagePath + 'FoxLoggingBtn.jpg').atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json').atlas('QuestionPanelFx', imagePath + 'QuestionPanelFx.png', imagePath + 'QuestionPanelFx.json').atlas('FoxLogging', imagePath + 'FoxLogging.png', imagePath + 'FoxLogging.json').atlas('FoxLogging001', imagePath + 'FoxLogging001.png', imagePath + 'FoxLogging001.json').atlas('FoxLogging002', imagePath + 'FoxLogging002.png', imagePath + 'FoxLogging002.json').atlas('FoxLogging003', imagePath + 'FoxLogging003.png', imagePath + 'FoxLogging003.json').atlas('FoxBounce001', imagePath + 'FoxBounce001.png', imagePath + 'FoxBounce001.json').atlas('FoxBounce002', imagePath + 'FoxBounce002.png', imagePath + 'FoxBounce002.json').atlas('FoxStanding', imagePath + 'FoxStanding.png', imagePath + 'FoxStanding.json').atlas('TreeBloodBar', imagePath + 'TreeBloodBar.png', imagePath + 'TreeBloodBar.json').atlas('ScoreBoard', imagePath + 'ScoreBoard.png', imagePath + 'ScoreBoard.json').atlas('AxBar', axBarPath + 'AxBar.png', axBarPath + 'AxBar.json').atlas('Btn', axBarPath + 'Btn.png', axBarPath + 'Btn.json').atlas('ArrowSheet', arrowSheetpath + 'ArrowSheet.png', arrowSheetpath + 'ArrowSheet.json').audio('rightFX', audioPath + 'rightFX.mp3').audio('Logging', audioPath + 'Logging.mp3').audio('LoggingBounce', audioPath + 'LoggingBounce.mp3').audio('LoggingPagePlay', audioPath + 'LoggingPageBG003.mp3').audio('LoggingBG', audioPath + 'LoggingBG.mp3').audio('wrongFX', audioPath + 'wrongFX.mp3').audio('LoggingSuccess', audioPath + 'LoggingSuccess.mp3');
     }
   }, {
     key: 'loadCatchBugPage',
     value: function loadCatchBugPage() {
-      var path = path_prefix + _GameConfig.config.version + '/' + 'assets/CatchBugPage/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
+      var path = path_prefix + 'assets/CatchBugPage/';
+      var audioPath = path_prefix + 'assets/audio/';
       this.load.image('BG', path + 'CatchBugPageBG.jpg').atlas('FlyingBug', path + 'FlyingBug.png', path + 'FlyingBug.json').atlas('FoxStanding', path + 'FoxStanding.png', path + 'FoxStanding.json').atlas('FoxCatching', path + 'FoxCatching.png', path + 'FoxCatching.json').atlas('FoxFalling', path + 'FoxFalling.png', path + 'FoxFalling.json').atlas('FoxHitting001', path + 'FoxHitting001.png', path + 'FoxHitting001.json').atlas('FoxHitting', path + 'FoxHitting.png', path + 'FoxHitting.json').atlas('FoxStandUp', path + 'FoxStandUp.png', path + 'FoxStandUp.json').atlas('FruitDrop', path + 'FruitDrop.png', path + 'FruitDrop.json').atlas('Board', path + 'Board.png', path + 'Board.json').atlas('TutorialText', path + 'TutorialText.png', path + 'TutorialText.json').atlas('TaskBoard', path + 'TaskBoard.png', path + 'TaskBoard.json').atlas('Panel', path + 'Panel.png', path + 'Panel.json').audio('GetMedal', audioPath + 'GetMedal.mp3').audio('CatchBugPageBG', audioPath + 'CatchBugPageBG.mp3').audio('CatchBugPagefail', audioPath + 'CatchBugPagefail.mp3').audio('CatchBugPagefall', audioPath + 'CatchBugPagefall.mp3').audio('AddEnergyFX', audioPath + 'add_energyFX.mp3');
     }
   }, {
     key: 'loadFishingPage',
     value: function loadFishingPage() {
-      var path = path_prefix + _GameConfig.config.version + '/' + 'assets/fishingpage/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
+      var path = path_prefix + 'assets/fishingpage/';
+      var audioPath = path_prefix + 'assets/audio/';
       this.load.atlas('get_stone_fish_atlas', path + 'get_stone_fish_atlas.png', path + 'get_stone_fish_atlas.json').atlas('get_light_blue_fish_atlas', path + 'get_light_blue_fish_atlas.png', path + 'get_light_blue_fish_atlas.json').atlas('FoxPulling', path + 'FoxPulling.png', path + 'FoxPulling.json').atlas('FoxPullingRod', path + 'FoxPullingRod.png', path + 'FoxPullingRod.json').atlas('FoxSitting', path + 'FoxSitting.png', path + 'FoxSitting.json').atlas('FoxSittingRod', path + 'FoxSittingRod.png', path + 'FoxSittingRod.json').atlas('FoxGetFish', path + 'FoxGetFish.png', path + 'FoxGetFish.json').atlas('FoxFalling', path + 'FoxFalling.png', path + 'FoxFalling.json').atlas('Fish', path + 'Fish.png', path + 'Fish.json').atlas('Fish002', path + 'Fish002.png', path + 'Fish002.json').atlas('EnergyTransfer', path + 'EnergyTransfer.png', path + 'EnergyTransfer.json').atlas('GetFishBoard', path + 'GetFishBoard.png', path + 'GetFishBoard.json').atlas('FailBoard', path + 'FailBoard.png', path + 'FailBoard.json').atlas('Panel', path + 'Panel.png', path + 'Panel.json').atlas('ScoreBarAtlas', path + 'ScoreBarAtlas.png', path + 'ScoreBarAtlas.json').image('BG', path + 'BG.jpg').image('mark_tutorial', path + 'mark.png').audio('fishing', audioPath + 'fishing.mp3').audio('rightFX', audioPath + 'rightFX.mp3').audio('wrongFX', audioPath + 'wrongFX.mp3').audio('successFX', audioPath + 'successFX.mp3').audio('failureFX', audioPath + 'failureFX.mp3').audio('alertFX', audioPath + 'alertFX.mp3').audio('startFX', audioPath + 'startFX.mp3').audio('fishingBG', audioPath + 'fishingBG.mp3').audio('clickFX', audioPath + 'clickFX.mp3').audio('add_energyFX', audioPath + 'add_energyFX.mp3');
     }
   }, {
     key: 'loadCookingPage',
     value: function loadCookingPage() {
-      var path = path_prefix + _GameConfig.config.version + '/' + 'assets/CookingPage/';
-      var audioPath = path_prefix + _GameConfig.config.version + '/' + 'assets/audio/';
+      var path = path_prefix + 'assets/CookingPage/';
+      var audioPath = path_prefix + 'assets/audio/';
       this.load.image('BG', path + 'cookingpage.jpg').atlas('panel', path + 'panel.png', path + 'panel.json').atlas('fire', path + 'fire.png', path + 'fire.json').atlas('fish', path + 'fish.png', path + 'fish.json').atlas('fox001', path + 'fox.png', path + 'fox.json').atlas('fox002', path + 'fox002.png', path + 'fox002.json').atlas('fox003', path + 'fox003.png', path + 'fox003.json').atlas('fox004', path + 'fox004.png', path + 'fox004.json').atlas('ArrowSheet', path + 'ArrowSheet.png', path + 'ArrowSheet.json').audio('CookingBG', audioPath + 'CookingBG.mp3').audio('Fail', audioPath + 'failureFX.mp3').audio('Throw', audioPath + 'CatchBugPagefall.mp3').audio('Wrong', audioPath + 'wrongcooking.mp3').audio('Success', audioPath + 'CookingSuccessFX.mp3');
     }
   }, {
@@ -22162,7 +22162,16 @@ var JunyiIconBtnDown = function JunyiIconBtnDown() {
   return window.open('https://www.junyiacademy.org/');
 };
 
-var FoxPosition = [{ 'Pos': [2200, 10], 'Page': 'Village', 'Version': 1600 }, { 'Pos': [900, 10], 'Page': 'Loading', 'Version': 1600 }, { 'Pos': [1700, 8], 'Page': 'Village', 'Version': 1200 }, { 'Pos': [600, 8], 'Page': 'Loading', 'Version': 1200 }];
+var FoxPosition = {
+  '1600': {
+    'Village': { 'Pos': [2200, 10] },
+    'Loading': { 'Pos': [900, 10] }
+  },
+  '1200': {
+    'Village': { 'Pos': [1700, 10] },
+    'Loading': { 'Pos': [600, 10] }
+  }
+};
 
 var foxPosition = function foxPosition(page, width) {
   var foxPosX = void 0;
@@ -24200,7 +24209,7 @@ var _class = function (_Phaser$State) {
         _User.StageState.CheckNewMedal = true;
       }
       this.Fox.Standing();
-      (0, _utils.setBtnEnable)(this.Fox.foxStartBtn, false);
+      (0, _utils.setBtnEnable)(this.Fox.foxStartBtn, true);
       (0, _utils.setBtnEnable)(this.Fox.foxStopBtn, false);
       this.Panel.AnswerPanel.forEach(function (Btn) {
         return (0, _utils.setBtnEnable)(Btn, false);
@@ -24218,7 +24227,6 @@ var _class = function (_Phaser$State) {
   }, {
     key: 'continue',
     value: function _continue() {
-      (0, _utils.setBtnEnable)(this.Fox.foxStartBtn, true);
       this.Board.setBtnEnable(false);
       this.Board.Hide(this);
       this.WoodDex.Hide();
