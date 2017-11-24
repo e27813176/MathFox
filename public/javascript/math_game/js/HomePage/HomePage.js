@@ -3,7 +3,6 @@ import 'p2';
 import Phaser from 'phaser';
 import Fox from './HomeObject/fox';
 import ArrowKey from './HomeObject/ArrowKey';
-import BackPack from '../User/BackPack';
 import { config } from '../GameConfig';
 import { tweenAlpha, setBtnEnable } from '../Game/utils';
 
@@ -33,7 +32,6 @@ export default class extends Phaser.State {
     this.add.sprite(0, 0, 'HomePageBG');
     this.Fox = new Fox(this, this.foxPos[0], this.foxPos[1]);
     this.Fox.Standing.play();
-    // this.BackPack = new BackPack(this);
   }
   createBtn() {
     this.JunyiIconBtn = this.add.sprite(this.JunyiIconPos[0], this.JunyiIconPos[1], 'JunyiIconBtn');
@@ -83,17 +81,6 @@ export default class extends Phaser.State {
 }
 
 const JunyiIconBtnDown = () => window.open('https://www.junyiacademy.org/');
-
-const FoxPosition = {
-  '1600': {
-    'Village': { 'Pos': [2200, 10] },
-    'Loading': { 'Pos': [900, 10] },
-  },
-  '1200': {
-    'Village': { 'Pos': [1700, 10] },
-    'Loading': { 'Pos': [600, 10] },
-  },
-};
 
 const foxPosition = (page, width) => {
   let foxPosX;

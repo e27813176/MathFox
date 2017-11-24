@@ -54,8 +54,10 @@ module.exports = {
   },
   externals: {
     jquery: 'jQuery',
+    Analytics: 'Analytics',
     globalUser: 'globalUser',
-    getPassedStageIDList: 'getPassedStageIDList'
+    getPassedStageIDList: 'getPassedStageIDList',
+    path_prefix: 'path_prefix'
   },
   resolve: {
     alias: {

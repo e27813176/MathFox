@@ -3,7 +3,7 @@ import $ from 'jquery';
 import { setBtnEnable, delay } from '../Game/utils'
 import { config } from '../GameConfig';
 import globalUser from 'globalUser';
-
+import path_prefix from 'path_prefix';
 export default class extends Phaser.State {
   init(stage) {
     this.StageList = stage;
@@ -74,7 +74,7 @@ const SendStageState = (stageList, callback1, callback2, callback3) => {
       type: 'POST',
       url: '/api/v1/game/stage_complete',
       contentType: 'application/json; charset=utf-8',
-      data: JSON.stringify({game_id:"mathfox",new_stage:stageList[stageList.length - 1]}),
+      data: JSON.stringify({game_id: 'mathfox', new_stage: stageList[stageList.length - 1]}),
       success: callback1,
       error: callback2
     });

@@ -26,7 +26,7 @@ const foxAnimate1600 = [
 ];
 
 const foxAnimate1200 = [
-  { 'key': 'Standing', 'frameName': 'FoxStanding', 'frames': 9, 'frameRate': 10 },  
+  { 'key': 'Standing', 'frameName': 'FoxStanding', 'frames': 9, 'frameRate': 10 },
   { 'key': 'WalkingLeft', 'frameName': 'FoxTurnLeft', 'frames': 6, 'frameRate': 15 },
   { 'key': 'WalkingRight', 'frameName': 'FoxTurnRight', 'frames': 6, 'frameRate': 15 }
 ];
