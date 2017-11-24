@@ -151,7 +151,9 @@ export default class extends Phaser.State {
     this.Panel.updateNum(equation, range[0]);
   }
   async exitPage() {
-    SendGA('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+    if (this.answerCount !== 0) {
+      SendGA('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+    }
     audioMute(this, this.Audio.CatchBugPageBG);
     this.FlyingBug.Stop();
     this.BlackBG.BG.scale.setTo(1);

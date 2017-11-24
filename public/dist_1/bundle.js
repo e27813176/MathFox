@@ -25217,7 +25217,9 @@ var _class = function (_Phaser$State) {
   }, {
     key: 'exitPage',
     value: async function exitPage() {
-      (0, _SendGAEvent.SendGA)('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+      if (this.answerCount !== 0) {
+        (0, _SendGAEvent.SendGA)('CatchBudPage', { 'stage': 'success', 'totalcount': this.answerCount, 'correctcount': this.correctCount });
+      }
       (0, _utils.audioMute)(this, this.Audio.CatchBugPageBG);
       this.FlyingBug.Stop();
       this.BlackBG.BG.scale.setTo(1);
