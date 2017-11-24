@@ -7,7 +7,7 @@ const Analytics = {
 }
 const globalUser = {
   email: '123@foxmail.com',
-  nickName: 'MathFox'
+  nickname: 'MathFox'
 }
 function getPassedStageIDList() {
   const PageList = ['AxPage', 'LoggingPage', 'CatchBugPage', 'FishingPage', 'CookingPage'];

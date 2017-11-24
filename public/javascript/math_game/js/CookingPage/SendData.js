@@ -1,5 +1,5 @@
 const SendStageState = () => {
-	if (globalUser.email.length() == 0 && globalUser.nickName.length() == 0) {
+	if (globalUser.email.length() == 0 && globalUser.nickname.length() == 0) {
 		//no login
 	} else {
 		$.ajax({

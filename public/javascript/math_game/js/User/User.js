@@ -26,5 +26,5 @@ export const StageState = {
 
 export const User = {
   email: '',
-  nickName: ''
+  nickname: ''
 }

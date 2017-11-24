@@ -53,6 +53,6 @@ const initGameProcess = List => {
   StageState.LevelFinish = List.length;
 }
 User.email = globalUser.email;
-User.nickName = globalUser.nickName;
+User.nickname = globalUser.nickname;
 const StageList = getPassedStageIDList();
 window.game = new Game(StageList);

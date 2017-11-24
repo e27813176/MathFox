@@ -3,14 +3,13 @@ import $ from 'jquery';
 import { setBtnEnable, delay } from '../Game/utils'
 import { config } from '../GameConfig';
 import { User } from '../User/User';
-  
+
 export default class extends Phaser.State {
   init(stage) {
     this.StageList = stage;
     console.log(this.StageList);
   }
   preload() {
-    path_prefix = '/test/';
     let path = path_prefix + 'assets/SendData/';
     this.load.atlas('SendData', path + 'SendData.png', path + 'SendData.json');
   }
@@ -67,7 +66,7 @@ export default class extends Phaser.State {
 const tweenScale = (game, obj, scale) => game.add.tween(obj.scale).to({ x: scale, y: scale }, 300, 'Quad.easeOut', true, 0);
 
 const SendStageState = (stageList, callback1, callback2, callback3) => {
-  if (User.email.length === 0 && User.nickName.length === 0) {
+  if (User.email.length === 0 && User.nickname.length === 0) {
     return callback3();
   } else {
     $.ajax({
