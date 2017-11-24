@@ -537,7 +537,7 @@ var StageState = exports.StageState = {
 
 var User = exports.User = {
   email: '',
-  nickName: ''
+  nickname: ''
 };
 
 /***/ }),
@@ -11333,7 +11333,7 @@ var initGameProcess = function initGameProcess(List) {
   _User.StageState.LevelFinish = List.length;
 };
 _User.User.email = globalUser.email;
-_User.User.nickName = globalUser.nickName;
+_User.User.nickname = globalUser.nickname;
 var StageList = getPassedStageIDList();
 window.game = new Game(StageList);
 
@@ -11622,7 +11622,6 @@ var _class = function (_Phaser$State) {
   }, {
     key: 'preload',
     value: function preload() {
-      path_prefix = '/test/';
       var path = path_prefix + 'assets/SendData/';
       this.load.atlas('SendData', path + 'SendData.png', path + 'SendData.json');
     }
@@ -11709,7 +11708,7 @@ var tweenScale = function tweenScale(game, obj, scale) {
 };
 
 var SendStageState = function SendStageState(stageList, callback1, callback2, callback3) {
-  if (_User.User.email.length === 0 && _User.User.nickName.length === 0) {
+  if (_User.User.email.length === 0 && _User.User.nickname.length === 0) {
     return callback3();
   } else {
     _jquery2.default.ajax({
