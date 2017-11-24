@@ -1,7 +1,7 @@
 import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
-import { StageState, User } from './User/User';
+import { StageState } from './User/User';
 import { config } from './GameConfig';
 import GameBoot from './Game/GameBootPage';
 import Preload from './Game/GameLoading';
@@ -16,7 +16,7 @@ import LoggingPage from './LoggingPage/LoggingPage';
 import CatchBugPage from './CatchBugPage/CatchBugPage';
 import FishingPage from './FishingPage/FishingPage';
 import CookingPage from './CookingPage/CookingPage';
-
+import getPassedStageIDList from 'getPassedStageIDList';
 class Game extends Phaser.Game {
   constructor(StageList) {
     const width = config.width;
@@ -52,7 +52,5 @@ const initGameProcess = List => {
   });
   StageState.LevelFinish = List.length;
 }
-User.email = globalUser.email;
-User.nickname = globalUser.nickname;
 const StageList = getPassedStageIDList();
 window.game = new Game(StageList);

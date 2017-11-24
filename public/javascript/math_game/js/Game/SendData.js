@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import $ from 'jquery';
 import { setBtnEnable, delay } from '../Game/utils'
 import { config } from '../GameConfig';
-import { User } from '../User/User';
+import globalUser from 'globalUser';
 
 export default class extends Phaser.State {
   init(stage) {
@@ -19,6 +19,7 @@ export default class extends Phaser.State {
     this.Success.scale.setTo(0);
     this.Success.anchor.setTo(0.5);
     this.SuccessBtn = createHoverArea(this, 860, 430);
+    this.SuccessBtn.events.onInputDown.add(this.exit, this);
     this.Fail = this.add.sprite(config.centerX, config.centerY, 'SendData', 'Fail.png');
     this.Fail.scale.setTo(0);
     this.Fail.anchor.setTo(0.5);
@@ -66,14 +67,14 @@ export default class extends Phaser.State {
 const tweenScale = (game, obj, scale) => game.add.tween(obj.scale).to({ x: scale, y: scale }, 300, 'Quad.easeOut', true, 0);
 
 const SendStageState = (stageList, callback1, callback2, callback3) => {
-  if (User.email.length === 0 && User.nickname.length === 0) {
+  if (globalUser.email.length === 0 && globalUser.nickname.length === 0) {
     return callback3();
   } else {
     $.ajax({
       type: 'POST',
       url: '/api/v1/game/stage_complete',
       contentType: 'application/json; charset=utf-8',
-      data: JSON.stringify(stageList),
+      data: JSON.stringify({game_id:"mathfox",new_stage:stageList[stageList.length - 1]}),
       success: callback1,
       error: callback2
     });

@@ -23,8 +23,3 @@ export const StageState = {
   CookingPageCompleteCount: 0,
   CookingPageComplete: false
 };
-
-export const User = {
-  email: '',
-  nickname: ''
-}

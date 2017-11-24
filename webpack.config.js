@@ -52,6 +52,11 @@ module.exports = {
     net: 'empty',
     tls: 'empty'
   },
+  externals: {
+    jquery: 'jQuery',
+    globalUser: 'globalUser',
+    getPassedStageIDList: 'getPassedStageIDList'
+  },
   resolve: {
     alias: {
       'phaser': phaser,
