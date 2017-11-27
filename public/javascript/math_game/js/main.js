@@ -17,6 +17,7 @@ import CatchBugPage from './CatchBugPage/CatchBugPage';
 import FishingPage from './FishingPage/FishingPage';
 import CookingPage from './CookingPage/CookingPage';
 import getPassedStageIDList from 'getPassedStageIDList';
+import { Ax } from './User/tool';
 
 class Game extends Phaser.Game {
   constructor(StageList) {
@@ -52,6 +53,9 @@ const initGameProcess = List => {
     StageState[Complete] = 1;
   });
   StageState.LevelFinish = List.length;
+  if (List.length >= 1) {
+    Ax.SharpenBar1 = 100;
+  }
 }
 const StageList = getPassedStageIDList();
 window.game = new Game(StageList);
