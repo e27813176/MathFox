@@ -11,6 +11,6 @@ const globalUser = {
 }
 function getPassedStageIDList() {
   const PageList = ['AxPage', 'LoggingPage', 'CatchBugPage', 'FishingPage', 'CookingPage'];
-  let list = PageList.filter((page, i) => i < 0);
+  let list = PageList.filter((page, i) => i < 1);
   return list
 }
