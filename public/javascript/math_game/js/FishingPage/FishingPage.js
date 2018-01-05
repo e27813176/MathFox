@@ -131,7 +131,7 @@ export default class extends Phaser.State {
     this.comboText.alpha = 1;
     this.multiplyText.alpha = 1;
     this.comboText.setText(`Combo ${this.combo}`);
-    this.multiplyText.setText(`+${25 * this.combo}%`);
+    this.multiplyText.setText(`+${50 * this.combo}%`);
     this.add.tween(this.comboText).to({ alpha: 0 }, 2000, 'Quad.easeIn', true);
     this.add.tween(this.multiplyText).to({ alpha: 0 }, 2000, 'Quad.easeIn', true);
   }

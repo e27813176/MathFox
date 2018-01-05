@@ -40,7 +40,7 @@ export default class extends Phaser.State {
   }
   loadHomePage(imagePath, audioPath) {
     this.load
-      .image('HomePageBG', imagePath + 'HomePageBG.jpg')
+      .image('HomePageBG', imagePath + 'BG.jpg')
       .image('FrontBG', imagePath + 'FrontBG.png')
       .image('JunyiIconBtn', imagePath + 'JunyiIconBtn.png')
       .image('BackPackIcon', imagePath + 'BackPackIcon.png')
@@ -54,6 +54,7 @@ export default class extends Phaser.State {
   loadVillage(imagePath) {
     this.load
       .atlas('FoxVendor', imagePath + 'FoxVendor.png', imagePath + 'FoxVendor.json')
+      .atlas('TaskBoardLight', imagePath + 'TaskBoardLight.png', imagePath + 'TaskBoardLight.json')      
       .image('VillageBG', imagePath + 'BG.jpg');
   }
   loadLevelMap() {

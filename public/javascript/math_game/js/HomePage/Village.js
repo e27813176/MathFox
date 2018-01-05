@@ -4,6 +4,7 @@ import ArrowKey from './HomeObject/ArrowKey';
 import TaskBoard from './HomeObject/taskBoard';
 import ArrowSheet from './HomeObject/arrow';
 import FoxVendor from './HomeObject/vendor';
+import { tweenShining } from '../Game/utils';
 import { config } from '../GameConfig';
 
 export default class extends Phaser.State {
@@ -31,6 +32,15 @@ export default class extends Phaser.State {
     this.ArrowSheet = new ArrowSheet(this, 735, -40);
     this.FoxVendor = new FoxVendor(this);
     this.Fox = new Fox(this.game, this.foxPos[0], this.foxPos[1]);
+    this.TaskBoardLight = this.add.sprite(0, 0, 'TaskBoardLight', 'TaskBoardLight.png');
+    tweenShining(this, this.TaskBoardLight);
+    this.TaskBoardLight.tween.resume();
+    this.TaskBoardLight.alpha = 1;
+    // this.circleHint = this.add.graphics();
+    // this.circleHint.beginFill(0xffffff);
+    // this.circleHint.drawCircle(1535, 355, 50);
+    // this.circleHint.anchor.setTo(0.5);
+    // this.add.tween(this.circleHint).to({ alpha: '-0.8' }, 500, 'Quad.easeInOut', true, 0, false, false).loop(true);
   }
   controller() {
     this.Arrowkey = new ArrowKey(this.game, this.Fox);

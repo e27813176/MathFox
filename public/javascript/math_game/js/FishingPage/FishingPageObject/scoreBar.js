@@ -52,7 +52,7 @@ export default class {
     this.Bar.tween.pause();
   }
   BarInc(combo) {
-    let amount = 10 * (1 + combo * 0.25);
+    let amount = 10 * (1 + combo * 0.5);
     this.game.add.tween(this.Bar).to({ y: `-${amount}` }, 200, 'Linear', true);
     this.game.add.tween(this.RedBar).to({ y: `-${amount}` }, 200, 'Linear', true);
 
@@ -76,8 +76,8 @@ export default class {
   }
   updateBar(game) {
     if (this.Bar.y < 400) {
-      this.Bar.y += 0.5;
-      this.RedBar.y += 0.5;
+      this.Bar.y += 0.4;
+      this.RedBar.y += 0.4;
     } else game.fail();
   }
 }
