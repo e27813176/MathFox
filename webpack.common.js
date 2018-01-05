@@ -25,6 +25,39 @@ module.exports = {
         use: ['babel-loader', 'eslint-loader'],
         include: path.join(__dirname, 'public')
       },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '/images/[name]_[hash:7].[ext]',
+            }
+          }
+        ]
+      },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8000,
+            },
+          },
+        ]
+      },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true,
+            },
+          }
+        ]
+      },
       { test: /pixi\.js/, use: ['expose-loader?PIXI'] },
       { test: /phaser-split\.js$/, use: ['expose-loader?Phaser'] },
       { test: /p2\.js/, use: ['expose-loader?p2'] }
