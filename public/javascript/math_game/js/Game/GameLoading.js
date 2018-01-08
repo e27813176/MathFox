@@ -40,16 +40,16 @@ export default class extends Phaser.State {
   }
   loadHomePage(imagePath, audioPath) {
     this.load
-      .image('HomePageBG', imagePath + 'BG.jpg')
-      .image('FrontBG', imagePath + 'FrontBG.png')
-      .image('JunyiIconBtn', imagePath + 'JunyiIconBtn.png')
-      .image('BackPackIcon', imagePath + 'BackPackIcon.png')
-      .image('UserPanel', imagePath + 'UserPanel.png')
-      .atlas('ArrowSheet', imagePath + 'ArrowSheet.png', imagePath + 'ArrowSheet.json')
-      .atlas('Fox', imagePath + 'Fox.png', imagePath + 'Fox.json')
-      .audio('menu', audioPath + 'game_menu_BG.mp3')
-      .audio('StartBtnDown', audioPath + 'StartBtnDown.mp3')
-      .audio('BtnOver', audioPath + 'BtnOver.mp3')
+      .image('HomePageBG', require('../../assets/HomePage/BG.jpg'))
+      .image('FrontBG', require('../../assets/HomePage/FrontBG.png'))
+      .image('JunyiIconBtn', require('../../assets/HomePage/JunyiIconBtn.png'))
+      .image('BackPackIcon', require('../../assets/HomePage/BackPackIcon.png'))
+      .image('UserPanel', require('../../assets/HomePage/UserPanel.png'))
+      .atlas('ArrowSheet', require('../../assets/HomePage/ArrowSheet.png'), imagePath + 'ArrowSheet.json')
+      .atlas('Fox', require('../../assets/HomePage/Fox.png'), imagePath + 'Fox.json')
+      .audio('menu', require('../../assets/audio/game_menu_BG.mp3'))
+      .audio('StartBtnDown', require('../../assets/audio/StartBtnDown.mp3'))
+      .audio('BtnOver', require('../../assets/audio/BtnOver.mp3'))
   }
   loadVillage(imagePath) {
     this.load

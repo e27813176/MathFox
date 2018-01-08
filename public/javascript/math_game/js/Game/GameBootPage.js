@@ -2,6 +2,8 @@ import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
 import { config } from '../GameConfig';
+import { loadingBG, loadingbarURI, loadingbarFrameURI } from './ImageURI';
+
 export default class extends Phaser.State {
   init(page) {
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
@@ -9,9 +11,9 @@ export default class extends Phaser.State {
   }
   preload() {
     let path = path_prefix + 'assets/loadingpage/';
-    this.load.image('FoxLogo', path + 'LOGO.jpg');
-    this.load.image('LoadingBar', path + 'LoadingBar.jpg');
-    this.load.image('LoadingBarFrame', path + 'LoadingBarFrame.png');
+    this.load.image('FoxLogo', require('../../assets/loadingpage/BG.jpg'));
+    this.load.image('LoadingBar', loadingbarURI);
+    this.load.image('LoadingBarFrame', loadingbarFrameURI);
   }
   create() {
     this.stage.backgroundColor = '#000000';

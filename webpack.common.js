@@ -37,6 +37,30 @@ module.exports = {
         ]
       },
       {
+        test: /\.mp3$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '/audio/[name].[ext]',
+            }
+          }
+        ]
+      },
+      /*
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192
+            }
+          }
+        ]
+      },
+      */
+      {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [
           {
