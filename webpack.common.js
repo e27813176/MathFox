@@ -40,17 +40,6 @@ module.exports = {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [
           {
-            loader: 'url-loader',
-            options: {
-              limit: 8000,
-            },
-          },
-        ]
-      },
-      {
-        test: /.*\.(gif|png|jpe?g)$/i,
-        use: [
-          {
             loader: 'image-webpack-loader',
             options: {
               bypassOnDebug: true,

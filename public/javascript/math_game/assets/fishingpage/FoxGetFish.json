@@ -1,0 +1,348 @@
+{"frames": [
+
+{
+	"filename": "FoxGetFish_00000.png",
+	"frame": {"x":404,"y":1,"w":354,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":181,"y":289,"w":354,"h":363},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00001.png",
+	"frame": {"x":1,"y":1610,"w":318,"h":370},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":197,"y":282,"w":318,"h":370},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00002.png",
+	"frame": {"x":1,"y":1233,"w":306,"h":375},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":185,"y":277,"w":306,"h":375},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00003.png",
+	"frame": {"x":1,"y":854,"w":303,"h":377},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":170,"y":275,"w":303,"h":377},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00004.png",
+	"frame": {"x":304,"y":427,"w":298,"h":373},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":151,"y":279,"w":298,"h":373},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00005.png",
+	"frame": {"x":306,"y":802,"w":300,"h":362},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":131,"y":290,"w":300,"h":362},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00006.png",
+	"frame": {"x":309,"y":1166,"w":312,"h":348},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":105,"y":304,"w":312,"h":348},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00007.png",
+	"frame": {"x":809,"y":973,"w":305,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":323,"w":305,"h":329},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00008.png",
+	"frame": {"x":813,"y":1304,"w":304,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":323,"w":304,"h":329},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00009.png",
+	"frame": {"x":321,"y":1516,"w":304,"h":330},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":95,"y":322,"w":304,"h":330},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00010.png",
+	"frame": {"x":794,"y":641,"w":304,"h":330},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":91,"y":322,"w":304,"h":330},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00011.png",
+	"frame": {"x":813,"y":1635,"w":305,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":323,"w":305,"h":329},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00012.png",
+	"frame": {"x":1098,"y":309,"w":305,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":323,"w":305,"h":329},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00013.png",
+	"frame": {"x":1100,"y":640,"w":305,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":323,"w":305,"h":329},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00014.png",
+	"frame": {"x":1116,"y":971,"w":305,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":324,"w":305,"h":328},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00015.png",
+	"frame": {"x":1119,"y":1301,"w":305,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":324,"w":305,"h":328},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00016.png",
+	"frame": {"x":1120,"y":1631,"w":305,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":324,"w":305,"h":328},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00017.png",
+	"frame": {"x":1423,"y":968,"w":305,"h":327},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":325,"w":305,"h":327},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00018.png",
+	"frame": {"x":791,"y":309,"w":305,"h":330},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":322,"w":305,"h":330},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00019.png",
+	"frame": {"x":1405,"y":308,"w":305,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":324,"w":305,"h":328},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFish_00020.png",
+	"frame": {"x":1407,"y":638,"w":305,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":324,"w":305,"h":328},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00000.png",
+	"frame": {"x":1153,"y":1,"w":354,"h":305},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":487,"y":351,"w":354,"h":305},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00001.png",
+	"frame": {"x":1509,"y":1,"w":361,"h":278},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":473,"y":344,"w":361,"h":278},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00002.png",
+	"frame": {"x":760,"y":1,"w":391,"h":306},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":459,"y":299,"w":391,"h":306},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00003.png",
+	"frame": {"x":1,"y":1,"w":401,"h":424},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":445,"y":182,"w":401,"h":424},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00004.png",
+	"frame": {"x":1,"y":427,"w":301,"h":425},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":425,"y":133,"w":301,"h":425},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00005.png",
+	"frame": {"x":604,"y":366,"w":185,"h":362},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":406,"y":126,"w":185,"h":362},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00006.png",
+	"frame": {"x":1617,"y":1297,"w":154,"h":360},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":393,"y":124,"w":154,"h":360},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00007.png",
+	"frame": {"x":1801,"y":1342,"w":140,"h":368},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":383,"y":133,"w":140,"h":368},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00008.png",
+	"frame": {"x":1773,"y":981,"w":153,"h":359},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":379,"y":143,"w":153,"h":359},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00009.png",
+	"frame": {"x":1801,"y":633,"w":178,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":375,"y":157,"w":178,"h":346},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00010.png",
+	"frame": {"x":1427,"y":1621,"w":186,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":372,"y":167,"w":186,"h":336},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00011.png",
+	"frame": {"x":1426,"y":1297,"w":189,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":369,"y":180,"w":189,"h":322},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00012.png",
+	"frame": {"x":1615,"y":1659,"w":184,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":342},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00013.png",
+	"frame": {"x":1712,"y":281,"w":184,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":350},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00014.png",
+	"frame": {"x":608,"y":730,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00015.png",
+	"frame": {"x":623,"y":1084,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00016.png",
+	"frame": {"x":627,"y":1438,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00017.png",
+	"frame": {"x":627,"y":1438,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00018.png",
+	"frame": {"x":627,"y":1438,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00019.png",
+	"frame": {"x":627,"y":1438,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxGetFishRod_00020.png",
+	"frame": {"x":627,"y":1438,"w":184,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":368,"y":180,"w":184,"h":352},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxGetFish.png",
+	"format": "RGBA8888",
+	"size": {"w":1980,"h":2002},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4a93dcf2c7eb9bd933f6229b79de91f7:88cf97d81326afb5f4d9ac2defd17386:09e7c13860e1efd40cd05abb81f5ce14$"
+}
+}

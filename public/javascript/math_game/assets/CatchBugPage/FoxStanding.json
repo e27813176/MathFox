@@ -1,0 +1,252 @@
+{"frames": [
+
+{
+	"filename": "FoxStanding_00011.png",
+	"frame": {"x":361,"y":1,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00012.png",
+	"frame": {"x":360,"y":982,"w":355,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":796,"y":349,"w":355,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00013.png",
+	"frame": {"x":717,"y":982,"w":353,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":798,"y":349,"w":353,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00014.png",
+	"frame": {"x":716,"y":1636,"w":350,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":801,"y":349,"w":350,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00015.png",
+	"frame": {"x":1070,"y":1309,"w":348,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":803,"y":349,"w":348,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00016.png",
+	"frame": {"x":1422,"y":982,"w":345,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":806,"y":349,"w":345,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00017.png",
+	"frame": {"x":1435,"y":328,"w":342,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":809,"y":349,"w":342,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00018.png",
+	"frame": {"x":1437,"y":1,"w":340,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":811,"y":349,"w":340,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00019.png",
+	"frame": {"x":1420,"y":1636,"w":342,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":809,"y":349,"w":342,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00020.png",
+	"frame": {"x":1420,"y":1309,"w":344,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":807,"y":349,"w":344,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00021.png",
+	"frame": {"x":1431,"y":655,"w":346,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":805,"y":349,"w":346,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00022.png",
+	"frame": {"x":1072,"y":982,"w":348,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":803,"y":349,"w":348,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00023.png",
+	"frame": {"x":1068,"y":1636,"w":350,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":801,"y":349,"w":350,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00024.png",
+	"frame": {"x":716,"y":1309,"w":352,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":799,"y":349,"w":352,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00025.png",
+	"frame": {"x":1076,"y":655,"w":353,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":798,"y":349,"w":353,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00026.png",
+	"frame": {"x":719,"y":655,"w":355,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":796,"y":349,"w":355,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00027.png",
+	"frame": {"x":1078,"y":328,"w":355,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":796,"y":349,"w":355,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00028.png",
+	"frame": {"x":720,"y":328,"w":356,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":795,"y":349,"w":356,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00029.png",
+	"frame": {"x":1079,"y":1,"w":356,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":795,"y":349,"w":356,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00030.png",
+	"frame": {"x":359,"y":1309,"w":355,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":796,"y":349,"w":355,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00031.png",
+	"frame": {"x":359,"y":1636,"w":355,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":796,"y":349,"w":355,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00032.png",
+	"frame": {"x":1,"y":1309,"w":356,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":795,"y":349,"w":356,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00033.png",
+	"frame": {"x":1,"y":1636,"w":356,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":795,"y":349,"w":356,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00034.png",
+	"frame": {"x":1,"y":655,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00035.png",
+	"frame": {"x":361,"y":328,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00036.png",
+	"frame": {"x":720,"y":1,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00037.png",
+	"frame": {"x":1,"y":982,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00038.png",
+	"frame": {"x":1,"y":1,"w":358,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":793,"y":349,"w":358,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00039.png",
+	"frame": {"x":1,"y":328,"w":358,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":793,"y":349,"w":358,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "FoxStanding_00040.png",
+	"frame": {"x":360,"y":655,"w":357,"h":325},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":794,"y":349,"w":357,"h":325},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxStanding.png",
+	"format": "RGBA8888",
+	"size": {"w":1778,"h":1962},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a0debde57298defcf2f5cba4ebbd1fb1:cab813938043f3890437662150129e59:eb0be42321fc8778432bb2a4e5ebb348$"
+}
+}

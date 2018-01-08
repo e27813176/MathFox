@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "AnswerPanel.png",
+	"frame": {"x":347,"y":141,"w":83,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":83,"h":84},
+	"sourceSize": {"w":90,"h":90}
+},
+{
+	"filename": "LoggingPageExitText.png",
+	"frame": {"x":487,"y":1,"w":163,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":541,"w":163,"h":88},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "NeedSharpeningText.png",
+	"frame": {"x":432,"y":141,"w":168,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":604,"y":181,"w":168,"h":41},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "PanelGlowAdd.png",
+	"frame": {"x":347,"y":1,"w":138,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1299,"y":258,"w":138,"h":138},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "PanelGlowSum.png",
+	"frame": {"x":347,"y":1,"w":138,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1191,"y":150,"w":138,"h":138},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "QuestionPanel.png",
+	"frame": {"x":1,"y":1,"w":344,"h":241},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1082,"y":160,"w":344,"h":241},
+	"sourceSize": {"w":1600,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Panel.png",
+	"format": "RGBA8888",
+	"size": {"w":651,"h":243},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:74f86b341753e770b7b247ef40a2371c:02644bf5b432a1c357b5f0dd0eeaba61:484f28e93f06386cc2110410f9ccc8a0$"
+}
+}

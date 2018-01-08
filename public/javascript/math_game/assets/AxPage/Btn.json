@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "BackBtn.png",
+	"frame": {"x":1,"y":1,"w":98,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":102},
+	"sourceSize": {"w":98,"h":102}
+},
+{
+	"filename": "ExitAxPageBtnArea.jpg",
+	"frame": {"x":101,"y":1,"w":125,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":62},
+	"sourceSize": {"w":125,"h":62}
+},
+{
+	"filename": "ExitAxPageText.png",
+	"frame": {"x":1,"y":105,"w":142,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1417,"y":325,"w":142,"h":80},
+	"sourceSize": {"w":1600,"h":800}
+},
+{
+	"filename": "StartBtn.png",
+	"frame": {"x":145,"y":65,"w":97,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":102},
+	"sourceSize": {"w":97,"h":102}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Btn.png",
+	"format": "RGBA8888",
+	"size": {"w":243,"h":186},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:82a7d257f4ec3bbb13aed52cb34e12c4:a72811837710a84ccbd441565caa0a8d:b2d14bf1c250d3086e967c2cbc03ba03$"
+}
+}
