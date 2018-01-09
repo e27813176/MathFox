@@ -5,6 +5,8 @@ import { config } from '../GameConfig';
 import { ArrowSheet } from './images/ArrowSheet';
 import { AxBar } from './images/AxBar';
 import { JunyiIcon } from './images/JunyiIcon';
+import { TreeBloodBar } from './images/TreeBloodBar';
+import { LevelBtn } from './images/LevelBtn';
 
 export default class extends Phaser.State {
   init(page) {
@@ -67,7 +69,7 @@ export default class extends Phaser.State {
     let tutorialPath = path_prefix + 'assets/Tutorial/';
     this.load
       .image('LevelMapBG', require('../../assets/LevelMap/LevelMapBG.jpg'))
-      .atlas('LevelBtn', require('../../assets/LevelMap/LevelBtn.png'), path + 'LevelBtn.json')
+      .atlas('LevelBtn', LevelBtn, path + 'LevelBtn.json')
       .atlas('GetNewMedal', require('../../assets/LevelMap/GetNewMedal.png'), path + 'GetNewMedal.json')
       .image('MedalBG', require('../../assets/Medal/MedalBG.jpg'))
       .atlas('Medal', require('../../assets/Medal/Medal.png'), medalPath + 'Medal.json')
@@ -123,7 +125,7 @@ export default class extends Phaser.State {
       .atlas('FoxBounce001', imagePath + 'FoxBounce001.png', imagePath + 'FoxBounce001.json')
       .atlas('FoxBounce002', imagePath + 'FoxBounce002.png', imagePath + 'FoxBounce002.json')
       .atlas('FoxStanding', imagePath + 'FoxStanding.png', imagePath + 'FoxStanding.json')
-      .atlas('TreeBloodBar', imagePath + 'TreeBloodBar.png', imagePath + 'TreeBloodBar.json')
+      .atlas('TreeBloodBar', TreeBloodBar, imagePath + 'TreeBloodBar.json')
       .atlas('ScoreBoard', imagePath + 'ScoreBoard.png', imagePath + 'ScoreBoard.json')
       .atlas('ArrowSheet', ArrowSheet, arrowSheetpath + 'ArrowSheet.json')
       .audio('rightFX', audioPath + 'rightFX.mp3')
