@@ -38,7 +38,7 @@ class Game extends Phaser.Game {
     this.state.add('CatchBugPage', CatchBugPage, false);
     this.state.add('FishingPage', FishingPage, false);
     this.state.add('CookingPage', CookingPage, false);
-    let StartPage = 'HomePage';
+    let StartPage = 'LevelMap';
     this.state.start('GameBoot', true, false, StartPage);
   }
 }
