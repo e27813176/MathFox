@@ -53,9 +53,9 @@ export default class extends Phaser.State {
   }
   loadVillage(imagePath) {
     this.load
-      .atlas('FoxVendor', imagePath + 'FoxVendor.png', imagePath + 'FoxVendor.json')
-      .atlas('TaskBoardLight', imagePath + 'TaskBoardLight.png', imagePath + 'TaskBoardLight.json')      
-      .image('VillageBG', imagePath + 'BG.jpg');
+      .atlas('FoxVendor', require('../../assets/Village/FoxVendor.png'), imagePath + 'FoxVendor.json')
+      .atlas('TaskBoardLight', require('../../assets/Village/TaskBoardLight.png'), imagePath + 'TaskBoardLight.json')
+      .image('VillageBG', require('../../assets/Village/BG.jpg'));
   }
   loadLevelMap() {
     let path = path_prefix + 'assets/LevelMap/';
@@ -63,13 +63,13 @@ export default class extends Phaser.State {
     let audioPath = path_prefix + 'assets/audio/';
     let tutorialPath = path_prefix + 'assets/Tutorial/';
     this.load
-      .image('LevelMapBG', path + 'LevelMapBG.jpg')
-      .atlas('LevelBtn', path + 'LevelBtn.png', path + 'LevelBtn.json')
-      .atlas('GetNewMedal', path + 'GetNewMedal.png', path + 'GetNewMedal.json')
-      .image('MedalBG', medalPath + 'MedalBG.jpg')
-      .atlas('Medal', medalPath + 'Medal.png', medalPath + 'Medal.json')
-      .image('TutorialBG', tutorialPath + 'TutorialBG.jpg')
-      .atlas('Panel', tutorialPath + 'Panel.png', tutorialPath + 'Panel.json')
+      .image('LevelMapBG', require('../../assets/LevelMap/LevelMapBG.jpg'))
+      .atlas('LevelBtn', require('../../assets/LevelMap/LevelBtn.png'), path + 'LevelBtn.json')
+      .atlas('GetNewMedal', require('../../assets/LevelMap/GetNewMedal.png'), path + 'GetNewMedal.json')
+      .image('MedalBG', require('../../assets/Medal/MedalBG.jpg'))
+      .atlas('Medal', require('../../assets/Medal/Medal.png'), medalPath + 'Medal.json')
+      .image('TutorialBG', require('../../assets/Tutorial/TutorialBG.jpg'))
+      .atlas('Panel', require('../../assets/Tutorial/Panel.png'), tutorialPath + 'Panel.json')
       .audio('RightFX', audioPath + 'rightFX.mp3')
       .audio('WrongFX', audioPath + 'wrongFX.mp3')
       .audio('StartFX', audioPath + 'startFX.mp3')

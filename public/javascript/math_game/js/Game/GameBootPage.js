@@ -1,8 +1,7 @@
 import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
-import { config } from '../GameConfig';
-import { loadingBG, loadingbarURI, loadingbarFrameURI } from './ImageURI';
+import { loadingbarURI, loadingbarFrameURI } from './ImageURI';
 
 export default class extends Phaser.State {
   init(page) {
