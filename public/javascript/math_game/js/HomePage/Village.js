@@ -1,7 +1,6 @@
 import Phaser from 'phaser';
 import Fox from './HomeObject/fox';
 import ArrowKey from './HomeObject/ArrowKey';
-import TaskBoard from './HomeObject/taskBoard';
 import ArrowSheet from './HomeObject/arrow';
 import FoxVendor from './HomeObject/vendor';
 import { tweenShining } from '../Game/utils';
@@ -24,8 +23,12 @@ export default class extends Phaser.State {
     this.opening();
   }
   createBtn() {
-    this.taskBoard = new TaskBoard(this.game);
-    this.taskBoard.hover.events.onInputUp.add(this.openTask, this);
+    this.taskBoard = game.add.graphics();
+    this.taskBoard.beginFill(0x000000);
+    this.taskBoard.drawRect(1440, 470, 200, 130);
+    this.taskBoard.alpha = 0;
+    this.taskBoard.inputEnabled = true;
+    this.taskBoard.events.onInputUp.add(this.openTask, this);
   }
   createImage() {
     this.VillageBG = this.add.sprite(0, 0, 'VillageBG');
@@ -36,11 +39,6 @@ export default class extends Phaser.State {
     tweenShining(this, this.TaskBoardLight);
     this.TaskBoardLight.tween.resume();
     this.TaskBoardLight.alpha = 1;
-    // this.circleHint = this.add.graphics();
-    // this.circleHint.beginFill(0xffffff);
-    // this.circleHint.drawCircle(1535, 355, 50);
-    // this.circleHint.anchor.setTo(0.5);
-    // this.add.tween(this.circleHint).to({ alpha: '-0.8' }, 500, 'Quad.easeInOut', true, 0, false, false).loop(true);
   }
   controller() {
     this.Arrowkey = new ArrowKey(this.game, this.Fox);

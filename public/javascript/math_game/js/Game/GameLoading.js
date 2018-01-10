@@ -83,7 +83,7 @@ export default class extends Phaser.State {
   }
   loadHomePage(imagePath, audioPath) {
     this.load
-      .image('HomePageBG', imagePath + 'BG.jpg')
+      .image('HomePageBG', HomePageBG)
       .image('JunyiIconBtn', JunyiIcon)
       .atlas('Fox', Fox, imagePath + 'Fox.json')
       .audio('menu', GameMenuBG)
@@ -91,9 +91,10 @@ export default class extends Phaser.State {
   }
   loadVillage(imagePath) {
     this.load
-      .atlas('FoxVendor', FoxVendor, imagePath + 'FoxVendor.json')
       .atlas('TaskBoardLight', TaskBoardLight, imagePath + 'TaskBoardLight.json')
-      .image('VillageBG', imagePath + 'BG.jpg');
+      .atlas('FoxVendor', FoxVendor, imagePath + 'FoxVendor.json')
+      .atlas('ArrowSheet', ArrowSheet, imagePath + 'ArrowSheet.json')
+      .image('VillageBG', VillageBG);
   }
   loadLevelMap() {
     let path = path_prefix + 'assets/LevelMap/';
@@ -249,7 +250,7 @@ export default class extends Phaser.State {
       .audio('Success', audioPath + 'CookingSuccessFX.mp3')
   }
   create() {
-    console.log(this.page);          
+    console.log(this.page);
     this.state.start(this.page, true, false, 'loading');
   }
   shutdown() {
