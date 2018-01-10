@@ -44,7 +44,9 @@ import LoggingPageExitBtnArea from './images/LoggingPage/LoggingPageExitBtnArea'
 import LoggingPageFront from './images/LoggingPage/LoggingPageFront';
 import ScoreBoard from './images/LoggingPage/ScoreBoard';
 import LoggingPagePanel from './images/LoggingPage/Panel';
+
 import CatchBugPageBG from './images/CatchBugPage/CatchBugPageBG';
+import CatchBugPageBoard from './images/CatchBugPage/Board';
 
 export default class extends Phaser.State {
   init(page) {
@@ -188,7 +190,7 @@ export default class extends Phaser.State {
       .atlas('FoxHitting', path + 'FoxHitting.png', path + 'FoxHitting.json')
       .atlas('FoxStandUp', path + 'FoxStandUp.png', path + 'FoxStandUp.json')
       .atlas('FruitDrop', path + 'FruitDrop.png', path + 'FruitDrop.json')
-      .atlas('Board', path + 'Board.png', path + 'Board.json')
+      .atlas('Board', CatchBugPageBoard, path + 'Board.json')
       .atlas('TutorialText', path + 'TutorialText.png', path + 'TutorialText.json')
       .atlas('TaskBoard', path + 'TaskBoard.png', path + 'TaskBoard.json')
       .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
