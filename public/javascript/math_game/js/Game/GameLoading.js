@@ -4,9 +4,47 @@ import Phaser from 'phaser';
 import { config } from '../GameConfig';
 import { ArrowSheet } from './images/ArrowSheet';
 import { AxBar } from './images/AxBar';
-import { JunyiIcon } from './images/JunyiIcon';
+import { JunyiIcon } from './images/HomePage//JunyiIcon';
+import { Fox } from './images/HomePage//Fox';
+import HomePageBG from './images/HomePage/BG';
+import BtnOver from './audio/BtnOver';
+import GameMenuBG from './audio/game_menu_BG';
+import { FoxVendor } from './images/Village/FoxVendor';
+import { TaskBoardLight } from './images/Village/TaskBoardLight';
+import VillageBG from './images/Village/BG';
+
 import { TreeBloodBar } from './images/TreeBloodBar';
 import { LevelBtn } from './images/LevelBtn';
+import { AxPageBG } from './images/AxPage';
+import { LevelMapBG } from './images/LevelMapBG';
+import { GetNewMedal } from './images/GetNewMedal';
+import { Medal } from './images/Medal';
+import MedalBG from './images/MedalBG';
+import Panel from './images/Panel';
+import TutorialBG from './images/TutorialBG';
+import Fire from './images/Fire';
+import Board from './images/Board';
+import FoxWithAx from './images/FoxWithAx';
+import FoxWithAx001 from './images/FoxWithAx001';
+import FoxWithAx003 from './images/FoxWithAx003';
+import QuestionPanelFx from './images/QuestionPanelFx';
+import QuestionPanelRightFx from './images/QuestionPanelRightFx';
+import QuestionPanelWrongFx from './images/QuestionPanelWrongFx';
+import Btn from './images/Btn';
+import FoxBounce001 from './images/LoggingPage/FoxBounce001';
+import FoxBounce002 from './images/LoggingPage/FoxBounce002';
+import FoxLogging from './images/LoggingPage/FoxLogging';
+import FoxLogging001 from './images/LoggingPage/FoxLogging001';
+import FoxLogging002 from './images/LoggingPage/FoxLogging002';
+import FoxLogging003 from './images/LoggingPage/FoxLogging003';
+import FoxLoggingBtn from './images/LoggingPage/FoxLoggingBtn';
+import FoxStanding from './images/LoggingPage/FoxStanding';
+import LoggingPage from './images/LoggingPage/LoggingPage';
+import LoggingPageExitBtnArea from './images/LoggingPage/LoggingPageExitBtnArea';
+import LoggingPageFront from './images/LoggingPage/LoggingPageFront';
+import ScoreBoard from './images/LoggingPage/ScoreBoard';
+import LoggingPagePanel from './images/LoggingPage/Panel';
+import CatchBugPageBG from './images/CatchBugPage/CatchBugPageBG';
 
 export default class extends Phaser.State {
   init(page) {
@@ -45,22 +83,17 @@ export default class extends Phaser.State {
   }
   loadHomePage(imagePath, audioPath) {
     this.load
-      .image('HomePageBG', require('../../assets/HomePage/BG.jpg'))
-      .image('FrontBG', require('../../assets/HomePage/FrontBG.png'))
+      .image('HomePageBG', imagePath + 'BG.jpg')
       .image('JunyiIconBtn', JunyiIcon)
-      .image('BackPackIcon', require('../../assets/HomePage/BackPackIcon.png'))
-      .image('UserPanel', require('../../assets/HomePage/UserPanel.png'))
-      .atlas('ArrowSheet', ArrowSheet, imagePath + 'ArrowSheet.json')
-      .atlas('Fox', require('../../assets/HomePage/Fox.png'), imagePath + 'Fox.json')
-      .audio('menu', require('../../assets/audio/game_menu_BG.mp3'))
-      .audio('StartBtnDown', require('../../assets/audio/StartBtnDown.mp3'))
-      .audio('BtnOver', require('../../assets/audio/BtnOver.mp3'))
+      .atlas('Fox', Fox, imagePath + 'Fox.json')
+      .audio('menu', GameMenuBG)
+      .audio('BtnOver', BtnOver)
   }
   loadVillage(imagePath) {
     this.load
-      .atlas('FoxVendor', require('../../assets/Village/FoxVendor.png'), imagePath + 'FoxVendor.json')
-      .atlas('TaskBoardLight', require('../../assets/Village/TaskBoardLight.png'), imagePath + 'TaskBoardLight.json')
-      .image('VillageBG', require('../../assets/Village/BG.jpg'));
+      .atlas('FoxVendor', FoxVendor, imagePath + 'FoxVendor.json')
+      .atlas('TaskBoardLight', TaskBoardLight, imagePath + 'TaskBoardLight.json')
+      .image('VillageBG', imagePath + 'BG.jpg');
   }
   loadLevelMap() {
     let path = path_prefix + 'assets/LevelMap/';
@@ -68,13 +101,13 @@ export default class extends Phaser.State {
     let audioPath = path_prefix + 'assets/audio/';
     let tutorialPath = path_prefix + 'assets/Tutorial/';
     this.load
-      .image('LevelMapBG', require('../../assets/LevelMap/LevelMapBG.jpg'))
+      .image('LevelMapBG', LevelMapBG)
       .atlas('LevelBtn', LevelBtn, path + 'LevelBtn.json')
-      .atlas('GetNewMedal', require('../../assets/LevelMap/GetNewMedal.png'), path + 'GetNewMedal.json')
-      .image('MedalBG', require('../../assets/Medal/MedalBG.jpg'))
-      .atlas('Medal', require('../../assets/Medal/Medal.png'), medalPath + 'Medal.json')
-      .image('TutorialBG', require('../../assets/Tutorial/TutorialBG.jpg'))
-      .atlas('Panel', require('../../assets/Tutorial/Panel.png'), tutorialPath + 'Panel.json')
+      .atlas('GetNewMedal', GetNewMedal, path + 'GetNewMedal.json')
+      .image('MedalBG', MedalBG)
+      .atlas('Medal', Medal, medalPath + 'Medal.json')
+      .image('TutorialBG', TutorialBG)
+      .atlas('Panel', Panel, tutorialPath + 'Panel.json')
       .audio('RightFX', audioPath + 'rightFX.mp3')
       .audio('WrongFX', audioPath + 'wrongFX.mp3')
       .audio('StartFX', audioPath + 'startFX.mp3')
@@ -87,17 +120,17 @@ export default class extends Phaser.State {
     let audioPath = path_prefix + 'assets/audio/';
     this.loadAxBar();
     this.load
-      .image('AxPageBG', require('../../assets/AxPage/AxPage.jpg'))
-      .atlas('Panel', require('../../assets/AxPage/Panel.png'), imagePath + 'Panel.json')
-      .atlas('QuestionPanelWrongFx', require('../../assets/AxPage/QuestionPanelWrongFx.png'), imagePath + 'QuestionPanelWrongFx.json')
-      .atlas('QuestionPanelRightFx', require('../../assets/AxPage/QuestionPanelRightFx.png'), imagePath + 'QuestionPanelRightFx.json')
-      .atlas('Btn', require('../../assets/AxPage/Btn.png'), imagePath + 'Btn.json')
-      .atlas('FoxWithAx001', require('../../assets/AxPage/FoxWithAx001.png'), imagePath + 'FoxWithAx001.json')
-      .atlas('FoxSitting002', require('../../assets/AxPage/FoxSitting002.png'), imagePath + 'FoxSitting002.json')
-      .atlas('FoxWithAx', require('../../assets/AxPage/FoxWithAx.png'), imagePath + 'FoxWithAx.json')
-      .atlas('FoxWithAx003', require('../../assets/AxPage/FoxWithAx003.png'), imagePath + 'FoxWithAx003.json')
-      .atlas('Fire', require('../../assets/AxPage/Fire.png'), imagePath + 'Fire.json')
-      .atlas('Board', require('../../assets/AxPage/Board.png'), imagePath + 'Board.json')
+      .image('AxPageBG', AxPageBG)
+      .atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json')
+      .atlas('QuestionPanelWrongFx', QuestionPanelWrongFx, imagePath + 'QuestionPanelWrongFx.json')
+      .atlas('QuestionPanelRightFx', QuestionPanelRightFx, imagePath + 'QuestionPanelRightFx.json')
+      .atlas('Btn', Btn, imagePath + 'Btn.json')
+      .atlas('FoxWithAx001', FoxWithAx001, imagePath + 'FoxWithAx001.json')
+      .atlas('FoxSitting002', imagePath + 'FoxSitting002.png', imagePath + 'FoxSitting002.json')
+      .atlas('FoxWithAx', FoxWithAx, imagePath + 'FoxWithAx.json')
+      .atlas('FoxWithAx003', FoxWithAx003, imagePath + 'FoxWithAx003.json')
+      .atlas('Fire', Fire, imagePath + 'Fire.json')
+      .atlas('Board', Board, imagePath + 'Board.json')
       .atlas('ArrowSheet', ArrowSheet, imagePath + 'ArrowSheet.json')
       .audio('rightFX', audioPath + 'rightFX.mp3')
       .audio('AxFX', audioPath + 'AxFX.mp3')
@@ -112,20 +145,20 @@ export default class extends Phaser.State {
     let arrowSheetpath = path_prefix + 'assets/HomePage/';
     let audioPath = path_prefix + 'assets/audio/';
     this.load
-      .image('LoggingPageExitBtnArea', require('../../assets/LoggingPage/LoggingPageExitBtnArea.jpg'))
-      .image('LoggingPage', require('../../assets/LoggingPage/LoggingPage.jpg'))
-      .image('LoggingPageFront', require('../../assets/LoggingPage/LoggingPageFront.png'))
-      .image('FoxLoggingBtn', require('../../assets/LoggingPage/FoxLoggingBtn.jpg'))
-      .atlas('Panel', require('../../assets/LoggingPage/Panel.png'), imagePath + 'Panel.json')
-      .atlas('QuestionPanelFx', require('../../assets/LoggingPage/QuestionPanelFx.png'), imagePath + 'QuestionPanelFx.json')
-      .atlas('FoxLogging', require('../../assets/LoggingPage/FoxLogging.png'), imagePath + 'FoxLogging.json')
-      .atlas('FoxLogging001', require('../../assets/LoggingPage/FoxLogging001.png'), imagePath + 'FoxLogging001.json')
-      .atlas('FoxLogging002', require('../../assets/LoggingPage/FoxLogging002.png'), imagePath + 'FoxLogging002.json')
-      .atlas('FoxLogging003', require('../../assets/LoggingPage/FoxLogging003.png'), imagePath + 'FoxLogging003.json')
-      .atlas('FoxBounce001', require('../../assets/LoggingPage/FoxBounce001.png'), imagePath + 'FoxBounce001.json')
-      .atlas('FoxBounce002', require('../../assets/LoggingPage/FoxBounce002.png'), imagePath + 'FoxBounce002.json')
-      .atlas('FoxStanding', require('../../assets/LoggingPage/FoxStanding.png'), imagePath + 'FoxStanding.json')
-      .atlas('ScoreBoard', require('../../assets/LoggingPage/ScoreBoard.png'), imagePath + 'ScoreBoard.json')
+      .image('LoggingPageExitBtnArea', LoggingPageExitBtnArea)
+      .image('LoggingPage', LoggingPage)
+      .image('LoggingPageFront', LoggingPageFront)
+      .image('FoxLoggingBtn', FoxLoggingBtn)
+      .atlas('Panel', LoggingPagePanel, imagePath + 'Panel.json')
+      .atlas('QuestionPanelFx', QuestionPanelFx, imagePath + 'QuestionPanelFx.json')
+      .atlas('FoxLogging', FoxLogging, imagePath + 'FoxLogging.json')
+      .atlas('FoxLogging001', FoxLogging001, imagePath + 'FoxLogging001.json')
+      .atlas('FoxLogging002', FoxLogging002, imagePath + 'FoxLogging002.json')
+      .atlas('FoxLogging003', FoxLogging003, imagePath + 'FoxLogging003.json')
+      .atlas('FoxBounce001', FoxBounce001, imagePath + 'FoxBounce001.json')
+      .atlas('FoxBounce002', FoxBounce002, imagePath + 'FoxBounce002.json')
+      .atlas('FoxStanding', FoxStanding, imagePath + 'FoxStanding.json')
+      .atlas('ScoreBoard', ScoreBoard, imagePath + 'ScoreBoard.json')
       .atlas('TreeBloodBar', TreeBloodBar, imagePath + 'TreeBloodBar.json')
       .atlas('ArrowSheet', ArrowSheet, arrowSheetpath + 'ArrowSheet.json')
       .audio('rightFX', audioPath + 'rightFX.mp3')
@@ -145,7 +178,7 @@ export default class extends Phaser.State {
     let path = path_prefix + 'assets/CatchBugPage/';
     let audioPath = path_prefix + 'assets/audio/';
     this.load
-      .image('BG', require('../../assets/CatchBugPage/CatchBugPageBG.jpg'))
+      .image('BG', CatchBugPageBG)
       .atlas('FlyingBug', path + 'FlyingBug.png', path + 'FlyingBug.json')
       .atlas('FoxStanding', path + 'FoxStanding.png', path + 'FoxStanding.json')
       .atlas('FoxCatching', path + 'FoxCatching.png', path + 'FoxCatching.json')
@@ -216,6 +249,7 @@ export default class extends Phaser.State {
       .audio('Success', audioPath + 'CookingSuccessFX.mp3')
   }
   create() {
+    console.log(this.page);          
     this.state.start(this.page, true, false, 'loading');
   }
   shutdown() {

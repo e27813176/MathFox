@@ -47,19 +47,19 @@ module.exports = {
           }
         ]
       },
-      /*
+
       {
-        test: /.*\.(gif|png|jpe?g)$/i,
+        test: /.*\.(gif|png|jpe?g|mp3)$/i,
         use: [
           {
             loader: 'url-loader',
             options: {
-              limit: 100000
+              limit: 10000000
             }
           }
         ]
       },
-      */
+
       {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [

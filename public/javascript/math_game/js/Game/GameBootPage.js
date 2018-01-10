@@ -2,6 +2,7 @@ import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
 import { loadingbarURI, loadingbarFrameURI } from './images/LoadingBarURI';
+import LoadingPageBG from './images/LoadingPage/BG';
 
 export default class extends Phaser.State {
   init(page) {
@@ -10,7 +11,7 @@ export default class extends Phaser.State {
   }
   preload() {
     let path = path_prefix + 'assets/loadingpage/';
-    this.load.image('FoxLogo', require('../../assets/loadingpage/BG.jpg'));
+    this.load.image('FoxLogo', LoadingPageBG);
     this.load.image('LoadingBar', loadingbarURI);
     this.load.image('LoadingBarFrame', loadingbarFrameURI);
   }
