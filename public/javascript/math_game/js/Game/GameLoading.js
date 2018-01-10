@@ -47,6 +47,17 @@ import LoggingPagePanel from './images/LoggingPage/Panel';
 
 import CatchBugPageBG from './images/CatchBugPage/CatchBugPageBG';
 import CatchBugPageBoard from './images/CatchBugPage/Board';
+import FlyingBug from './images/CatchBugPage/FlyingBug';
+import FoxCatching from './images/CatchBugPage/FoxCatching';
+import FoxFalling from './images/CatchBugPage/FoxFalling';
+import FoxHitting from './images/CatchBugPage/FoxHitting';
+import FoxHitting001 from './images/CatchBugPage/FoxHitting001';
+import CatchBugFoxStanding from './images/CatchBugPage/CatchBugFoxStanding';
+import FoxStandUp from './images/CatchBugPage/FoxStandUp';
+import FruitDrop from './images/CatchBugPage/FruitDrop';
+import CatchBugPagePanel from './images/CatchBugPage/Panel';
+import TaskBoard from './images/CatchBugPage/TaskBoard';
+import TutorialText from './images/CatchBugPage/TutorialText';
 
 export default class extends Phaser.State {
   init(page) {
@@ -182,18 +193,18 @@ export default class extends Phaser.State {
     let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', CatchBugPageBG)
-      .atlas('FlyingBug', path + 'FlyingBug.png', path + 'FlyingBug.json')
-      .atlas('FoxStanding', path + 'FoxStanding.png', path + 'FoxStanding.json')
-      .atlas('FoxCatching', path + 'FoxCatching.png', path + 'FoxCatching.json')
-      .atlas('FoxFalling', path + 'FoxFalling.png', path + 'FoxFalling.json')
-      .atlas('FoxHitting001', path + 'FoxHitting001.png', path + 'FoxHitting001.json')
-      .atlas('FoxHitting', path + 'FoxHitting.png', path + 'FoxHitting.json')
-      .atlas('FoxStandUp', path + 'FoxStandUp.png', path + 'FoxStandUp.json')
-      .atlas('FruitDrop', path + 'FruitDrop.png', path + 'FruitDrop.json')
+      .atlas('FlyingBug', FlyingBug, path + 'FlyingBug.json')
+      .atlas('FoxStanding', CatchBugFoxStanding, path + 'FoxStanding.json')
+      .atlas('FoxCatching', FoxCatching, path + 'FoxCatching.json')
+      .atlas('FoxFalling', FoxFalling, path + 'FoxFalling.json')
+      .atlas('FoxHitting001', FoxHitting001, path + 'FoxHitting001.json')
+      .atlas('FoxHitting', FoxHitting, path + 'FoxHitting.json')
+      .atlas('FoxStandUp', FoxStandUp, path + 'FoxStandUp.json')
+      .atlas('FruitDrop', FruitDrop, path + 'FruitDrop.json')
       .atlas('Board', CatchBugPageBoard, path + 'Board.json')
-      .atlas('TutorialText', path + 'TutorialText.png', path + 'TutorialText.json')
-      .atlas('TaskBoard', path + 'TaskBoard.png', path + 'TaskBoard.json')
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
+      .atlas('TutorialText', TutorialText, path + 'TutorialText.json')
+      .atlas('TaskBoard', TaskBoard, path + 'TaskBoard.json')
+      .atlas('Panel', CatchBugPagePanel, path + 'Panel.json')
       .audio('GetMedal', audioPath + 'GetMedal.mp3')
       .audio('CatchBugPageBG', audioPath + 'CatchBugPageBG.mp3')
       .audio('CatchBugPagefail', audioPath + 'CatchBugPagefail.mp3')
