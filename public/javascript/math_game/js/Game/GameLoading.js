@@ -16,6 +16,7 @@ import VillageBG from './images/Village/BG';
 import { TreeBloodBar } from './images/TreeBloodBar';
 import { LevelBtn } from './images/LevelBtn';
 import { AxPageBG } from './images/AxPage';
+import AxPagePanel from './images/AxPage/Panel';
 import { LevelMapBG } from './images/LevelMapBG';
 import { GetNewMedal } from './images/GetNewMedal';
 import { Medal } from './images/Medal';
@@ -59,6 +60,32 @@ import CatchBugPagePanel from './images/CatchBugPage/Panel';
 import TaskBoard from './images/CatchBugPage/TaskBoard';
 import TutorialText from './images/CatchBugPage/TutorialText';
 
+import FishingPageBG from './images/FishingPage/BG';
+import EnergyTransfer from './images/FishingPage/EnergyTransfer';
+import FailBoard from './images/FishingPage/FailBoard';
+import Fish from './images/FishingPage/Fish';
+import Fish002 from './images/FishingPage/Fish002';
+import FishingFoxFalling from './images/FishingPage/FoxFalling';
+import FoxGetFish from './images/FishingPage/FoxGetFish';
+import FoxPulling from './images/FishingPage/FoxPulling';
+import FoxPullingRod from './images/FishingPage/FoxPullingRod';
+import FishingFoxSitting from './images/FishingPage/FoxSitting';
+import FoxSittingRod from './images/FishingPage/FoxSittingRod';
+import GetLightBlueFish from './images/FishingPage/get_light_blue_fish_atlas';
+import GetFishBoard from './images/FishingPage/GetFishBoard';
+import Mark from './images/FishingPage/mark';
+import FishingPanel from './images/FishingPage/Panel';
+import ScoreBarAtlas from './images/FishingPage/ScoreBarAtlas';
+
+import CookingPageBG from './images/CookingPage/cookingpage';
+import CookingFire from './images/CookingPage/fire';
+import CookingFish from './images/CookingPage/fish';
+import CookingFox from './images/CookingPage/fox';
+import CookingFox002 from './images/CookingPage/fox002';
+import CookingFox003 from './images/CookingPage/fox003';
+import CookingFox004 from './images/CookingPage/fox004';
+import CookingPanel from './images/CookingPage/panel';
+
 export default class extends Phaser.State {
   init(page) {
     this.page = page;
@@ -95,6 +122,7 @@ export default class extends Phaser.State {
     else if (this.page === 'CookingPage') this.loadCookingPage();
   }
   loadHomePage(imagePath, audioPath) {
+    console.log(require('../../assets/HomePage/Fox.json'));
     this.load
       .image('HomePageBG', HomePageBG)
       .image('JunyiIconBtn', JunyiIcon)
@@ -135,7 +163,7 @@ export default class extends Phaser.State {
     this.loadAxBar();
     this.load
       .image('AxPageBG', AxPageBG)
-      .atlas('Panel', imagePath + 'Panel.png', imagePath + 'Panel.json')
+      .atlas('Panel', AxPagePanel, imagePath + 'Panel.json')
       .atlas('QuestionPanelWrongFx', QuestionPanelWrongFx, imagePath + 'QuestionPanelWrongFx.json')
       .atlas('QuestionPanelRightFx', QuestionPanelRightFx, imagePath + 'QuestionPanelRightFx.json')
       .atlas('Btn', Btn, imagePath + 'Btn.json')
@@ -215,23 +243,22 @@ export default class extends Phaser.State {
     let path = path_prefix + 'assets/fishingpage/';
     let audioPath = path_prefix + 'assets/audio/';
     this.load
-      .atlas('get_stone_fish_atlas', path + 'get_stone_fish_atlas.png', path + 'get_stone_fish_atlas.json')
-      .atlas('get_light_blue_fish_atlas', path + 'get_light_blue_fish_atlas.png', path + 'get_light_blue_fish_atlas.json')
-      .atlas('FoxPulling', path + 'FoxPulling.png', path + 'FoxPulling.json')
-      .atlas('FoxPullingRod', path + 'FoxPullingRod.png', path + 'FoxPullingRod.json')
-      .atlas('FoxSitting', path + 'FoxSitting.png', path + 'FoxSitting.json')
-      .atlas('FoxSittingRod', path + 'FoxSittingRod.png', path + 'FoxSittingRod.json')
-      .atlas('FoxGetFish', path + 'FoxGetFish.png', path + 'FoxGetFish.json')
-      .atlas('FoxFalling', path + 'FoxFalling.png', path + 'FoxFalling.json')
-      .atlas('Fish', path + 'Fish.png', path + 'Fish.json')
-      .atlas('Fish002', path + 'Fish002.png', path + 'Fish002.json')
-      .atlas('EnergyTransfer', path + 'EnergyTransfer.png', path + 'EnergyTransfer.json')
-      .atlas('GetFishBoard', path + 'GetFishBoard.png', path + 'GetFishBoard.json')
-      .atlas('FailBoard', path + 'FailBoard.png', path + 'FailBoard.json')
-      .atlas('Panel', path + 'Panel.png', path + 'Panel.json')
-      .atlas('ScoreBarAtlas', path + 'ScoreBarAtlas.png', path + 'ScoreBarAtlas.json')
-      .image('BG', path + 'BG.jpg')
-      .image('mark_tutorial', path + 'mark.png')
+      .atlas('get_light_blue_fish_atlas', GetLightBlueFish, path + 'get_light_blue_fish_atlas.json')
+      .atlas('FoxPulling', FoxPulling, path + 'FoxPulling.json')
+      .atlas('FoxPullingRod', FoxPullingRod, path + 'FoxPullingRod.json')
+      .atlas('FoxSitting', FishingFoxSitting, path + 'FoxSitting.json')
+      .atlas('FoxSittingRod', FoxSittingRod, path + 'FoxSittingRod.json')
+      .atlas('FoxGetFish', FoxGetFish, path + 'FoxGetFish.json')
+      .atlas('FoxFalling', FoxFalling, path + 'FoxFalling.json')
+      .atlas('Fish', Fish, path + 'Fish.json')
+      .atlas('Fish002', Fish002, path + 'Fish002.json')
+      .atlas('EnergyTransfer', EnergyTransfer, path + 'EnergyTransfer.json')
+      .atlas('GetFishBoard', GetFishBoard, path + 'GetFishBoard.json')
+      .atlas('FailBoard', FailBoard, path + 'FailBoard.json')
+      .atlas('Panel', FishingPanel, path + 'Panel.json')
+      .atlas('ScoreBarAtlas', ScoreBarAtlas, path + 'ScoreBarAtlas.json')
+      .image('BG', FishingPageBG)
+      .image('mark_tutorial', Mark)
       .audio('fishing', audioPath + 'fishing.mp3')
       .audio('rightFX', audioPath + 'rightFX.mp3')
       .audio('wrongFX', audioPath + 'wrongFX.mp3')
@@ -247,15 +274,15 @@ export default class extends Phaser.State {
     let path = path_prefix + 'assets/CookingPage/';
     let audioPath = path_prefix + 'assets/audio/';
     this.load
-      .image('BG', path + 'cookingpage.jpg')
-      .atlas('panel', path + 'panel.png', path + 'panel.json')
-      .atlas('fire', path + 'fire.png', path + 'fire.json')
-      .atlas('fish', path + 'fish.png', path + 'fish.json')
-      .atlas('fox001', path + 'fox.png', path + 'fox.json')
-      .atlas('fox002', path + 'fox002.png', path + 'fox002.json')
-      .atlas('fox003', path + 'fox003.png', path + 'fox003.json')
-      .atlas('fox004', path + 'fox004.png', path + 'fox004.json')
-      .atlas('ArrowSheet', path + 'ArrowSheet.png', path + 'ArrowSheet.json')
+      .image('BG', CookingPageBG)
+      .atlas('ArrowSheet', ArrowSheet, path + 'ArrowSheet.json')
+      .atlas('panel', CookingPanel, path + 'panel.json')
+      .atlas('fire', CookingFire, path + 'fire.json')
+      .atlas('fish', CookingFish, path + 'fish.json')
+      .atlas('fox001', CookingFox, path + 'fox.json')
+      .atlas('fox002', CookingFox002, path + 'fox002.json')
+      .atlas('fox003', CookingFox003, path + 'fox003.json')
+      .atlas('fox004', CookingFox004, path + 'fox004.json')
       .audio('CookingBG', audioPath + 'CookingBG.mp3')
       .audio('Fail', audioPath + 'failureFX.mp3')
       .audio('Throw', audioPath + 'CatchBugPagefall.mp3')
@@ -263,7 +290,6 @@ export default class extends Phaser.State {
       .audio('Success', audioPath + 'CookingSuccessFX.mp3')
   }
   create() {
-    console.log(this.page);
     this.state.start(this.page, true, false, 'loading');
   }
   shutdown() {

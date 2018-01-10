@@ -31,7 +31,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '/images/[name]_[hash:7].[ext]',
+              name: '/images/[name].js',
             }
           }
         ]
@@ -47,7 +47,14 @@ module.exports = {
           }
         ]
       },
-
+      {
+        test: /\.json$/,
+        use: [
+          {
+            loader: 'json-loader',
+          }
+        ]
+      },
       {
         test: /.*\.(gif|png|jpe?g|mp3)$/i,
         use: [
