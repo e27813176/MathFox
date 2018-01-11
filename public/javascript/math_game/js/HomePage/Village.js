@@ -14,12 +14,16 @@ export default class extends Phaser.State {
     this.foxPos = Pos[0].Pos;
   }
   create() {
+    this.createAudio();
     this.createImage();
     this.createBtn();
     this.controller();
     this.world.setBounds(0, 0, config.width * 2, config.height);
     this.camera.follow(this.Fox.image);
     this.camera.deadzone = new Phaser.Rectangle(0, 100, 0, 750);
+    if (this.page === 'loading') {
+      this.Audio.menu.loopFull(1);
+    }
     this.opening();
   }
   createBtn() {
@@ -39,6 +43,12 @@ export default class extends Phaser.State {
     tweenShining(this, this.TaskBoardLight);
     this.TaskBoardLight.tween.resume();
     this.TaskBoardLight.alpha = 1;
+  }
+  createAudio() {
+    this.Audio = {
+      menu: this.add.audio('menu'),
+      btnOver: this.add.audio('BtnOver')
+    }
   }
   controller() {
     this.Arrowkey = new ArrowKey(this.game, this.Fox);

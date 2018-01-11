@@ -4,7 +4,6 @@ const merge = require('webpack-merge');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const common = require('./webpack.common.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 
 module.exports = merge(common, {
 	watch: true,
@@ -30,16 +29,6 @@ module.exports = merge(common, {
 			title: 'FoxieFox',
 			filename: 'index.html'
 		}),
-		/*
-		new HtmlWebpackExternalsPlugin({
-			externals: [
-				{
-					module: 'mocks',
-					entry: 'http://localhost:5555/mocks.js',
-				}
-			]
-		})
-		*/
 	],
 	devtool: 'cheap-module-source-map',
 	devServer: {

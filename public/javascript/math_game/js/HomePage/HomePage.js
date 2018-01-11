@@ -16,11 +16,7 @@ export default class extends Phaser.State {
   }
   create() {
     this.createImage();
-    this.createAudio();
     this.world.setBounds(0, 0, config.width * 2, config.height);
-    if (this.fromPage === 'loading') {
-      this.Audio.menu.loopFull(1);
-    }
     this.controller();
     this.createBtn();
     setBtnEnable(this.JunyiIconBtn, true);
@@ -48,12 +44,6 @@ export default class extends Phaser.State {
     this.LeftKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
     this.RightKey.onUp.add(this.Arrowkey.stop, this.Arrowkey);
     this.input.enabled = true;
-  }
-  createAudio() {
-    this.Audio = {
-      menu: this.add.audio('menu'),
-      btnOver: this.add.audio('BtnOver')
-    }
   }
   opening() {
     this.BG = this.add.graphics();
