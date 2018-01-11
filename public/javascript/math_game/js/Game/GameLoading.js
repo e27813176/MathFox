@@ -210,26 +210,25 @@ export default class extends Phaser.State {
     this.loadAxBar();
   }
   loadAxBar() {
-    let imagePath = path_prefix + 'assets/AxPage/';
-    this.load.atlas('AxBar', AxBar, imagePath + 'AxBar.json')
+    this.load.atlas('AxBar', AxBar, '', require('../../assets/AxPage/AxBar.json'))
   }
   loadCatchBugPage() {
     let path = path_prefix + 'assets/CatchBugPage/';
     let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', CatchBugPageBG)
-      .atlas('FlyingBug', FlyingBug, path + 'FlyingBug.json')
-      .atlas('FoxStanding', CatchBugFoxStanding, path + 'FoxStanding.json')
-      .atlas('FoxCatching', FoxCatching, path + 'FoxCatching.json')
-      .atlas('FoxFalling', FoxFalling, path + 'FoxFalling.json')
-      .atlas('FoxHitting001', FoxHitting001, path + 'FoxHitting001.json')
-      .atlas('FoxHitting', FoxHitting, path + 'FoxHitting.json')
-      .atlas('FoxStandUp', FoxStandUp, path + 'FoxStandUp.json')
-      .atlas('FruitDrop', FruitDrop, path + 'FruitDrop.json')
-      .atlas('Board', CatchBugPageBoard, path + 'Board.json')
-      .atlas('TutorialText', TutorialText, path + 'TutorialText.json')
-      .atlas('TaskBoard', TaskBoard, path + 'TaskBoard.json')
-      .atlas('Panel', CatchBugPagePanel, path + 'Panel.json')
+      .atlasJSONArray('FlyingBug', FlyingBug, '', require('../../assets/CatchBugPage/FlyingBug.json'))
+      .atlasJSONArray('FoxStanding', CatchBugFoxStanding, '', require('../../assets/CatchBugPage/FoxStanding.json'))
+      .atlasJSONArray('FoxCatching', FoxCatching, '', require('../../assets/CatchBugPage/FoxCatching.json'))
+      .atlasJSONArray('FoxFalling', FoxFalling, '', require('../../assets/CatchBugPage/FoxFalling.json'))
+      .atlasJSONArray('FoxHitting001', FoxHitting001, '', require('../../assets/CatchBugPage/FoxHitting001.json'))
+      .atlasJSONArray('FoxHitting', FoxHitting, '', require('../../assets/CatchBugPage/FoxHitting.json'))
+      .atlasJSONArray('FoxStandUp', FoxStandUp, '', require('../../assets/CatchBugPage/FoxStandUp.json'))
+      .atlasJSONArray('FruitDrop', FruitDrop, '', require('../../assets/CatchBugPage/FruitDrop.json'))
+      .atlasJSONArray('Board', CatchBugPageBoard, '', require('../../assets/CatchBugPage/Board.json'))
+      .atlasJSONArray('TutorialText', TutorialText, '', require('../../assets/CatchBugPage/TutorialText.json'))
+      .atlasJSONArray('TaskBoard', TaskBoard, '', require('../../assets/CatchBugPage/TaskBoard.json'))
+      .atlasJSONArray('Panel', CatchBugPagePanel, '', require('../../assets/CatchBugPage/Panel.json'))
       .audio('GetMedal', audioPath + 'GetMedal.mp3')
       .audio('CatchBugPageBG', audioPath + 'CatchBugPageBG.mp3')
       .audio('CatchBugPagefail', audioPath + 'CatchBugPagefail.mp3')
