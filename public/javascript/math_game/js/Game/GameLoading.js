@@ -251,11 +251,11 @@ export default class extends Phaser.State {
       .atlasJSONArray('TutorialText', '/assets/CatchBugPage/TutorialText.png', '/assets/CatchBugPage/TutorialText.json')
       .atlasJSONArray('TaskBoard', '/assets/CatchBugPage/TaskBoard.png', '/assets/CatchBugPage/TaskBoard.json')
       .atlasJSONArray('Panel', '/assets/CatchBugPage/Panel.png', '/assets/CatchBugPage/Panel.json')
-      .audio('GetMedal', audioPath + 'GetMedal.mp3')
-      .audio('CatchBugPageBG', audioPath + 'CatchBugPageBG.mp3')
-      .audio('CatchBugPagefail', audioPath + 'CatchBugPagefail.mp3')
-      .audio('CatchBugPagefall', audioPath + 'CatchBugPagefall.mp3')
-      .audio('AddEnergyFX', audioPath + 'add_energyFX.mp3')
+      .audio('GetMedal', GetMedal)
+      .audio('CatchBugPageBG', CatchBugPageBGMusic)
+      .audio('CatchBugPagefail', CatchBugPagefail)
+      .audio('CatchBugPagefall', CatchBugPagefall)
+      .audio('AddEnergyFX', AddEnergyFX)
   }
   loadFishingPage() {
     let path = path_prefix + 'assets/fishingpage/';
