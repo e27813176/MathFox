@@ -26,9 +26,11 @@ module.exports = merge(common, {
 			__DEV__: JSON.stringify(JSON.parse(process.env.BUILD_DEV || 'true'))
 		}),
 		new HtmlWebpackPlugin({
+			template: './public/index.html',
 			title: 'FoxieFox',
 			filename: 'index.html'
 		}),
+		/*
 		new HtmlWebpackExternalsPlugin({
 			externals: [
 				{
@@ -37,6 +39,7 @@ module.exports = merge(common, {
 				}
 			]
 		})
+		*/
 	],
 	devtool: 'cheap-module-source-map',
 	devServer: {
