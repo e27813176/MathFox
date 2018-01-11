@@ -3,7 +3,6 @@ import $ from 'jquery';
 import { setBtnEnable, delay } from '../Game/utils'
 import { config } from '../GameConfig';
 import globalUser from 'globalUser';
-import path_prefix from 'path_prefix';
 import SendData from './images/SendData';
 
 export default class extends Phaser.State {

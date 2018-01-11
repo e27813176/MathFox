@@ -27,7 +27,7 @@ export default class extends Phaser.State {
     this.combo = 0;
   }
   shutdown() {
-    SendGA('FishingPage', { 'stage': 'end' });    
+    SendGA('FishingPage', { 'stage': 'end' });
   }
   create() {
     StageState.FishingPageCount++;
@@ -84,7 +84,7 @@ export default class extends Phaser.State {
   }
   start() {
     SendGA('FishingPage', { 'stage': 'start' });
-    this.mark.scale.setTo(0, 0);    
+    this.mark.scale.setTo(0, 0);
     this.answerCount = 0;
     this.correctCount = 0;
     this.combo = 0;

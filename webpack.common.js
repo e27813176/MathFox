@@ -28,10 +28,6 @@ module.exports = {
     new HtmlWebpackExternalsPlugin({
       externals: [
         {
-          module: 'mocks',
-          entry: 'http://10.0.3.82:5555/mocks.js',
-        },
-        {
           module: 'jquery',
           entry: 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
           global: 'jQuery',

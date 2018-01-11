@@ -10,7 +10,6 @@ export default class extends Phaser.State {
     this.page = page;
   }
   preload() {
-    let path = path_prefix + 'assets/loadingpage/';
     this.load.image('FoxLogo', LoadingPageBG);
     this.load.image('LoadingBar', loadingbarURI);
     this.load.image('LoadingBarFrame', loadingbarFrameURI);

@@ -5,7 +5,6 @@ export const SendGA = (stage, date) => {
   Analytics.send_ga_event('game', stage, jsonData);
 }
 
-
 // ====================================================
 Analytics.send_ga_event = () => { console.log('hello') };
 // ====================================================

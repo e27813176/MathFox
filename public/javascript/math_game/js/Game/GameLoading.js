@@ -132,16 +132,10 @@ export default class extends Phaser.State {
     this.LoadingBarFrame.alpha = 1;
     this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
-    let path = path_prefix + 'assets/';
-
-    let audioPath = path + 'audio/';
-    let imagePath = path + this.page + '/';
-
     if (this.page === 'HomePage') {
       this.loadHomePage();
       this.loadVillage();
-    }
-    else if (this.page === 'LevelMap') this.loadLevelMap();
+    } else if (this.page === 'LevelMap') this.loadLevelMap();
     else if (this.page === 'AxPage') this.loadAxPage();
     else if (this.page === 'LoggingPage') this.loadLoggingPage();
     else if (this.page === 'CatchBugPage') this.loadCatchBugPage();
@@ -156,7 +150,7 @@ export default class extends Phaser.State {
       .audio('menu', GameMenuBG)
       .audio('BtnOver', BtnOver)
   }
-  loadVillage(imagePath) {
+  loadVillage() {
     this.load
       .atlasJSONArray('TaskBoardLight', TaskBoardLight, '', require('../../assets/Village/TaskBoardLight.json'))
       .atlasJSONArray('FoxVendor', FoxVendor, '', require('../../assets/Village/FoxVendor.json'))
@@ -202,10 +196,6 @@ export default class extends Phaser.State {
       .audio('wrongFX', WrongFX)
   }
   loadLoggingPage() {
-    let imagePath = path_prefix + 'assets/LoggingPage/';
-    let axBarPath = path_prefix + 'assets/AxPage/';
-    let arrowSheetpath = path_prefix + 'assets/HomePage/';
-    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('LoggingPageExitBtnArea', LoggingPageExitBtnArea)
       .image('LoggingPage', LoggingPage)
@@ -236,7 +226,6 @@ export default class extends Phaser.State {
     this.load.atlas('AxBar', AxBar, '', require('../../assets/AxPage/AxBar.json'))
   }
   loadCatchBugPage() {
-    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', CatchBugPageBG)
       .atlasJSONArray('FlyingBug', FlyingBug, '', require('../../assets/CatchBugPage/FlyingBug.json'))
@@ -244,10 +233,10 @@ export default class extends Phaser.State {
       .atlasJSONArray('FoxCatching', FoxCatching, '', require('../../assets/CatchBugPage/FoxCatching.json'))
       .atlasJSONArray('FoxFalling', FoxFalling, '', require('../../assets/CatchBugPage/FoxFalling.json'))
       .atlasJSONArray('FoxHitting001', FoxHitting001, '', require('../../assets/CatchBugPage/FoxHitting001.json'))
-      .atlasJSONArray('FoxHitting', FoxLogging, '', require('../../assets/CatchBugPage/FoxHitting.json'))
+      .atlasJSONArray('FoxHitting', FoxHitting, '', require('../../assets/CatchBugPage/FoxHitting.json'))
       .atlasJSONArray('FoxStandUp', FoxStandUp, '', require('../../assets/CatchBugPage/FoxStandUp.json'))
       .atlasJSONArray('FruitDrop', FruitDrop, '', require('../../assets/CatchBugPage/FruitDrop.json'))
-      .atlasJSONArray('Board', CatchBugPagePanel, '', require('../../assets/CatchBugPage/Board.json'))
+      .atlasJSONArray('Board', CatchBugPageBoard, '', require('../../assets/CatchBugPage/Board.json'))
       .atlasJSONArray('TutorialText', TutorialText, '', require('../../assets/CatchBugPage/TutorialText.json'))
       .atlasJSONArray('TaskBoard', TaskBoard, '', require('../../assets/CatchBugPage/TaskBoard.json'))
       .atlasJSONArray('Panel', CatchBugPagePanel, '', require('../../assets/CatchBugPage/Panel.json'))
@@ -258,8 +247,6 @@ export default class extends Phaser.State {
       .audio('AddEnergyFX', AddEnergyFX)
   }
   loadFishingPage() {
-    let path = path_prefix + 'assets/fishingpage/';
-    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .atlasJSONArray('get_light_blue_fish_atlas', GetLightBlueFish, '', require('../../assets/fishingpage/get_light_blue_fish_atlas.json'))
       .atlasJSONArray('FoxPulling', FoxPulling, '', require('../../assets/fishingpage/FoxPulling.json'))
@@ -267,7 +254,7 @@ export default class extends Phaser.State {
       .atlasJSONArray('FoxSitting', FishingFoxSitting, '', require('../../assets/fishingpage/FoxSitting.json'))
       .atlasJSONArray('FoxSittingRod', FoxSittingRod, '', require('../../assets/fishingpage/FoxSittingRod.json'))
       .atlasJSONArray('FoxGetFish', FoxGetFish, '', require('../../assets/fishingpage/FoxGetFish.json'))
-      .atlasJSONArray('FoxFalling', FoxFalling, '', require('../../assets/fishingpage/FoxFalling.json'))
+      .atlasJSONArray('FoxFalling', FishingFoxFalling, '', require('../../assets/fishingpage/FoxFalling.json'))
       .atlasJSONArray('Fish', Fish, '', require('../../assets/fishingpage/Fish.json'))
       .atlasJSONArray('Fish002', Fish002, '', require('../../assets/fishingpage/Fish002.json'))
       .atlasJSONArray('EnergyTransfer', EnergyTransfer, '', require('../../assets/fishingpage/EnergyTransfer.json'))
@@ -289,8 +276,6 @@ export default class extends Phaser.State {
       .audio('add_energyFX', AddEnergyFX);
   }
   loadCookingPage() {
-    let path = path_prefix + 'assets/CookingPage/';
-    let audioPath = path_prefix + 'assets/audio/';
     this.load
       .image('BG', CookingPageBG)
       .atlas('ArrowSheet', ArrowSheet, '', require('../../assets/CookingPage/ArrowSheet.json'))

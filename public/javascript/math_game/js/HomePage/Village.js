@@ -23,7 +23,7 @@ export default class extends Phaser.State {
     this.opening();
   }
   createBtn() {
-    this.taskBoard = game.add.graphics();
+    this.taskBoard = this.add.graphics();
     this.taskBoard.beginFill(0x000000);
     this.taskBoard.drawRect(1440, 470, 200, 130);
     this.taskBoard.alpha = 0;
