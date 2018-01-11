@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "FoxVendor_00000.png",
+	"frame": {"x":1,"y":1,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00001.png",
+	"frame": {"x":1,"y":96,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00002.png",
+	"frame": {"x":1,"y":191,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00003.png",
+	"frame": {"x":1,"y":286,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00004.png",
+	"frame": {"x":1,"y":381,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00005.png",
+	"frame": {"x":1,"y":476,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00006.png",
+	"frame": {"x":1,"y":571,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00007.png",
+	"frame": {"x":1,"y":666,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00008.png",
+	"frame": {"x":1,"y":761,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00009.png",
+	"frame": {"x":1,"y":856,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+},
+{
+	"filename": "FoxVendor_00010.png",
+	"frame": {"x":1,"y":1,"w":102,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1081,"y":501,"w":102,"h":93},
+	"sourceSize": {"w":3200,"h":800}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "FoxVendor.png",
+	"format": "RGBA8888",
+	"size": {"w":104,"h":950},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:023efad7ff92983eae5804ef158de83e:6e2110e536ffe4106035c875b341a325:6dea54688ac28fedec38664bb0befe4b$"
+}
+}

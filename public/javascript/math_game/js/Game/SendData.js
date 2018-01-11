@@ -4,14 +4,15 @@ import { setBtnEnable, delay } from '../Game/utils'
 import { config } from '../GameConfig';
 import globalUser from 'globalUser';
 import path_prefix from 'path_prefix';
+import SendData from './images/SendData';
+
 export default class extends Phaser.State {
   init(stage) {
     this.StageList = stage;
     console.log(this.StageList);
   }
   preload() {
-    let path = path_prefix + 'assets/SendData/';
-    this.load.atlas('SendData', path + 'SendData.png', path + 'SendData.json');
+    this.load.atlasJSONArray('SendData', SendData, '', require('../../assets/SendData/SendData.json'));
   }
   create() {
     this.SendText = this.add.sprite(0, 0, 'SendData', 'Sending.png');
@@ -74,7 +75,7 @@ const SendStageState = (stageList, callback1, callback2, callback3) => {
       type: 'POST',
       url: '/api/v1/game/stage_complete',
       contentType: 'application/json; charset=utf-8',
-      data: JSON.stringify({game_id: 'mathfox', new_stage: stageList[stageList.length - 1]}),
+      data: JSON.stringify({ game_id: 'mathfox', new_stage: stageList[stageList.length - 1] }),
       success: callback1,
       error: callback2
     });

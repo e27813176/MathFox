@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 
 // Phaser webpack config
 const phaserModule = path.join(__dirname, '/node_modules/phaser-ce/')
@@ -16,7 +17,21 @@ module.exports = {
     vendor: ['pixi', 'p2', 'phaser']
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor'/* chunkName= */, filename: '[hash].vendor.bundle.js'/* filename= */ })
+    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor'/* chunkName= */, filename: '[hash].vendor.bundle.js'/* filename= */ }),
+    new HtmlWebpackExternalsPlugin({
+      externals: [
+        {
+          module: 'jquery',
+          entry: 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
+          global: 'jQuery',
+        },
+        {
+          module: 'mocks',
+          entry: '/dist/mocks.js',
+          global: 'mocks',
+        },
+      ]
+    })
   ],
   module: {
     rules: [
@@ -42,7 +57,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '/audio/[name].[ext]',
+              name: '/audio/[name].js',
             }
           }
         ]
