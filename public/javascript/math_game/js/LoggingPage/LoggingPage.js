@@ -130,10 +130,9 @@ export default class extends Phaser.State {
       StageState.CheckNewMedal = true;
     }
     this.Fox.Standing();
-    setBtnEnable(this.Fox.foxStartBtn, true);
+    setBtnEnable(this.Fox.foxStartBtn, false);
     setBtnEnable(this.Fox.foxStopBtn, false);
     this.Panel.AnswerPanel.forEach(Btn => setBtnEnable(Btn, false));
-
     this.Panel.setAlpha(0);
     this.AxBar.Clean(this);
     this.TreeBar.Clean();
@@ -144,8 +143,11 @@ export default class extends Phaser.State {
     this.WoodDex.getWood();
   }
   continue() {
+    this.ArrowSheet.animations.play('ArrowSheetDynamic', 15, true);
+    this.ArrowSheet.alpha = 1;
     this.Board.setBtnEnable(false);
     this.Board.Hide(this);
+    setBtnEnable(this.Fox.foxStartBtn, true);
     this.WoodDex.Hide();
   }
   checkAnswer(AnswerPanel) {
