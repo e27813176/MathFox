@@ -34,8 +34,8 @@ export default class extends Phaser.State {
     this.VillageBG = this.add.sprite(0, 0, 'VillageBG');
     this.ArrowSheet = new ArrowSheet(this, 735, -40);
     this.FoxVendor = new FoxVendor(this);
-    this.Fox = new Fox(this.game, this.foxPos[0], this.foxPos[1]);
     this.TaskBoardLight = this.add.sprite(0, 0, 'TaskBoardLight', 'TaskBoardLight.png');
+    this.Fox = new Fox(this.game, this.foxPos[0], this.foxPos[1]);
     tweenShining(this, this.TaskBoardLight);
     this.TaskBoardLight.tween.resume();
     this.TaskBoardLight.alpha = 1;
@@ -82,6 +82,7 @@ export default class extends Phaser.State {
 const imageParam = {
   ver1600: {
     fox: [
+      { 'Pos': [-100, 70], 'page': 'loading' },
       { 'Pos': [-500, 70], 'page': 'HomePage' },
       { 'Pos': [1000, 70], 'page': 'LevelMap' }
     ]

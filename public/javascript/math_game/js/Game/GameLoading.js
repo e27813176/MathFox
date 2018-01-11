@@ -132,7 +132,7 @@ export default class extends Phaser.State {
     this.LoadingBarFrame.alpha = 1;
     this.LoadingBarFrame.anchor.setTo(0.5, 0.5);
 
-    if (this.page === 'HomePage') {
+    if (this.page === 'Village') {
       this.loadHomePage();
       this.loadVillage();
     } else if (this.page === 'LevelMap') this.loadLevelMap();

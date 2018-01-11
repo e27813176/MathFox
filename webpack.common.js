@@ -39,7 +39,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: ['babel-loader', 'eslint-loader'],
+        use: ['babel-loader?compact=false', 'eslint-loader'],
         include: path.join(__dirname, 'public')
       },
       {
