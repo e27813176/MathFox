@@ -18,7 +18,7 @@ import FishingPage from './FishingPage/FishingPage';
 import CookingPage from './CookingPage/CookingPage';
 import getPassedStageIDList from 'getPassedStageIDList';
 import { Ax } from './User/tool';
-
+import '../main.css';
 class Game extends Phaser.Game {
   constructor(StageList) {
     const width = config.width;

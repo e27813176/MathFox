@@ -1,6 +1,8 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
+const WebpackCleanPlugin = require('webpack-clean-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 // Phaser webpack config
 const phaserModule = path.join(__dirname, '/node_modules/phaser-ce/')
@@ -12,24 +14,28 @@ module.exports = {
   entry: {
     app: [
       'babel-polyfill',
-      path.resolve(__dirname, 'public/javascript/math_game/js/main.js')
+      path.resolve(__dirname, 'public/javascript/math_game/js/main.js'),
     ],
-    vendor: ['pixi', 'p2', 'phaser']
+    vendor: ['pixi', 'p2', 'phaser'],
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({ name: 'vendor'/* chunkName= */, filename: '[hash].vendor.bundle.js'/* filename= */ }),
+    new WebpackCleanPlugin({
+      on: "emit",
+      path: ['./dist']
+    }),
+    new ExtractTextPlugin("styles.css"),
     new HtmlWebpackExternalsPlugin({
       externals: [
+        {
+          module: 'mocks',
+          entry: 'http://10.0.3.82:5555/mocks.js',
+        },
         {
           module: 'jquery',
           entry: 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
           global: 'jQuery',
-        },
-        {
-          module: 'mocks',
-          entry: '/dist/mocks.js',
-          global: 'mocks',
-        },
+        }
       ]
     })
   ],
@@ -92,6 +98,13 @@ module.exports = {
             },
           }
         ]
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: "css-loader"
+        })
       },
       { test: /pixi\.js/, use: ['expose-loader?PIXI'] },
       { test: /phaser-split\.js$/, use: ['expose-loader?Phaser'] },
