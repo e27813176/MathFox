@@ -122,19 +122,18 @@ export default class extends Phaser.State {
     else if (this.page === 'CookingPage') this.loadCookingPage();
   }
   loadHomePage(imagePath, audioPath) {
-    console.log(require('../../assets/HomePage/Fox.json'));
     this.load
       .image('HomePageBG', HomePageBG)
       .image('JunyiIconBtn', JunyiIcon)
-      .atlas('Fox', Fox, imagePath + 'Fox.json')
+      .atlasJSONArray('Fox', Fox, '', require('../../assets/HomePage/Fox.json'))
       .audio('menu', GameMenuBG)
       .audio('BtnOver', BtnOver)
   }
   loadVillage(imagePath) {
     this.load
-      .atlas('TaskBoardLight', TaskBoardLight, imagePath + 'TaskBoardLight.json')
-      .atlas('FoxVendor', FoxVendor, imagePath + 'FoxVendor.json')
-      .atlas('ArrowSheet', ArrowSheet, imagePath + 'ArrowSheet.json')
+      .atlasJSONArray('TaskBoardLight', TaskBoardLight, '', require('../../assets/Village/TaskBoardLight.json'))
+      .atlasJSONArray('FoxVendor', FoxVendor, '', require('../../assets/Village/FoxVendor.json'))
+      .atlasJSONArray('ArrowSheet', ArrowSheet, '', require('../../assets/Village/ArrowSheet.json'))
       .image('VillageBG', VillageBG);
   }
   loadLevelMap() {
@@ -144,12 +143,12 @@ export default class extends Phaser.State {
     let tutorialPath = path_prefix + 'assets/Tutorial/';
     this.load
       .image('LevelMapBG', LevelMapBG)
-      .atlas('LevelBtn', LevelBtn, path + 'LevelBtn.json')
-      .atlas('GetNewMedal', GetNewMedal, path + 'GetNewMedal.json')
-      .image('MedalBG', MedalBG)
-      .atlas('Medal', Medal, medalPath + 'Medal.json')
       .image('TutorialBG', TutorialBG)
-      .atlas('Panel', Panel, tutorialPath + 'Panel.json')
+      .image('MedalBG', MedalBG)
+      .atlasJSONArray('LevelBtn', LevelBtn, '', require('../../assets/LevelMap/LevelBtn.json'))
+      .atlasJSONArray('GetNewMedal', GetNewMedal, '', require('../../assets/LevelMap/GetNewMedal.json'))
+      .atlasJSONArray('Medal', Medal, '', require('../../assets/Medal/Medal.json'))
+      .atlasJSONArray('Panel', Panel, '', require('../../assets/Tutorial/Panel.json'))
       .audio('RightFX', audioPath + 'rightFX.mp3')
       .audio('WrongFX', audioPath + 'wrongFX.mp3')
       .audio('StartFX', audioPath + 'startFX.mp3')
