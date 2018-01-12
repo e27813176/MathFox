@@ -11,7 +11,7 @@ module.exports = merge(common, {
 		pathinfo: true,
 		path: path.resolve(__dirname, './dist'),
 		publicPath: './dist/',
-		filename: 'bundle.js'
+		filename: '[hash].bundle.js'
 	},
 	plugins: [
 		new BrowserSyncPlugin({
