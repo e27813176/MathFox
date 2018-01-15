@@ -48,7 +48,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '/images/[name].js',
+              name: '/images/[path]/[name]_[hash:7].js',
             }
           }
         ]
@@ -72,6 +72,7 @@ module.exports = {
           }
         ]
       },
+      /*
       {
         test: /.*\.(gif|png|jpe?g|mp3)$/i,
         use: [
@@ -83,7 +84,7 @@ module.exports = {
           }
         ]
       },
-
+      */
       {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [
