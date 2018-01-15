@@ -19,19 +19,9 @@ import LoggingPageExitBtnArea from './images/LoggingPage/LoggingPageExitBtnArea'
 import ScoreBoard from './images/LoggingPage/ScoreBoard';
 import LoggingPagePanel from './images/LoggingPage/Panel';
 
-import CatchBugPageBG from './images/CatchBugPage/CatchBugPageBG';
 import CatchBugPageBoard from './images/CatchBugPage/Board';
-import FlyingBug from './images/CatchBugPage/FlyingBug';
-import FoxCatching from './images/CatchBugPage/FoxCatching';
-import FoxFalling from './images/CatchBugPage/FoxFalling';
-import FoxHitting from './images/CatchBugPage/FoxHitting';
-import FoxHitting001 from './images/CatchBugPage/FoxHitting001';
-import CatchBugFoxStanding from './images/CatchBugPage/CatchBugFoxStanding';
-import FoxStandUp from './images/CatchBugPage/FoxStandUp';
-import FruitDrop from './images/CatchBugPage/FruitDrop';
 import CatchBugPagePanel from './images/CatchBugPage/Panel';
 import TaskBoard from './images/CatchBugPage/TaskBoard';
-import TutorialText from './images/CatchBugPage/TutorialText';
 
 import FishingPageBG from './images/FishingPage/BG';
 import EnergyTransfer from './images/FishingPage/EnergyTransfer';
@@ -200,17 +190,17 @@ export default class extends Phaser.State {
   }
   loadCatchBugPage() {
     this.load
-      .image('BG', CatchBugPageBG)
-      .atlasJSONArray('FlyingBug', FlyingBug, '', require('../../assets/CatchBugPage/FlyingBug.json'))
-      .atlasJSONArray('FoxStanding', CatchBugFoxStanding, '', require('../../assets/CatchBugPage/FoxStanding.json'))
-      .atlasJSONArray('FoxCatching', FoxCatching, '', require('../../assets/CatchBugPage/FoxCatching.json'))
-      .atlasJSONArray('FoxFalling', FoxFalling, '', require('../../assets/CatchBugPage/FoxFalling.json'))
-      .atlasJSONArray('FoxHitting001', FoxHitting001, '', require('../../assets/CatchBugPage/FoxHitting001.json'))
-      .atlasJSONArray('FoxHitting', FoxHitting, '', require('../../assets/CatchBugPage/FoxHitting.json'))
-      .atlasJSONArray('FoxStandUp', FoxStandUp, '', require('../../assets/CatchBugPage/FoxStandUp.json'))
-      .atlasJSONArray('FruitDrop', FruitDrop, '', require('../../assets/CatchBugPage/FruitDrop.json'))
+      .image('BG', require('../../assets/CatchBugPage/CatchBugPageBG.jpg'))
+      .atlasJSONArray('FlyingBug', require('../../assets/CatchBugPage/FlyingBug.png'), '', require('../../assets/CatchBugPage/FlyingBug.json'))
+      .atlasJSONArray('FoxStanding', require('../../assets/CatchBugPage/FoxStanding.png'), '', require('../../assets/CatchBugPage/FoxStanding.json'))
+      .atlasJSONArray('FoxCatching', require('../../assets/CatchBugPage/FoxCatching.png'), '', require('../../assets/CatchBugPage/FoxCatching.json'))
+      .atlasJSONArray('FoxFalling', require('../../assets/CatchBugPage/FoxFalling.png'), '', require('../../assets/CatchBugPage/FoxFalling.json'))
+      .atlasJSONArray('FoxHitting001', require('../../assets/CatchBugPage/FoxHitting001.png'), '', require('../../assets/CatchBugPage/FoxHitting001.json'))
+      .atlasJSONArray('FoxHitting', require('../../assets/CatchBugPage/FoxHitting.png'), '', require('../../assets/CatchBugPage/FoxHitting.json'))
+      .atlasJSONArray('FoxStandUp', require('../../assets/CatchBugPage/FoxStandUp.png'), '', require('../../assets/CatchBugPage/FoxStandUp.json'))
+      .atlasJSONArray('FruitDrop', require('../../assets/CatchBugPage/FruitDrop.png'), '', require('../../assets/CatchBugPage/FruitDrop.json'))
       .atlasJSONArray('Board', CatchBugPageBoard, '', require('../../assets/CatchBugPage/Board.json'))
-      .atlasJSONArray('TutorialText', TutorialText, '', require('../../assets/CatchBugPage/TutorialText.json'))
+      .atlasJSONArray('TutorialText', require('../../assets/CatchBugPage/TutorialText.png'), '', require('../../assets/CatchBugPage/TutorialText.json'))
       .atlasJSONArray('TaskBoard', TaskBoard, '', require('../../assets/CatchBugPage/TaskBoard.json'))
       .atlasJSONArray('Panel', CatchBugPagePanel, '', require('../../assets/CatchBugPage/Panel.json'))
       .audio('GetMedal', GetMedal)
