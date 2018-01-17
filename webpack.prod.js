@@ -9,7 +9,7 @@ module.exports = merge(common, {
     output: {
         pathinfo: true,
         path: path.resolve(__dirname, 'dist'),
-        publicPath: './dist/',
+        publicPath: '/javascript/game/dist',
         filename: '[hash].bundle.js'
     },
     plugins: [
