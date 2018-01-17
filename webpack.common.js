@@ -59,7 +59,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '/audio/[name].js',
+              name: '/audio/[name].[ext]',
             }
           }
         ]

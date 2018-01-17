@@ -9,48 +9,19 @@ import { JunyiIcon } from './images/HomePage/JunyiIcon';
 import { TaskBoardLight } from './images/Village/TaskBoardLight';
 
 import { TreeBloodBar } from './images/TreeBloodBar';
-import AxPagePanel from './images/AxPage/Panel';
-import { GetNewMedal } from './images/GetNewMedal';
 import Panel from './images/Panel';
-import Board from './images/Board';
 import Btn from './images/Btn';
 import FoxLoggingBtn from './images/LoggingPage/FoxLoggingBtn';
 import LoggingPageExitBtnArea from './images/LoggingPage/LoggingPageExitBtnArea';
-import ScoreBoard from './images/LoggingPage/ScoreBoard';
-import LoggingPagePanel from './images/LoggingPage/Panel';
 
 import CatchBugPageBoard from './images/CatchBugPage/Board';
 import CatchBugPagePanel from './images/CatchBugPage/Panel';
 import TaskBoard from './images/CatchBugPage/TaskBoard';
 
-import FishingPageBG from './images/FishingPage/BG';
-import EnergyTransfer from './images/FishingPage/EnergyTransfer';
 import FailBoard from './images/FishingPage/FailBoard';
-import Fish from './images/FishingPage/Fish';
-import Fish002 from './images/FishingPage/Fish002';
-import FishingFoxFalling from './images/FishingPage/FoxFalling';
-import FoxGetFish from './images/FishingPage/FoxGetFish';
-import FoxPulling from './images/FishingPage/FoxPulling';
-import FoxPullingRod from './images/FishingPage/FoxPullingRod';
-import FishingFoxSitting from './images/FishingPage/FoxSitting';
-import FoxSittingRod from './images/FishingPage/FoxSittingRod';
-import GetLightBlueFish from './images/FishingPage/get_light_blue_fish_atlas';
-import GetFishBoard from './images/FishingPage/GetFishBoard';
 import Mark from './images/FishingPage/mark';
-import FishingPanel from './images/FishingPage/Panel';
-import ScoreBarAtlas from './images/FishingPage/ScoreBarAtlas';
-
-import CookingPageBG from './images/CookingPage/cookingpage';
-import CookingFire from './images/CookingPage/fire';
-import CookingFish from './images/CookingPage/fish';
-import CookingFox from './images/CookingPage/fox';
-import CookingFox002 from './images/CookingPage/fox002';
-import CookingFox003 from './images/CookingPage/fox003';
-import CookingFox004 from './images/CookingPage/fox004';
-import CookingPanel from './images/CookingPage/panel';
 
 import BtnOver from './audio/BtnOver';
-import GameMenuBG from './audio/game_menu_BG';
 import ClickFX from './audio/clickFX';
 import GetMedal from './audio/GetMedal';
 import RightFX from './audio/rightFX';
@@ -58,19 +29,13 @@ import StartFX from './audio/startFX';
 import WrongFX from './audio/wrongFX';
 import AddEnergyFX from './audio/add_energyFX';
 import AxFX from './audio/AxFX';
-import AxPageBG002 from './audio/AxPageBG002';
 import AxPageSuccess from './audio/AxPageSuccess';
 import AlertFX from './audio/alertFX';
-import CatchBugPageBGMusic from './audio/CatchBugPageBG';
 import CatchBugPagefail from './audio/CatchBugPagefail';
 import CatchBugPagefall from './audio/CatchBugPagefall';
-import CookingBGMusic from './audio/CookingBG';
 import CookingSuccessFX from './audio/CookingSuccessFX';
 import FailureFX from './audio/failureFX';
-import Fishing from './audio/fishing';
-import FishingBGMusic from './audio/fishingBG';
 import Logging from './audio/Logging';
-import LoggingBGMusic from './audio/LoggingBG';
 import LoggingBounce from './audio/LoggingBounce';
 import LoggingPageBG003 from './audio/LoggingPageBG003';
 import LoggingSuccess from './audio/LoggingSuccess';
@@ -110,7 +75,7 @@ export default class extends Phaser.State {
       .image('HomePageBG', require('../../assets/HomePage/BG.jpg'))
       .image('JunyiIconBtn', JunyiIcon)
       .atlasJSONArray('Fox', require('../../assets/HomePage/Fox.png'), '', require('../../assets/HomePage/Fox.json'))
-      .audio('menu', GameMenuBG)
+      .audio('menu', require('../../assets/audio/game_menu_BG.mp3'))
       .audio('BtnOver', BtnOver)
   }
   loadVillage() {
@@ -126,7 +91,7 @@ export default class extends Phaser.State {
       .image('TutorialBG', require('../../assets/Tutorial/TutorialBG.jpg'))
       .image('MedalBG', require('../../assets/Medal/MedalBG.jpg'))
       .atlasJSONArray('LevelBtn', require('../../assets/LevelMap/LevelBtn.png'), '', require('../../assets/LevelMap/LevelBtn.json'))
-      .atlasJSONArray('GetNewMedal', GetNewMedal, '', require('../../assets/LevelMap/GetNewMedal.json'))
+      .atlasJSONArray('GetNewMedal', require('../../assets/LevelMap/GetNewMedal.png'), '', require('../../assets/LevelMap/GetNewMedal.json'))
       .atlasJSONArray('Medal', require('../../assets/Medal/Medal.png'), '', require('../../assets/Medal/Medal.json'))
       .atlasJSONArray('Panel', Panel, '', require('../../assets/Tutorial/Panel.json'))
       .audio('RightFX', RightFX)
@@ -140,7 +105,7 @@ export default class extends Phaser.State {
     this.loadAxBar();
     this.load
       .image('AxPageBG', require('../../assets/AxPage/AxPage.jpg'))
-      .atlasJSONArray('Panel', AxPagePanel, '', require('../../assets/AxPage/Panel.json'))
+      .atlasJSONArray('Panel', require('../../assets/AxPage/Panel.png'), '', require('../../assets/AxPage/Panel.json'))
       .atlasJSONArray('QuestionPanelWrongFx', require('../../assets/AxPage/QuestionPanelWrongFX.png'), '', require('../../assets/AxPage/QuestionPanelWrongFx.json'))
       .atlasJSONArray('QuestionPanelRightFx', require('../../assets/AxPage/QuestionPanelRightFX.png'), '', require('../../assets/AxPage/QuestionPanelRightFx.json'))
       .atlasJSONArray('Btn', Btn, '', require('../../assets/AxPage/Btn.json'))
@@ -149,12 +114,12 @@ export default class extends Phaser.State {
       .atlasJSONArray('FoxWithAx', require('../../assets/AxPage/FoxWithAx.png'), '', require('../../assets/AxPage/FoxWithAx.json'))
       .atlasJSONArray('FoxWithAx003', require('../../assets/AxPage/FoxWithAx003.png'), '', require('../../assets/AxPage/FoxWithAx003.json'))
       .atlasJSONArray('Fire', require('../../assets/AxPage/Fire.png'), '', require('../../assets/AxPage/Fire.json'))
-      .atlasJSONArray('Board', Board, '', require('../../assets/AxPage/Board.json'))
+      .atlasJSONArray('Board', require('../../assets/AxPage/Board.png'), '', require('../../assets/AxPage/Board.json'))
       .atlasJSONArray('ArrowSheet', ArrowSheet, '', require('../../assets/AxPage/ArrowSheet.json'))
       .audio('rightFX', RightFX)
       .audio('AxFX', AxFX)
       .audio('AddEnergyFX', AddEnergyFX)
-      .audio('AxPagePlay', AxPageBG002)
+      .audio('AxPagePlay', require('../../assets/audio/AxPageBG002.mp3'))
       .audio('AxPageSuccess', AxPageSuccess)
       .audio('wrongFX', WrongFX)
   }
@@ -164,7 +129,7 @@ export default class extends Phaser.State {
       .image('LoggingPage', require('../../assets/LoggingPage/LoggingPage.jpg'))
       .image('LoggingPageFront', require('../../assets/LoggingPage/LoggingPageFront.png'))
       .image('FoxLoggingBtn', FoxLoggingBtn)
-      .atlasJSONArray('Panel', LoggingPagePanel, '', require('../../assets/LoggingPage/Panel.json'))
+      .atlasJSONArray('Panel', require('../../assets/LoggingPage/Panel.png'), '', require('../../assets/LoggingPage/Panel.json'))
       .atlasJSONArray('QuestionPanelFx', require('../../assets/LoggingPage/QuestionPanelFx.png'), '', require('../../assets/LoggingPage/QuestionPanelFx.json'))
       .atlasJSONArray('FoxLogging', require('../../assets/LoggingPage/FoxLogging.png'), '', require('../../assets/LoggingPage/FoxLogging.json'))
       .atlasJSONArray('FoxLogging001', require('../../assets/LoggingPage/FoxLogging001.png'), '', require('../../assets/LoggingPage/FoxLogging001.json'))
@@ -173,14 +138,14 @@ export default class extends Phaser.State {
       .atlasJSONArray('FoxBounce001', require('../../assets/LoggingPage/FoxBounce001.png'), '', require('../../assets/LoggingPage/FoxBounce001.json'))
       .atlasJSONArray('FoxBounce002', require('../../assets/LoggingPage/FoxBounce002.png'), '', require('../../assets/LoggingPage/FoxBounce002.json'))
       .atlasJSONArray('FoxStanding', require('../../assets/LoggingPage/FoxStanding.png'), '', require('../../assets/LoggingPage/FoxStanding.json'))
-      .atlasJSONArray('ScoreBoard', ScoreBoard, '', require('../../assets/LoggingPage/ScoreBoard.json'))
+      .atlasJSONArray('ScoreBoard', require('../../assets/LoggingPage/ScoreBoard.png'), '', require('../../assets/LoggingPage/ScoreBoard.json'))
       .atlasJSONArray('TreeBloodBar', TreeBloodBar, '', require('../../assets/LoggingPage/TreeBloodBar.json'))
       .atlasJSONArray('ArrowSheet', ArrowSheet, '', require('../../assets/HomePage/ArrowSheet.json'))
       .audio('rightFX', RightFX)
       .audio('Logging', Logging)
       .audio('LoggingBounce', LoggingBounce)
       .audio('LoggingPagePlay', LoggingPageBG003)
-      .audio('LoggingBG', LoggingBGMusic)
+      .audio('LoggingBG', require('../../assets/audio/LoggingBG.mp3'))
       .audio('wrongFX', WrongFX)
       .audio('LoggingSuccess', LoggingSuccess);
     this.loadAxBar();
@@ -204,52 +169,52 @@ export default class extends Phaser.State {
       .atlasJSONArray('TaskBoard', TaskBoard, '', require('../../assets/CatchBugPage/TaskBoard.json'))
       .atlasJSONArray('Panel', CatchBugPagePanel, '', require('../../assets/CatchBugPage/Panel.json'))
       .audio('GetMedal', GetMedal)
-      .audio('CatchBugPageBG', CatchBugPageBGMusic)
+      .audio('CatchBugPageBG', require('../../assets/audio/CatchBugPageBG.mp3'))
       .audio('CatchBugPagefail', CatchBugPagefail)
       .audio('CatchBugPagefall', CatchBugPagefall)
       .audio('AddEnergyFX', AddEnergyFX)
   }
   loadFishingPage() {
     this.load
-      .atlasJSONArray('get_light_blue_fish_atlas', GetLightBlueFish, '', require('../../assets/fishingpage/get_light_blue_fish_atlas.json'))
-      .atlasJSONArray('FoxPulling', FoxPulling, '', require('../../assets/fishingpage/FoxPulling.json'))
-      .atlasJSONArray('FoxPullingRod', FoxPullingRod, '', require('../../assets/fishingpage/FoxPullingRod.json'))
-      .atlasJSONArray('FoxSitting', FishingFoxSitting, '', require('../../assets/fishingpage/FoxSitting.json'))
-      .atlasJSONArray('FoxSittingRod', FoxSittingRod, '', require('../../assets/fishingpage/FoxSittingRod.json'))
-      .atlasJSONArray('FoxGetFish', FoxGetFish, '', require('../../assets/fishingpage/FoxGetFish.json'))
-      .atlasJSONArray('FoxFalling', FishingFoxFalling, '', require('../../assets/fishingpage/FoxFalling.json'))
-      .atlasJSONArray('Fish', Fish, '', require('../../assets/fishingpage/Fish.json'))
-      .atlasJSONArray('Fish002', Fish002, '', require('../../assets/fishingpage/Fish002.json'))
-      .atlasJSONArray('EnergyTransfer', EnergyTransfer, '', require('../../assets/fishingpage/EnergyTransfer.json'))
-      .atlasJSONArray('GetFishBoard', GetFishBoard, '', require('../../assets/fishingpage/GetFishBoard.json'))
+      .atlasJSONArray('get_light_blue_fish_atlas', require('../../assets/fishingpage/get_light_blue_fish_atlas.png'), '', require('../../assets/fishingpage/get_light_blue_fish_atlas.json'))
+      .atlasJSONArray('FoxPulling', require('../../assets/fishingpage/FoxPulling.png'), '', require('../../assets/fishingpage/FoxPulling.json'))
+      .atlasJSONArray('FoxPullingRod', require('../../assets/fishingpage/FoxPullingRod.png'), '', require('../../assets/fishingpage/FoxPullingRod.json'))
+      .atlasJSONArray('FoxSitting', require('../../assets/fishingpage/FoxSitting.png'), '', require('../../assets/fishingpage/FoxSitting.json'))
+      .atlasJSONArray('FoxSittingRod', require('../../assets/fishingpage/FoxSittingRod.png'), '', require('../../assets/fishingpage/FoxSittingRod.json'))
+      .atlasJSONArray('FoxGetFish', require('../../assets/fishingpage/FoxGetFish.png'), '', require('../../assets/fishingpage/FoxGetFish.json'))
+      .atlasJSONArray('FoxFalling', require('../../assets/fishingpage/FoxFalling.png'), '', require('../../assets/fishingpage/FoxFalling.json'))
+      .atlasJSONArray('Fish', require('../../assets/fishingpage/Fish.png'), '', require('../../assets/fishingpage/Fish.json'))
+      .atlasJSONArray('Fish002', require('../../assets/fishingpage/Fish002.png'), '', require('../../assets/fishingpage/Fish002.json'))
+      .atlasJSONArray('EnergyTransfer', require('../../assets/fishingpage/EnergyTransfer.png'), '', require('../../assets/fishingpage/EnergyTransfer.json'))
+      .atlasJSONArray('GetFishBoard', require('../../assets/fishingpage/GetFishBoard.png'), '', require('../../assets/fishingpage/GetFishBoard.json'))
       .atlasJSONArray('FailBoard', FailBoard, '', require('../../assets/fishingpage/FailBoard.json'))
-      .atlasJSONArray('Panel', FishingPanel, '', require('../../assets/fishingpage/Panel.json'))
-      .atlasJSONArray('ScoreBarAtlas', ScoreBarAtlas, '', require('../../assets/fishingpage/ScoreBarAtlas.json'))
-      .image('BG', FishingPageBG)
+      .atlasJSONArray('Panel', require('../../assets/fishingpage/Panel.png'), '', require('../../assets/fishingpage/Panel.json'))
+      .atlasJSONArray('ScoreBarAtlas', require('../../assets/fishingpage/ScoreBarAtlas.png'), '', require('../../assets/fishingpage/ScoreBarAtlas.json'))
+      .image('BG', require('../../assets/fishingpage/BG.jpg'))
       .image('mark_tutorial', Mark)
-      .audio('fishing', Fishing)
+      .audio('fishing', require('../../assets/audio/fishing.mp3'))
       .audio('rightFX', RightFX)
       .audio('wrongFX', WrongFX)
       .audio('successFX', SuccessFX)
       .audio('failureFX', FailureFX)
       .audio('alertFX', AlertFX)
       .audio('startFX', StartFX)
-      .audio('fishingBG', FishingBGMusic)
+      .audio('fishingBG', require('../../assets/audio/fishingBG.mp3'))
       .audio('clickFX', ClickFX)
       .audio('add_energyFX', AddEnergyFX);
   }
   loadCookingPage() {
     this.load
-      .image('BG', CookingPageBG)
+      .image('BG', require('../../assets/CookingPage/cookingpage.jpg'))
       .atlas('ArrowSheet', ArrowSheet, '', require('../../assets/CookingPage/ArrowSheet.json'))
-      .atlas('panel', CookingPanel, '', require('../../assets/CookingPage/panel.json'))
-      .atlas('fire', CookingFire, '', require('../../assets/CookingPage/fire.json'))
-      .atlas('fish', CookingFish, '', require('../../assets/CookingPage/fish.json'))
-      .atlas('fox001', CookingFox, '', require('../../assets/CookingPage/fox.json'))
-      .atlas('fox002', CookingFox002, '', require('../../assets/CookingPage/fox002.json'))
-      .atlas('fox003', CookingFox003, '', require('../../assets/CookingPage/fox003.json'))
-      .atlas('fox004', CookingFox004, '', require('../../assets/CookingPage/fox004.json'))
-      .audio('CookingBG', CookingBGMusic)
+      .atlas('panel', require('../../assets/CookingPage/panel.png'), '', require('../../assets/CookingPage/panel.json'))
+      .atlas('fire', require('../../assets/CookingPage/fire.png'), '', require('../../assets/CookingPage/fire.json'))
+      .atlas('fish', require('../../assets/CookingPage/fish.png'), '', require('../../assets/CookingPage/fish.json'))
+      .atlas('fox001', require('../../assets/CookingPage/fox.png'), '', require('../../assets/CookingPage/fox.json'))
+      .atlas('fox002', require('../../assets/CookingPage/fox002.png'), '', require('../../assets/CookingPage/fox002.json'))
+      .atlas('fox003', require('../../assets/CookingPage/fox003.png'), '', require('../../assets/CookingPage/fox003.json'))
+      .atlas('fox004', require('../../assets/CookingPage/fox004.png'), '', require('../../assets/CookingPage/fox004.json'))
+      .audio('CookingBG', require('../../assets/audio/CookingBG.mp3'))
       .audio('Fail', FailureFX)
       .audio('Throw', CatchBugPagefall)
       .audio('Wrong', Wrongcooking)
